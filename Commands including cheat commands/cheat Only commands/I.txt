@@ -1,0 +1,23 @@
+ik_debug_chain_to_filter_by                                                      : 0                : sv, cl, rep, cheat               : 
+ik_enable                                                                        : true             : cheat                            : Enable IK.
+ik_hinge_debug_bone_index                                                        : -1               : sv, cl, rep, cheat               : 
+imgui_set_selection                                                              : cmd              : sv, cheat                        : Sets ImGui selection
+imgui_set_status_text                                                            : cmd              : sv, cheat                        : Sets ImGui header status text
+inferno_child_spawn_interval_multiplier                                          : 0.1              : sv, cheat                        : Amount spawn interval increases for each child
+inferno_damage                                                                   : 40               : sv, cheat                        : Damage per second
+inferno_debug                                                                    : false            : sv, cheat                        : 
+inferno_dlight_spacing                                                           : 7200             : cl, cheat                        : Inferno dlights are at least this far apart
+inferno_flame_spacing                                                            : 42               : sv, cheat                        : Minimum distance between separate flame spawns
+inferno_forward_reduction_factor                                                 : 0.9              : sv, cheat                        : 
+inferno_friendly_fire_duration                                                   : 6                : sv, cheat                        : For this long, FF is credited back to the thrower.
+inferno_initial_spawn_interval                                                   : 0.02             : sv, cheat                        : Time between spawning flames for first fire
+inferno_max_child_spawn_interval                                                 : 0.5              : sv, cheat                        : Largest time interval for child flame spawning
+inferno_per_flame_spawn_duration                                                 : 3                : sv, cheat                        : Duration each new flame will attempt to spawn new flames
+inferno_scorch_decals                                                            : false            : sv, cheat                        : 
+inferno_smoke_volume_density                                                     : 0.1              : sv, cheat                        : 
+inferno_spawn_angle                                                              : 45               : sv, cheat                        : Angular change from parent
+inferno_surface_offset                                                           : 20               : sv, cheat                        : 
+inferno_velocity_decay_factor                                                    : 0.2              : sv, cheat                        : 
+inferno_velocity_factor                                                          : 0.003            : sv, cheat                        : 
+inferno_velocity_normal_factor                                                   : 0                : sv, cheat                        : 
+input_forceuser                                                                  : -1               : cheat                            : Force user input to this split screen player.

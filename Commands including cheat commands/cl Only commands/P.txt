@@ -1,0 +1,23 @@
+panorama_debugger_theme                                                          : Light            : cl, a                            : 
+panorama_focus_world_panels                                                      : false            : cl, a                            : when set request key focus when a world panel is enabled
+phys_dynamic_scaling                                                             : true             : sv, cl, rep, cheat               : 
+phys_expensive_shape_threshold                                                   : 6                : cl, cheat                        : 
+phys_visualize_traces                                                            : false            : sv, cl, rep, cheat               : 
+player_botdifflast_s                                                             : 2                : cl, a, release                   : 
+player_competitive_maplist_2v2_10_0_C8D88986                                     : mg_de_overpass,mg_de_vertigo,mg_de_inferno,mg_de_nuke : cl, a                            : 
+player_competitive_maplist_8_10_0_5069769                                        : mg_de_mirage,mg_de_overpass,mg_de_vertigo,mg_de_ancient,mg_de_inferno,mg_de_nuke,mg_de_anubis,mg_de_dust2,mg_cs_office : cl, a                            : 
+player_nevershow_communityservermessage                                          : 1                : cl, a, per_user                  : 
+player_survival_list_10_0_303                                                    : mg_dz_blacksite,mg_dz_sirocco,mg_dz_vineyard,mg_dz_ember : cl, a                            : 
+player_teamplayedlast                                                            : 3                : cl, a, per_user                  : 
+player_use_radius                                                                : 80               : sv, cl, rep, cheat               : 
+player_wargames_list2_10_0_0                                                     : 0                : cl, a                            : 
+playsoundscape                                                                   : cmd              : cl, cheat                        : Forces a soundscape to play
+print_mapgroup                                                                   : cmd              : cl, release                      : Prints the current mapgroup and the contained maps
+pwatchent                                                                        : -1               : cl, cheat                        : Entity to watch for prediction system changes.
+pwatchvar                                                                        : 0                : cl, cheat                        : Entity variable to watch in prediction system for changes.
++quickbuyradial                                                                  : cmd              : cl, release                      : 
+-quickbuyradial                                                                  : cmd              : cl, release                      : 
++quickgrenaderadial                                                              : cmd              : cl, release                      : 
+-quickgrenaderadial                                                              : cmd              : cl, release                      : 
++quickinv                                                                        : cmd              : cl, release                      : 
+-quickinv                                                                        : cmd              : cl, release                      : 

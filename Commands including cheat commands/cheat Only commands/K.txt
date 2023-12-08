@@ -1,0 +1,2 @@
+kill                                                                             : cmd              : sv, cheat                        : Kills the player with generic damage
+killvector                                                                       : cmd              : sv, cheat                        : Kills a player applying force. Usage: killvector <player> <x value> <y value> <z value>

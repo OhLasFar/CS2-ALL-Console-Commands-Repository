@@ -1,0 +1,17 @@
+g_debug_angularsensor                                                            : false            : sv, cheat                        : 
+g_debug_constraint_sounds                                                        : false            : sv, cheat                        : Enable debug printing about constraint sounds.
+g_debug_ragdoll_visualize                                                        : false            : cl, cheat                        : 
+gameinstructor_dump_open_lessons                                                 : cmd              : cl, cheat                        : Gives a list of all currently open lessons.
+gameinstructor_dump_run_lesson_counts                                            : cmd              : cl, cheat                        : Gives a list of lessons that been completed or shown
+gameinstructor_find_errors                                                       : false            : cl, cheat                        : Set to 1 and the game instructor will run EVERY scripted command to uncover errors.
+gameinstructor_verbose                                                           : 0                : cl, cheat                        : Set to 1 for standard debugging or 2 (in combo with gameinstructor_verbose_lesson) to show update actions.
+gameinstructor_verbose_lesson                                                    : 0                : cl, cheat                        : Display more verbose information for lessons have this name.
+getpos                                                                           : cmd              : cl, cheat                        : dump position and angles to the console
+getpos_exact                                                                     : cmd              : cl, cheat                        : dump origin and angles to the console
+givecurrentammo                                                                  : cmd              : sv, cheat                        : Give a supply of ammo for current weapon.. 
+gl_clear_gray                                                                    : false            : cl, cheat                        : Clear the back buffer to gray every frame.
+gl_clear_randomcolor                                                             : false            : cl, cheat                        : Clear the back buffer to random colors every frame. Helps spot open seams in geometry.
+global_set                                                                       : cmd              : sv, cheat                        : global_set <globalname> <state>: Sets the state of the given env_global (0 = OFF, 1 = ON, 2 = DEAD).
+glow_outline_width                                                               : 6                : cl, cheat                        : Width of glow outline effect in screen space.
+glow_use_tolerance                                                               : 0.85             : cl, rep, cheat                   : 
+god                                                                              : cmd              : sv, cheat                        : Toggle by default, or 0 to disable and 1 to enable. Player becomes invulnerable.

@@ -1,0 +1,176 @@
+ r_AirboatViewDampenDamp                                                          : 1                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewDampenFreq                                                          : 7                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewZHeight                                                             : 0                : sv, cl, nf, rep, cheat           : 
+r_aoproxy_debug                                                                  : false            : cl, cheat                        : 
+r_aoproxy_show                                                                   : false            : cl, cheat                        : 
+r_csgo_cubemap_normalization                                                     : true             : cl, cheat                        : 
+r_csgo_debug_reflection_rects                                                    : 0                : cl, cheat                        : 
+r_csgo_decal_debug                                                               : false            : cl, cheat                        : 
+r_csgo_depth_prepass                                                             : true             : cl, cheat                        : 
+r_csgo_depth_prepass_cull_threshold                                              : 60               : cl, cheat                        : 
+r_csgo_depth_prepass_reflections_large                                           : true             : cl, cheat                        : 
+r_csgo_depth_prepass_reflections_small                                           : true             : cl, cheat                        : 
+r_csgo_depth_prepass_skybox_alpha_tested                                         : true             : cl, cheat                        : 
+r_csgo_depth_prepass_small_cull_threshold                                        : 10               : cl, cheat                        : 
+r_csgo_depth_prepass_viewmodel                                                   : true             : cl, cheat                        : 
+r_csgo_directional_lightmaps                                                     : true             : cl, cheat                        : 
+r_csgo_effects_bloom                                                             : true             : cl, cheat                        : 
+r_csgo_effects_bloom_when_smoked                                                 : false            : cl, cheat                        : 
+r_csgo_enable_glows                                                              : true             : cl, cheat                        : 
+r_csgo_enable_high_precision_lighting                                            : true             : cl, cheat                        : 
+r_csgo_enable_tonemapping                                                        : true             : cl, cheat                        : 
+r_csgo_enable_translucent_screen_space                                           : true             : cl, cheat                        : 
+r_csgo_mboit                                                                     : true             : cl, cheat                        : 
+r_csgo_mboit_bias                                                                : 0.000005         : cl, cheat                        : 
+r_csgo_mboit_debug                                                               : false            : cl, cheat                        : 
+r_csgo_mboit_overestimation                                                      : 0.01             : cl, cheat                        : 
+r_csgo_mboit_use_4_moments                                                       : false            : cl, cheat                        : 
+r_csgo_mixed_resolution_color_slices                                             : false            : cl, cheat                        : 
+r_csgo_mixed_resolution_particles_minmax                                         : false            : cl, cheat                        : 
+r_csgo_mixed_resolution_particles_scale                                          : 2                : cl, cheat                        : 
+r_csgo_no_shader_resolve                                                         : false            : cl, cheat                        : 
+r_csgo_override_global_time                                                      : true             : cl, cheat                        : 
+r_csgo_postprocess_enable                                                        : true             : cl, cheat                        : 
+r_csgo_readonly_depth_stencil_enable                                             : true             : cl, cheat                        : 
+r_csgo_reconstruct_normals                                                       : false            : cl, cheat                        : 
+r_csgo_reconstruct_normals_method                                                : 0                : cl, cheat                        : 
+r_csgo_reflection_min_far_plane                                                  : 5000             : cl, cheat                        : 
+r_csgo_render_decals                                                             : true             : cl, cheat                        : 
+r_csgo_render_decals_on_translucent                                              : true             : cl, cheat                        : 
+r_csgo_render_dither_scale                                                       : 1                : cl, cheat                        : 
+r_csgo_render_dynamic_objects                                                    : true             : cl, cheat                        : 
+r_csgo_render_inferno_decals                                                     : true             : cl, cheat                        : 
+r_csgo_render_opaque                                                             : true             : cl, cheat                        : 
+r_csgo_render_overlays                                                           : true             : cl, cheat                        : 
+r_csgo_render_post_bloom                                                         : 1                : cl, cheat                        : 
+r_csgo_render_post_bloom_strength                                                : -1               : cl, cheat                        : 
+r_csgo_render_post_colorcorrection                                               : 0                : cl, cheat                        : 
+r_csgo_render_post_film_grain                                                    : 0                : cl, cheat                        : 
+r_csgo_render_post_local_contrast                                                : true             : cl, cheat                        : 
+r_csgo_render_post_mirror_horizontal                                             : 0                : cl, cheat                        : 
+r_csgo_render_post_mirror_vertical                                               : 0                : cl, cheat                        : 
+r_csgo_render_translucent                                                        : true             : cl, cheat                        : 
+r_csgo_shadows_debug                                                             : 0                : cl, cheat                        : 
+r_csgo_volume_mboit_optimization                                                 : true             : cl, cheat                        : 
+r_csgo_water_effects                                                             : true             : cl, cheat                        : 
+r_csgo_water_refraction                                                          : true             : cl, cheat                        : 
+r_cubemap_debug_colors                                                           : 0                : cheat                            : 
+r_debug_particle_shadows                                                         : false            : cl, cheat                        : 
+r_debug_precipitation                                                            : false            : cl, cheat                        : Show precipitation volumes
+r_directlighting                                                                 : true             : cheat                            : Set to use direct lighting
+r_dof_override                                                                   : false            : cheat                            : 
+r_dof_override_far_blurry                                                        : 2000             : cheat                            : 
+r_dof_override_far_crisp                                                         : 180              : cheat                            : 
+r_dof_override_near_blurry                                                       : -100             : cheat                            : 
+r_dof_override_near_crisp                                                        : 0                : cheat                            : 
+r_dof_override_tilt_to_ground                                                    : 0.5              : cheat                            : 
+r_dopixelvisibility                                                              : true             : cheat                            : 
+r_draw_first_tri_only                                                            : false            : cheat                            : 
+r_draw_instances                                                                 : true             : cheat                            : 
+r_draw_particle_children_with_parents                                            : -1               : cheat                            : Draw particle children with parents (-1=use gameinfo, 0=no, 1=yes)
+r_drawblankworld                                                                 : false            : cheat                            : Render blank instead of the game world
+r_drawchickens                                                                   : true             : cl, cheat                        : Render chickens
+r_drawcsplayers                                                                  : true             : cl, cheat                        : Render CS players
+r_drawdecals                                                                     : true             : cheat                            : Set to render decals
+r_drawdevvisualizers                                                             : false            : cl, cheat                        : Render dev visualizers
+r_drawpanorama                                                                   : true             : cheat                            : Enable the rendering of panorama UI
+r_drawparticles                                                                  : true             : cheat                            : Enable/disable particle rendering
+r_drawropes                                                                      : true             : cl, cheat                        : 
+r_drawskybox                                                                     : true             : cheat                            : Render the 2d skybox.
+r_drawsprites                                                                    : true             : cl, cheat                        : 
+r_drawtracers                                                                    : true             : cl, cheat                        : 
+r_drawviewmodel                                                                  : true             : cl, cheat                        : Render view model
+r_drawworld                                                                      : true             : cheat                            : Render the world.
+r_extra_render_frames                                                            : 0                : cheat                            : 
+r_fallback_texture_lod_scale                                                     : 2                : cheat                            : Scale factor for requested texture size (texture streaming) - used for geo that doesn't have a precomputed UV density measure
+r_farz                                                                           : -1               : cl, cheat                        : Override the far clipping plane. -1 means to use the value in env_fog_controller.
+r_flashlightambient                                                              : 0                : cl, cheat                        : 
+r_flashlightbacktraceoffset                                                      : 0.4              : cl, cheat                        : 
+r_flashlightbrightness                                                           : 1                : cl, rep, cheat                   : 
+r_flashlightconstant                                                             : 0                : cl, rep, cheat                   : 
+r_flashlightfar                                                                  : 1500             : cl, rep, cheat                   : 
+r_flashlightfov                                                                  : 53               : cl, rep, cheat                   : 
+r_flashlightladderdist                                                           : 40               : cl, cheat                        : 
+r_flashlightlinear                                                               : 100              : cl, rep, cheat                   : 
+r_flashlightlockposition                                                         : false            : cl, cheat                        : 
+r_flashlightmuzzleflashfov                                                       : 120              : cl, cheat                        : 
+r_flashlightnear                                                                 : 4                : cl, rep, cheat                   : 
+r_flashlightnearoffsetscale                                                      : 1                : cl, cheat                        : 
+r_flashlightoffsetforward                                                        : 0                : cl, rep, cheat                   : 
+r_flashlightoffsetright                                                          : 5                : cl, rep, cheat                   : 
+r_flashlightoffsetup                                                             : -5               : cl, rep, cheat                   : 
+r_flashlightquadratic                                                            : 0                : cl, rep, cheat                   : 
+r_flashlightshadowatten                                                          : 0.35             : cl, cheat                        : 
+r_flashlighttracedistcutoff                                                      : 128              : cl, cheat                        : 
+r_flashlighttracedistwatercutoff                                                 : 80               : cl, cheat                        : 
+r_flashlightvisualizetrace                                                       : false            : cl, cheat                        : 
+r_force_no_present                                                               : false            : cheat                            : Force the render device to not present frames.
+r_force_zprepass                                                                 : -1               : cheat                            : 0: Force z prepass off. 1: Force on. -1: Don't force
+r_freezeparticles                                                                : false            : cheat                            : Pause particle simulation
+r_indirectlighting                                                               : true             : cheat                            : Set to use indirect lighting
+r_JeepViewDampenDamp                                                             : 1                : sv, cl, nf, rep, cheat           : 
+r_JeepViewDampenFreq                                                             : 7                : sv, cl, nf, rep, cheat           : 
+r_JeepViewZHeight                                                                : 10               : sv, cl, nf, rep, cheat           : 
+r_light_probe_volume_debug_colors                                                : 0                : cheat                            : 
+r_light_probe_volume_debug_grid                                                  : false            : cheat                            : Show LPV debug grid, 0: off, 1: closest only 2: closest and keep 3: all
+r_light_probe_volume_debug_grid_albedo                                           : 128 128 128      : cheat                            : albedo for LPV debug grid
+r_light_probe_volume_debug_grid_bbox                                             : true             : cheat                            : Show LPV bounding box when debug grid is on, 0: off, 1: on
+r_light_probe_volume_debug_grid_metalness                                        : 0                : cheat                            : metalness for LPV debug grid
+r_light_probe_volume_debug_grid_prim                                             : 0                : cheat                            : 0: spheres, 1: cubes
+r_light_probe_volume_debug_grid_roughness                                        : 0.5              : cheat                            : roughness for LPV debug grid
+r_light_probe_volume_debug_grid_samplesize                                       : 4                : cheat                            : sphere radius (world) for LPV debug grid
+r_lightBinnerFarPlane                                                            : 4096             : cheat                            : 
+r_lightmap_set                                                                   : lightmaps        : cheat                            : Lightmap set to use, only works on map load
+r_mapextents                                                                     : 16384            : cl, cheat                        : Set the max dimension for the map.  This determines the far clipping plane
+r_morphing_enabled                                                               : true             : cheat                            : 
+r_muzzleflashbrightness                                                          : 0.4              : cl, rep, cheat                   : 
+r_muzzleflashlinear                                                              : 0.05             : cl, rep, cheat                   : 
+r_nearz                                                                          : -1               : cl, cheat                        : Override the near clipping plane. -1 means use the default.
+r_particle_max_draw_distance                                                     : 1000000.000000   : cheat                            : The maximum distance that particles will render
+r_pixelvisibility_partial                                                        : true             : cheat                            : 
+r_pixelvisibility_spew                                                           : false            : cheat                            : 
+r_refraction_clip_plane_adjust                                                   : -1               : cl, cheat                        : 
+r_render_world_node_bounds                                                       : false            : cheat                            : Render world node bounds
+r_rendersun                                                                      : true             : cheat                            : Render sun lighting
+r_replay_post_effect                                                             : -1               : cl, cheat                        : 
+r_shadows                                                                        : true             : cheat                            : 
+r_show_hipoly_draw_calls                                                         : 0                : cheat                            : Transparent wireframe overlay for draw calls with triangle count higher than specified number
+r_showdebugoverlays                                                              : false            : cheat                            : Set to render debug overlays
+r_showdebugrendertarget                                                          : false            : cheat                            : Set the debug render target to show, 0 == disable
+r_showsceneobjectbounds                                                          : false            : cheat                            : Show scenesystem object bounding boxes
+r_showsunshadowdebugrendertargets                                                : false            : cheat                            : Set to render sun shadow render targets
+r_showsunshadowdebugsplitvis                                                     : false            : cheat                            : Set to render sun shadow split visibility debugger
+r_size_cull_threshold_shadow                                                     : 0.2              : cheat                            : Threshold of sun shadow map size percentage below which objects get culled
+r_skinning_enabled                                                               : true             : cheat                            : 
+r_stereo_multiview_instancing                                                    : false            : cheat                            : Use multiview instancing for stereo rendering.
+r_texture_lod_scale                                                              : 1                : cheat                            : Scale factor for requested texture size (texture streaming)
+r_translucent                                                                    : true             : cheat                            : Enable rendering of translucent geometry
+r_worldlod                                                                       : true             : cheat                            : Set to enable world LOD
+r_zprepass_normals                                                               : false            : cheat                            : 0: Use normals reconstructed from depth. 1: Output correct normals in z prepass.
+radarvisdistance                                                                 : 1000             : sv, cheat                        : at this distance and beyond you need to be point right at someone to see them
+radarvismaxdot                                                                   : 0.996            : sv, cheat                        : how closely you have to point at someone to see them beyond max distance
+radarvismethod                                                                   : 1                : sv, cheat                        : 0 for traditional method, 1 for more realistic method
+radarvispow                                                                      : 0.4              : sv, cheat                        : the degree to which you can point away from a target, and still see them on radar.
+ragdoll_friction_scale                                                           : 0.6              : sv, cl, rep, cheat               : 
+ragdoll_gravity_scale                                                            : 1                : sv, cl, rep, cheat               : 
+ragdoll_lru_debug_removal                                                        : false            : sv, cl, rep, cheat               : 
+ragdoll_lru_min_age                                                              : 10               : sv, cl, rep, cheat               : 
+rangefinder                                                                      : cmd              : sv, cheat                        : Measures distance along a ray
+recast_mark_overhang                                                             : true             : rep, cheat                       : Enable/disable overhang detection
+recast_partitioning                                                              : 0                : rep, cheat                       : 0 = watershed, 1 = monotone, 2 = layers
+refresh_ui_audio_state                                                           : cmd              : cl, cheat                        : Restores audio DSP state for the UI.
+regenerate_weapon_skins                                                          : cmd              : cl, cheat                        : 
+reloadgame                                                                       : cmd              : cheat, vconsole_set_focus        : Reload the most recent saved game.
+remove_weapon                                                                    : cmd              : sv, cheat                        : Remove a weapon held by the player.  Arguments: <weapon subclass name>
+replay_death                                                                     : cmd              : sv, cheat                        : start hltv replay of last death
+replay_start                                                                     : cmd              : sv, cheat                        : Start GOTV replay: replay_start <delay> [<player name or index>]
+report_cliententitysim                                                           : false            : cl, cheat                        : List all clientside simulations and time - will report and turn itself off.
+report_clientthinklist                                                           : false            : cl, cheat                        : List all clientside entities thinking and time - will report and turn itself off.
+reset_gameconvars                                                                : cmd              : cheat                            : Reset game convars to default values
+respawn_player                                                                   : cmd              : sv, cheat                        : Respawns the player from death! 
+restart                                                                          : cmd              : cheat, vconsole_set_focus        : Poor man's restart: reload the current map from disk.
+rr_followup_maxdist                                                              : 1800             : sv, cheat                        : 'then ANY' or 'then ALL' response followups will be dispatched only to characters within this distance.
+rr_forceconcept                                                                  : cmd              : sv, cheat                        : fire a response concept directly at a given character. USAGE: rr_forceconcept <target> <concept> 'criteria1:value1,criteria2:value2,...' criteria values are optional. 
+rr_reloadresponsesystems                                                         : cmd              : sv, cheat                        : Reload all response system scripts.
+rr_thenany_score_slop                                                            : 0                : sv, a, cheat                     : When computing respondents for a 'THEN ANY' rule, all rule-matching scores within this much of the best score will be considered.
+run_perftest                                                                     : cmd              : cheat, norecord                  : Execute perftest.cfg

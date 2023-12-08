@@ -1,0 +1,10 @@
+ik_debug_chain_to_filter_by                                                      : 0                : sv, cl, rep, cheat               : 
+ik_hinge_debug_bone_index                                                        : -1               : sv, cl, rep, cheat               : 
+impulse                                                                          : cmd              : cl, release                      : Triggers impulse command
+inferno_dlight_spacing                                                           : 7200             : cl, cheat                        : Inferno dlights are at least this far apart
+input_filter_relative_analog_inputs                                              : false            : cl, a                            : 
+install_dlc_workshoptools_cvar                                                   : -1               : cl, release                      : DLC Install Status
+invnext                                                                          : cmd              : cl, server_can_execute           : 
+invnextselect                                                                    : cmd              : cl, server_can_execute           : 
+invprev                                                                          : cmd              : cl, server_can_execute           : 
+invprevselect                                                                    : cmd              : cl, server_can_execute           : 
