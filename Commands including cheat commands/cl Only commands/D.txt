@@ -1,0 +1,7 @@
+debug_entity_outline_highlight                                                   : false            : cl, cheat                        : 
+debug_purchase_defidx                                                            : cmd              : cl, release, clientcmd_can_execute : Purchase an item by defindex
+default_fov                                                                      : 90               : cl, cheat                        : 
+demoui                                                                           : cmd              : cl, release                      : Show/hide demo playback ui
+dlight_debug                                                                     : cmd              : cl, cheat                        : Creates a dlight in front of the player
+dm_togglerandomweapons                                                           : cmd              : cl, server_can_execute, clientcmd_can_execute : Turns random weapons in deathmatch on/off
+dump_entity_report                                                               : cmd              : cl, cheat                        : List all client-side entities in the scene

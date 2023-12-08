@@ -1,0 +1,11 @@
+labelled_debug_helper_arc_segments                                               : 20               : sv, cl, rep, cheat               : 
+labelled_debug_helper_enabled                                                    : true             : sv, cl, rep, cheat               : 
+labelled_debug_helper_scale                                                      : 1                : sv, cl, rep, cheat               : 
+labelled_debug_helper_show_position                                              : false            : sv, cl, rep, cheat               : 
+labelled_debug_helper_show_text                                                  : true             : sv, cl, rep, cheat               : 
+labelled_debug_helper_skeleton_show_bone_names                                   : true             : sv, cl, rep, cheat               : 
+lb_shadow_map_culling                                                            : true             : cheat                            : 
+lb_show_light_fog_clipmap_cb_cost                                                : false            : cheat                            : Show cost of lights in fog clipmap constant buffer. yellow = 1 cost, red = 6 cost
+lightquery_debug_direct_lighting                                                 : true             : sv, cl, rep, cheat               : 
+lightquery_debug_indirect_lighting                                               : true             : sv, cl, rep, cheat               : 
+logic_npc_counter_debug                                                          : false            : sv, rep, cheat                   : 

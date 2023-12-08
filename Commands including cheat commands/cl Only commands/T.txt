@@ -1,0 +1,9 @@
+teammenu                                                                         : cmd              : cl, server_can_execute           : Show team selection window
+think_limit                                                                      : 0                : sv, cl, rep, release             : Maximum think time in milliseconds, warning is printed if this is exceeded.
+thirdperson                                                                      : cmd              : cl, cheat, execute_per_tick      : Switch to thirdperson camera.
+thirdperson_lockcamera                                                           : false            : cl, rep, cheat                   : 
+thirdperson_mayamode                                                             : cmd              : cl, cheat                        : Switch to thirdperson Maya-like camera controls.
+trusted_launch                                                                   : 0                : cl, a                            : Trusted launch status
+tv_listen_voice_indices                                                          : 0                : cl, user                         : Bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_listen_voice_indices_h                                                        : 0                : cl, user                         : High 32 bits of bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_spectator_port_offset                                                         : 0                : cl, release                      : 

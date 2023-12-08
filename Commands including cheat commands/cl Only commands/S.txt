@@ -1,0 +1,188 @@
+safezonex                                                                        : 1                : cl, a                            : The percentage of the screen width that is considered safe from overscan. Cannot result in a width less than the height.
+safezoney                                                                        : 1                : cl, a                            : The percentage of the screen height that is considered safe from overscan
+sensitivity                                                                      : 2.5              : cl, a, per_user                  : Mouse sensitivity.
+shake_stop                                                                       : cmd              : cl, cheat                        : Stops all active screen shakes. 
+shake_testpunch                                                                  : cmd              : cl, cheat                        : Test a punch-style screen shake. 
+shatterglass_cleanup                                                             : true             : sv, cl, rep, cheat               : 
+shatterglass_cleanup_max                                                         : 150              : sv, cl, rep, cheat               : 
+shatterglass_debug                                                               : false            : sv, cl, rep, cheat               : 
+shatterglass_distort                                                             : true             : sv, cl, rep, cheat               : 
+shatterglass_edge_uv_scale                                                       : 0.05             : sv, cl, rep, cheat               : 
+shatterglass_hit_tolerance                                                       : 2                : sv, cl, rep, cheat               : 
+shatterglass_shard_lifetime                                                      : 15               : sv, cl, rep, cheat               : 
+shatterglass_subdiv_size                                                         : 1.5              : sv, cl, rep, cheat               : 
+shatterglass_voronoi_size                                                        : 15               : sv, cl, rep, cheat               : 
+show_loadout_toggle                                                              : cmd              : cl, clientcmd_can_execute        : Toggles loadout display
+show_visibility_boxes                                                            : false            : cl, cheat                        : Enable or Disable debug display of visibility boxes
+sk_autoaim_mode                                                                  : 1                : sv, cl, a, rep                   : 
+skeleton_instance_scaleset_enable                                                : true             : sv, cl, rep, cheat               : 
+skill                                                                            : 1                : sv, cl, a, rep, per_user         : Game skill level.
+slot0                                                                            : cmd              : cl, server_can_execute           : 
+slot1                                                                            : cmd              : cl, server_can_execute           : 
+slot10                                                                           : cmd              : cl, server_can_execute           : 
+slot11                                                                           : cmd              : cl, server_can_execute           : 
+slot12                                                                           : cmd              : cl, server_can_execute           : 
+slot13                                                                           : cmd              : cl, server_can_execute           : 
+slot2                                                                            : cmd              : cl, server_can_execute           : 
+slot3                                                                            : cmd              : cl, server_can_execute           : 
+slot4                                                                            : cmd              : cl, server_can_execute           : 
+slot5                                                                            : cmd              : cl, server_can_execute           : 
+slot6                                                                            : cmd              : cl, server_can_execute           : 
+slot7                                                                            : cmd              : cl, server_can_execute           : 
+slot8                                                                            : cmd              : cl, server_can_execute           : 
+slot9                                                                            : cmd              : cl, server_can_execute           : 
+snd_break_on_start_soundevent                                                    : 0                : sv, cl, rep, cheat               : Use to debug break on any soundevent that is started matching this name
+snd_deathcamera_volume                                                           : 0.16             : cl, a, release                   : Volume of Deathcam Timers
+snd_headphone_eq                                                                 : 0                : cl, a, clientcmd_can_execute     : Select Headphone EQ Preset
+snd_mainmenu_music_break_time_max                                                : 0                : cl, cheat                        : Maximum amount of time to pause between playing main menu music
+snd_mainmenu_music_break_time_min                                                : 0                : cl, cheat                        : Minimum amount of time to pause between playing main menu music
+snd_mapobjective_volume                                                          : 0.04             : cl, a, release                   : Volume of Map Objective Music
+snd_menumusic_volume                                                             : 0.04             : cl, a, release                   : Volume of Menu / Non-gameplay music
+snd_mute_mvp_music_live_players                                                  : false            : cl, a, release                   : If set, MVP music is muted if players from both teams are still alive.
+snd_mvp_volume                                                                   : 0.16             : cl, a, release                   : Volume of MVP Music
+snd_occlusion_debug                                                              : false            : sv, cl, rep, cheat               : 
+snd_opvar_set_point_debug                                                        : false            : sv, cl, rep, cheat               : 
+snd_roundaction_volume                                                           : 0                : cl, a, release                   : Volume of Move Action Music
+snd_roundend_volume                                                              : 0.16             : cl, a, release                   : Volume of Won/Lost Music
+snd_roundstart_volume                                                            : 0                : cl, a, release                   : Volume of Round Start Music
+snd_sound_areas_debug                                                            : false            : cl, rep, cheat                   : 
+snd_sound_areas_debug_interval                                                   : 0.2              : cl, rep, cheat                   : 
+snd_tensecondwarning_volume                                                      : 0.04             : cl, a, release                   : Volume of Ten Second Warnings
+soundscape_dumpclient                                                            : cmd              : cl, cheat                        : Dumps the client's soundscape data. 
+soundscape_fadetime                                                              : 3                : cl, cheat                        : Time to crossfade sound effects between soundscapes
+soundscape_radius_debug                                                          : false            : cl, cheat                        : Prints current volume of radius sounds
+spec_autodirector                                                                : false            : cl, clientcmd_can_execute        : Auto-director chooses best view modes while spectating
+spec_centerchasecam                                                              : false            : cl, a                            : Looks at the target player's center, instead of his eye position, in chase came mode
+spec_freeze_deathanim_time                                                       : 0.8              : sv, cl, rep, release             : The time that the death cam will spend watching the player's ragdoll before going into the freeze death cam.
+spec_freeze_time                                                                 : 2                : sv, cl, rep, release             : Time spend frozen in observer freeze cam.
+spec_freeze_time_lock                                                            : 1                : sv, cl, rep, release             : Time players are prevented from skipping the freeze cam
+spec_freeze_traveltime                                                           : 0.3              : sv, cl, rep, release             : Time taken to zoom in to frame a target in observer freeze cam.
+spec_glow_decay_time                                                             : 2                : cl, release                      : Time to decay glow from 1.0 to spec_glow_silent_factor after spec_glow_full_time.
+spec_glow_full_time                                                              : 1                : cl, release                      : Noisy players stay at full brightness for this long.
+spec_glow_silent_factor                                                          : 0.4              : cl, release                      : Lurking player xray glow scaling.
+spec_glow_spike_factor                                                           : 1.2              : cl, release                      : Noisy player xray glow scaling (pop when noise is made).  Make >1 to add a 'spike' to noise-making players
+spec_glow_spike_time                                                             : 0                : cl, release                      : Time for noisy player glow 'spike' to show that they made noise very recently.
+spec_hide_players                                                                : false            : cl, release, clientcmd_can_execute : Toggle the visibility of scoreboard players.
+spec_pos                                                                         : cmd              : cl, cheat                        : dump position and angles to the console
+spec_replay_autostart                                                            : true             : cl, a                            : Auto-start Killer Replay when available
+spec_show_xray                                                                   : 1                : cl, a, release                   : If set to 1, you can see player outlines and name IDs through walls - who you can see depends on your team and mode
+spec_usenumberkeys_nobinds                                                       : true             : cl, a                            : If set to 1, map voting and spectator view use the raw number keys instead of the weapon binds (slot1, slot2, etc).
+spec_xray_dropped_defusekits                                                     : false            : cl, release                      : Whether to X-ray dropped defuse kits.
+spec_xray_dropped_unoccluded                                                     : false            : cl, release                      : Whether to always X-ray dropped c4 and defuse kits.
++spray_menu                                                                      : cmd              : cl, release                      : 
+-spray_menu                                                                      : cmd              : cl, release                      : 
+steam_controller_haptics                                                         : true             : cl, release                      : 
+stopsoundscape                                                                   : cmd              : cl, cheat                        : Stops all soundscape processing and fades current looping sounds
+sv_accelerate                                                                    : 5.5              : sv, cl, nf, rep, release         : 
+sv_accelerate_debug_speed                                                        : false            : sv, cl, nf, rep, release         : 
+sv_accelerate_use_weapon_speed                                                   : true             : sv, cl, nf, rep, release         : 
+sv_air_max_horizontal_parachute_speed                                            : 240              : sv, cl, rep, release             : 
+sv_air_max_wishspeed                                                             : 30               : sv, cl, rep, release             : 
+sv_air_pushaway_dist                                                             : 0                : sv, cl, rep, release             : 
+sv_airaccelerate                                                                 : 12               : sv, cl, nf, rep, release         : 
+sv_airaccelerate_parachute                                                       : 2.6              : sv, cl, rep, release             : 
+sv_airaccelerate_rappel                                                          : 2.2              : sv, cl, rep, release             : 
+sv_autobunnyhopping                                                              : false            : sv, cl, rep, release             : Players automatically re-jump while holding jump button
+sv_autobuyammo                                                                   : false            : sv, cl, nf, rep, release         : Enable automatic ammo purchase when inside buy zones during buy periods
+sv_bounce                                                                        : 0                : sv, cl, nf, rep, release         : Bounce multiplier for when physically simulated objects collide with other objects.
+sv_chat_proximity                                                                : -1               : sv, cl, rep, release             : 
+sv_competitive_minspec                                                           : true             : sv, cl, nf, rep, release         : Enable to force certain client convars to minimum/maximum values to help prevent competitive advantages.
+sv_cs_player_speed_has_hostage                                                   : 200              : sv, cl, rep, release             : 
+sv_damage_print_enable                                                           : 1                : sv, cl, rep, release             : 0: no damage print in console. 1: damage print in console on death. 2: damage print in console only at next round restart.
+sv_deadtalk                                                                      : true             : sv, cl, nf, rep, release         : Dead players can speak (voice, text) to the living
+sv_disable_immunity_alpha                                                        : false            : sv, cl, rep, release             : If set, clients won't slam the player model render settings each frame for immunity [mod authors use this]
+sv_disable_observer_interpolation                                                : false            : sv, cl, rep, release             : Disallow interpolating between observer targets on this server.
+sv_disable_radar                                                                 : 0                : sv, cl, rep, release             : 0: regular radar; 1: always disabled; 2: disabled in warmup
+sv_disable_teamselect_menu                                                       : false            : sv, cl, rep, release             : Disable teamselect menu on clients
+sv_disconnected_player_data_hold_time                                            : 60               : sv, cl, rep, release             : Duration, in seconds, to hold onto the data of disconnected players, for scoreboard display.
+sv_dz_hostage_rescue_reward                                                      : 18               : sv, cl, rep, release             : Number of cash bundles to award for rescuing a hostage
+sv_dz_squad_wipe_reward                                                          : 2                : sv, cl, rep, release             : Number of cash bundles to award for eliminating a squad
+sv_enablebunnyhopping                                                            : false            : sv, cl, rep, release             : Allow player speed to exceed maximum running speed
+sv_extract_ammo_from_dropped_weapons                                             : false            : sv, cl, rep, release             : 
+sv_fade_player_visibility_farz                                                   : false            : sv, cl, rep, release             : 
+sv_falldamage_scale                                                              : 1                : sv, cl, rep, release             : 
+sv_falldamage_to_below_player_multiplier                                         : 1                : sv, cl, rep, release             : Scale damage when distributed across two players
+sv_falldamage_to_below_player_ratio                                              : 0                : sv, cl, rep, release             : Landing on a another player's head gives them this ratio of the damage.
+sv_friction                                                                      : 5.2              : sv, cl, nf, rep, release         : World friction.
+sv_full_alltalk                                                                  : false            : sv, cl, rep, release             : Any player (including Spectator team) can speak to any other player
+sv_gameinstructor_disable                                                        : false            : sv, cl, rep, release             : Force all clients to disable their game instructors.
+sv_gameinstructor_enable                                                         : false            : cl, rep, release                 : Force all clients to enable their game instructors.
+sv_gravity                                                                       : 800              : sv, cl, nf, rep, release         : World gravity.
+sv_grenade_trajectory_prac_pipreview                                             : false            : sv, cl, rep, release             : Shows grenade trajectory practice picture-in-picture preview.
+sv_grenade_trajectory_prac_trailtime                                             : 0                : sv, cl, rep, release             : Shows grenade trajectory practice visualization for this number of seconds.
+sv_grenade_trajectory_time_spectator                                             : 4                : sv, cl, rep, release             : Length of time grenade trajectory remains visible as a spectator.
+sv_hide_roundtime_until_seconds                                                  : 0                : sv, cl, rep, release             : 
+sv_highlight_distance                                                            : 500              : sv, cl, rep, release             : 
+sv_highlight_duration                                                            : 3.5              : sv, cl, rep, release             : 
+sv_holiday_mode                                                                  : 0                : sv, cl, rep, release             : 0 = OFF, 1 = Halloween, 2 = Winter
+sv_human_autojoin_team                                                           : 0                : sv, cl, rep, release             : Force human players on to a team. 0 to disable.
+sv_infinite_ammo                                                                 : 0                : sv, cl, rep, cheat, release      : Player's active weapon will never run out of ammo
+sv_invites_only_mainmenu                                                         : false            : sv, cl, rep, release             : If turned on, will ignore all invites when user is playing a match
+sv_jump_impulse                                                                  : 301.993          : sv, cl, rep, release             : Initial upward velocity for player jumps; sqrt(2*gravity*height).
+sv_jump_spam_penalty_time                                                        : 0.015625         : sv, cl, rep, release             : For subtick jumps, if this much time has elapsed since the last time the user has pressed the jump key, pretend they hadn't. Lowering this makes bunnyhopping easier.
+sv_kick_ban_duration                                                             : 15               : sv, cl, nf, rep, release         : How long should a kick ban from the server should last (in minutes)
+sv_knife_attack_extend_from_player_aabb                                          : 0                : sv, cl, rep, release             : 
+sv_ladder_scale_speed                                                            : 0.78             : sv, cl, rep, release             : Scale top speed on ladders
+sv_ladder_slack_z_mult                                                           : 0.026            : sv, cl, rep, cheat               : Difference in Z increases toward the middle of the slack ladder. 
+sv_matchpause_auto_5v5                                                           : false            : sv, cl, rep, release             : When enabled will automatically pause the match at next freeze time if less than 5 players are connected on each team.
+sv_max_allowed_net_graph                                                         : 1                : sv, cl, nf, rep, release         : Determines max allowed net_graph value for clients.
+sv_maxspeed                                                                      : 320              : sv, cl, nf, rep, release         : 
+sv_maxvelocity                                                                   : 3500             : sv, cl, rep, release             : Maximum speed any ballistically moving object is allowed to attain per axis.
+sv_min_jump_landing_sound                                                        : 260              : sv, cl, rep, release             : 
+sv_noclipaccelerate                                                              : 5                : sv, cl, a, nf, rep               : 
+sv_noclipduringpause                                                             : false            : sv, cl, rep, cheat               : If cheats are enabled, then you can noclip with the game paused (for doing screenshots, etc.).
+sv_noclipfriction                                                                : 4                : sv, cl, a, nf, rep               : Friction during noclip move.
+sv_noclipspeed                                                                   : 1200             : sv, cl, a, nf, rep               : 
+sv_outofammo_indicator                                                           : false            : sv, cl, rep, release             : 
+sv_party_mode                                                                    : false            : sv, cl, rep, release             : Party!!
+sv_server_graphic1                                                               : 0                : sv, cl, rep, release             : A 360x60 (<16kb) image file in /csgo/ that will be displayed to spectators.
+sv_server_graphic2                                                               : 0                : sv, cl, rep, release             : A 220x45 (<16kb) image file in /csgo/ that will be displayed to spectators.
+sv_server_verify_blood_on_player                                                 : true             : sv, cl, rep, cheat               : 
+sv_shield_bash_damage_to_nonplayer                                               : 30               : sv, cl, rep, release             : 
+sv_shield_bash_damage_to_players                                                 : 90               : sv, cl, rep, release             : 
+sv_shield_explosive_damage_cap                                                   : 99               : sv, cl, rep, release             : 
+sv_shield_explosive_damage_crouch_bonus                                          : 10               : sv, cl, rep, release             : 
+sv_shield_explosive_damage_mindist                                               : 30               : sv, cl, rep, release             : 
+sv_shield_explosive_damage_mult                                                  : 4                : sv, cl, rep, release             : 
+sv_shield_explosive_damage_scale                                                 : 0.5              : sv, cl, rep, release             : 
+sv_shield_hitpoints                                                              : 850              : sv, cl, rep, release             : 
+sv_show_move_collisions                                                          : false            : sv, cl, rep, cheat               : Enable this to visualize collisions between player and geometry.
+sv_show_ragdoll_playernames                                                      : false            : cl, rep, release                 : 
+sv_show_team_equipment_force_on                                                  : false            : sv, cl, rep, release             : Force on if not prohibited
+sv_show_team_equipment_prohibit                                                  : false            : sv, cl, nf, rep, release         : Determines whether +cl_show_team_equipment is prohibited.
+sv_showbullethits                                                                : 0                : sv, cl, rep, release             : 1=show hits and near misses, 2=show hits only
+sv_showhitregistration                                                           : 0                : sv, cl, rep, cheat               : Display lag_compensated hitboxes. 0 = off, 1 = server only, 2 = client only, 3 = both server and client
+sv_showimpacts                                                                   : 0                : sv, cl, rep, release             : Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
+sv_showimpacts_penetration                                                       : 0                : sv, cl, rep, release             : Shows extra data when bullets penetrate. (use sv_showimpacts_time to increase time shown)
+sv_showimpacts_time                                                              : 4                : sv, cl, rep, release             : Duration bullet impact indicators remain before disappearing
+sv_skirmish_id                                                                   : 0                : sv, cl, rep, release             : Dedicated server skirmish id to run
+sv_skyname                                                                       : sky_urb01        : sv, cl, a, rep                   : Current name of the skybox texture
+sv_spec_hear                                                                     : 1                : sv, cl, nf, rep, release         : Determines who spectators can hear: 0: only spectators; 1: all players; 2: spectated team; 3: self only; 4: nobody
+sv_spec_use_tournament_content_standards                                         : false            : sv, cl, rep, release             : 
+sv_specaccelerate                                                                : 5                : sv, cl, a, nf, rep               : 
+sv_specnoclip                                                                    : true             : sv, cl, a, nf, rep               : 
+sv_specspeed                                                                     : 1200             : sv, cl, a, nf, rep               : 
+sv_staminajumpcost                                                               : 0.08             : sv, cl, rep, release             : Stamina penalty for jumping
+sv_staminalandcost                                                               : 0.05             : sv, cl, rep, release             : Stamina penalty for landing
+sv_staminamax                                                                    : 80               : sv, cl, rep, release             : Maximum stamina penalty
+sv_staminarecoveryrate                                                           : 60               : sv, cl, rep, release             : Rate at which stamina recovers (units/sec)
+sv_stopspeed                                                                     : 80               : sv, cl, nf, rep, release         : Minimum stopping speed when on ground.
+sv_talk_after_dying_time                                                         : 0                : sv, cl, rep, release             : The number of seconds a player can continue talking after dying as if they were still alive
+sv_talk_enemy_dead                                                               : false            : sv, cl, rep, release             : Dead players can hear all dead enemy communication (voice, chat)
+sv_talk_enemy_living                                                             : false            : sv, cl, rep, release             : Living players can hear all living enemy communication (voice, chat)
+sv_teamid_overhead                                                               : true             : sv, cl, nf, rep, release         : Shows teamID over player's heads.  0 = off, 1 = on
+sv_teamid_overhead_always_prohibit                                               : false            : sv, cl, nf, rep, release         : Determines whether cl_teamid_overhead_always is prohibited.
+sv_teamid_overhead_maxdist                                                       : 0                : sv, cl, rep, release             : If >0, server will override cl_teamid_overhead_maxdist
+sv_teamid_overhead_maxdist_spec                                                  : 0                : sv, cl, rep, release             : If >0, server will override cl_teamid_overhead_maxdist_spec
+sv_timebetweenducks                                                              : 0.4              : sv, cl, rep, release             : Minimum time before recognizing consecutive duck key
+sv_turning_inaccuracy_angle_min                                                  : 4                : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_decay                                                      : 0.8              : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_enabled                                                    : false            : sv, cl, rep, cheat, release      : 
+sv_update_animgraph_movement_in_finish                                           : true             : sv, cl, rep, cheat               : Whether we should update animgraph movement in FinishMove.
+sv_usercmd_custom_random_seed                                                    : true             : sv, cl, rep, release             : When enabled server will populate an additional random seed independent of the client
+sv_voice_proximity                                                               : -1               : sv, cl, rep, release             : 
+sv_warmup_to_freezetime_delay                                                    : 4                : sv, cl, rep, release             : Delay between end of warmup and start of match.
+sv_water_slow_amount                                                             : 0.9              : sv, cl, rep, release             : 
+sv_wateraccelerate                                                               : 10               : sv, cl, nf, rep, release         : 
+sv_waterfriction                                                                 : 1                : sv, cl, nf, rep, release         : 
+sv_weapon_swap_difficulty_near_hi_pri                                            : 2                : sv, cl, rep, release             : 0 = Cone searches easily reach past high priority items to swap weapons. 1 = Cone searches are narrowed and require that the weapon is strictly closer. 2 = cone searches are disabled near high priority items

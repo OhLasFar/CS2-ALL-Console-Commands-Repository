@@ -1,0 +1,10 @@
+healthshot_allow_use_at_full                                                     : true             : sv, cl, rep, release             : 
+healthshot_health                                                                : 50               : sv, cl, rep, release             : 
+healthshot_healthboost_speed_multiplier                                          : 1                : sv, cl, rep, release             : 
+healthshot_healthboost_time                                                      : 1                : sv, cl, rep, release             : 
+hidehud                                                                          : 0                : cl, cheat                        : bitmask: 1=weapon selection, 2=flashlight, 4=all, 8=health, 16=player dead, 32=needssuit, 64=misc, 128=chat, 256=crosshair, 512=vehicle crosshair, 1024=in vehicle
+hostage_debug                                                                    : 0                : sv, cl, rep, cheat               : Show hostage AI debug information
+hostage_is_silent                                                                : false            : sv, cl, rep, cheat               : When set, the hostage won't play any code driven response rules lines
+hud_fastswitch                                                                   : 0                : cl, a                            : 
+hud_scaling                                                                      : 1                : cl, a                            : Scales hud elements
+hud_showtargetid                                                                 : true             : cl, a, per_user                  : Enables display of target names
