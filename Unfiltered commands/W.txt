@@ -1,0 +1,13 @@
+weapon_accuracy_forcespread                                                      : 0                : sv, cl, rep, release             : Force spread to the specified value.
+weapon_accuracy_nospread                                                         : false            : sv, cl, rep, release             : Disable weapon inaccuracy spread
+weapon_accuracy_reset_on_deploy                                                  : false            : sv, cl, rep, cheat, release      : On deploy, forcibly reset weapon accuracy to zero.
+weapon_accuracy_shotgun_spread_patterns                                          : true             : sv, cl, rep, release             : 
+weapon_air_spread_scale                                                          : 1                : sv, cl, rep, release             : Scale factor for jumping inaccuracy, set to 0 to make jumping accuracy equal to standing
+weapon_auto_cleanup_time                                                         : 0                : sv, cl, rep, release             : If set to non-zero, weapons will delete themselves after the specified time (in seconds) if no players are near.
+weapon_debug_spread_gap                                                          : 0.67             : cl, cheat, per_user              : 
+weapon_debug_spread_show                                                         : 0                : cl, cheat, per_user              : Enables display of weapon accuracy; 1: show accuracy box, 3: show accuracy with dynamic crosshair
+weapon_max_before_cleanup                                                        : 0                : sv, cl, rep, release             : If set to non-zero, will remove the oldest dropped weapon to maintain the specified number of dropped weapons in the world.
+weapon_near_empty_sound                                                          : true             : sv, cl, rep, cheat               : 
+weapon_reticle_knife_show                                                        : true             : sv, cl, rep, release             : When enabled will show knife reticle on clients. Used for game modes requiring target id display when holding a knife.
+weapon_sound_falloff_multiplier                                                  : 1                : sv, cl, rep, cheat, release      : Scaling for falloff of weapon firing sounds
+writekeybindings                                                                 : cmd              : release                          : Saves current key bindings to disk.

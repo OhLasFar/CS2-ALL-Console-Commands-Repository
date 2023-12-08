@@ -1,0 +1,466 @@
+c_maxdistance                                                                    : 200              : cl, a                            : 
+c_maxpitch                                                                       : 90               : cl, a                            : 
+c_maxyaw                                                                         : 135              : cl, a                            : 
+c_mindistance                                                                    : 30               : cl, a                            : 
+c_minpitch                                                                       : 0                : cl, a                            : 
+c_minyaw                                                                         : -135             : cl, a                            : 
+c_orthoheight                                                                    : 100              : cl, a                            : 
+c_orthowidth                                                                     : 100              : cl, a                            : 
+c_thirdpersonshoulder                                                            : false            : cl, a                            : 
+c_thirdpersonshoulderaimdist                                                     : 120              : cl, a                            : 
+c_thirdpersonshoulderdist                                                        : 40               : cl, a                            : 
+c_thirdpersonshoulderheight                                                      : 5                : cl, a                            : 
+c_thirdpersonshoulderoffset                                                      : 20               : cl, a                            : 
+callvote                                                                         : cmd              : sv                               : Start a vote on an issue.
+cam_collision                                                                    : 1                : cl, a                            : When in thirdperson and cam_collision is set to 1, an attempt is made to keep the camera from passing though walls.
+cam_command                                                                      : cmd              : cl, cheat                        : Tells camera to change modes
+cam_idealdelta                                                                   : 4                : cl, a                            : Controls the speed when matching offset to ideal angles in thirdperson view
+cam_idealdist                                                                    : 150              : cl, a                            : 
+cam_ideallag                                                                     : 4                : cl, a                            : Amount of lag used when matching offset to ideal angles in thirdperson view
+cam_idealpitch                                                                   : 0                : cl, a                            : 
+cam_idealyaw                                                                     : 0                : cl, a                            : 
+cam_showangles                                                                   : false            : cl, cheat                        : When in thirdperson, print viewangles/idealangles/cameraoffsets to the console.
+cam_snapto                                                                       : false            : cl, a                            : 
+camortho                                                                         : cmd              : cl, cheat                        : Switch to orthographic camera.
+cancelselect                                                                     : cmd              : cl, server_can_execute           : 
+cash_player_bomb_defused                                                         : 300              : sv, cl, nf, rep, release         : 
+cash_player_bomb_planted                                                         : 300              : sv, cl, nf, rep, release         : 
+cash_player_damage_hostage                                                       : -30              : sv, cl, nf, rep, release         : 
+cash_player_get_killed                                                           : 0                : sv, cl, nf, rep, release         : 
+cash_player_interact_with_hostage                                                : 300              : sv, cl, nf, rep, release         : 
+cash_player_killed_enemy_default                                                 : 300              : sv, cl, nf, rep, release         : 
+cash_player_killed_enemy_factor                                                  : 1                : sv, cl, nf, rep, release         : 
+cash_player_killed_hostage                                                       : -1000            : sv, cl, nf, rep, release         : 
+cash_player_killed_teammate                                                      : -300             : sv, cl, nf, rep, release         : 
+cash_player_rescued_hostage                                                      : 1000             : sv, cl, nf, rep, release         : 
+cash_player_respawn_amount                                                       : 0                : sv, cl, nf, rep, release         : 
+cash_team_bonus_shorthanded                                                      : 1000             : sv, cl, nf, rep, release         : 
+cash_team_elimination_bomb_map                                                   : 3250             : sv, cl, nf, rep, release         : 
+cash_team_elimination_hostage_map_ct                                             : 3000             : sv, cl, nf, rep, release         : 
+cash_team_elimination_hostage_map_t                                              : 3000             : sv, cl, nf, rep, release         : 
+cash_team_hostage_alive                                                          : 0                : sv, cl, nf, rep, release         : 
+cash_team_hostage_interaction                                                    : 600              : sv, cl, nf, rep, release         : 
+cash_team_loser_bonus                                                            : 1400             : sv, cl, nf, rep, release         : 
+cash_team_loser_bonus_consecutive_rounds                                         : 500              : sv, cl, nf, rep, release         : 
+cash_team_planted_bomb_but_defused                                               : 800              : sv, cl, nf, rep, release         : 
+cash_team_rescued_hostage                                                        : 600              : sv, cl, nf, rep, release         : 
+cash_team_survive_guardian_wave                                                  : 1000             : sv, cl, nf, rep, release         : 
+cash_team_terrorist_win_bomb                                                     : 3500             : sv, cl, nf, rep, release         : 
+cash_team_win_by_defusing_bomb                                                   : 3500             : sv, cl, nf, rep, release         : 
+cash_team_win_by_hostage_rescue                                                  : 2900             : sv, cl, nf, rep, release         : 
+cash_team_win_by_time_running_out_bomb                                           : 3250             : sv, cl, nf, rep, release         : 
+cash_team_win_by_time_running_out_hostage                                        : 3250             : sv, cl, nf, rep, release         : 
+cash_team_winner_bonus_consecutive_rounds                                        : 0                : sv, cl, nf, rep, release         : 
+cast_aabb                                                                        : cmd              : sv, cheat                        : Tests box collision detection
+cast_bullet                                                                      : cmd              : sv, cheat                        : Tests bullet cast
+cast_capsule                                                                     : cmd              : sv, cheat                        : Tests capsule collision detection
+cast_convex                                                                      : cmd              : sv, cheat                        : Tests convex hull collision detection
+cast_cylinder                                                                    : cmd              : sv, cheat                        : Tests cylinder collision detection
+cast_intervals                                                                   : cmd              : sv, cheat                        : Tests interval ray cast
+cast_obb                                                                         : cmd              : sv, cheat                        : Tests cylinder collision detection
+cast_physics                                                                     : cmd              : sv, cheat                        : Tests physics shape collision detection
+cast_ray                                                                         : cmd              : sv, cheat                        : Tests ray cast
+cast_sphere                                                                      : cmd              : sv, cheat                        : Tests sphere cast
+cc_delay_time                                                                    : 0.25             : cl, a                            : Close caption delay before showing caption.
+cc_lang                                                                          : 0                : cl, a                            : Current close caption language (emtpy = use game UI language)
+cc_linger_time                                                                   : 1                : cl, a                            : Close caption linger time.
+cc_spectator_only                                                                : false            : cl, a                            : 
+cc_subtitles                                                                     : false            : cl, a                            : If set, don't show sound effect captions, just voice overs (i.e., won't help hearing impaired players).
+cc_vr_caption_speed                                                              : 1                : cl, a                            : 0 = slow, 1 = medium (default), 2 = fast
+cc_vr_font_size                                                                  : 1                : cl, a                            : 0 = small, 1 = med (default), 2 = large
+cc_vr_width                                                                      : 1                : cl, a                            : 0 = narrow, 1 = med (default), 2 = wide
+changelevel                                                                      : cmd              : release                          : changelevel <mapname> :Multiplayer change level.
+cl_allow_animated_avatars                                                        : true             : cl, a, release                   : Whether or not to allow animated avatars
+cl_auto_cursor_scale                                                             : true             : a                                : Automatic cursor size scaling.
+cl_autobuy                                                                       : vesthelm vest m4a1 ak47 famas galilar mp7 nova defuser : cl, release                      : The order in which autobuy will attempt to purchase items
+cl_autohelp                                                                      : true             : cl, a, user                      : Auto-help
+cl_avatar_convert_png                                                            : cmd              : cl, cheat, release               : Converts all rgb avatars in the avatars directory to png
+cl_avatar_convert_rgb                                                            : cmd              : cl, cheat, release               : Converts all png avatars in the avatars directory to rgb
+cl_axis                                                                          : cmd              : cl, cheat                        : Draw an axis  Arguments:  x y z pitch yaw roll <lifetime = 10.0> <r g b a> 
+cl_borrow_music_from_player_slot                                                 : -1               : cl, release                      : 
+cl_box                                                                           : cmd              : cl, cheat                        : Draw a bbox  Arguments:  minx miny miny maxx maxy maxz <lifetime = 10.0> <r g b a> 
+cl_buywheel_donate_key                                                           : 0                : cl, a, per_user, release         : Set the key to use for donation in the buy menu. 0: Left Control; 1: Left Alt; 2: Left Shift.
+cl_buywheel_nonumberpurchasing                                                   : false            : cl, a, per_user, release         : Set non-zero to prevent buy wheel from purchasing via number keys
+cl_change_callback_limit                                                         : 0.2              : cl, release                      : change callback msec warning limit
+cl_chatfilters                                                                   : 63               : cl, a                            : Stores the chat filter settings 
+cl_checkdeclareclasses                                                           : cmd              : cheat                            : Check game code serializers
+cl_clock_correction                                                              : true             : cheat                            : Enable/disable clock correction on the client.
+cl_clock_correction_adjustment_max_amount                                        : 200              : cheat                            : Sets the maximum number of milliseconds per second it is allowed to correct the client clock. It will only correct this amount if the difference between the client and server clock is equal to or larger than cl_clock_correction_adjustment_max_offset.
+cl_clock_correction_adjustment_max_offset                                        : 90               : cheat                            : As the clock offset goes from cl_clock_correction_adjustment_min_offset to this value (in milliseconds), it moves towards applying cl_clock_correction_adjustment_max_amount of adjustment. That way, the response is small when the offset is small.
+cl_clock_correction_adjustment_min_offset                                        : 10               : cheat                            : If the clock offset is less than this amount (in milliseconds), then no clock correction is applied.
+cl_clock_correction_force_server_tick                                            : 999              : cheat                            : Force clock correction to match the server tick + this offset (-999 disables it).
+cl_clockdrift_max_ticks                                                          : 3                : cheat                            : Maximum number of ticks the clock is allowed to drift before the client snaps its clock to the server's.
+cl_clutch_mode                                                                   : false            : cl, release                      : Silence voice and other distracting sounds until the end of round or next death.
+cl_color                                                                         : 1                : cl, a, user                      : Preferred teammate color
+cl_connectionretrytime_p2p                                                       : 20               : release                          : Number of seconds over which to spread retry attempts for P2P.
+cl_cq_min_queue                                                                  : 0                : cl, user                         : Allows client to disable (=-1), defer to server (=0), or request a certain min-command queue size for games that support the command queue (IsUsingCommandQueue()) for CUserCmds.
+cl_crosshair_drawoutline                                                         : true             : cl, a, per_user                  : Draws a black outline around the crosshair for better visibility
+cl_crosshair_dynamic_maxdist_splitratio                                          : 0.35             : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the ratio used to determine how long the inner and outer xhair pips will be. [inner = cl_crosshairsize*(1-cl_crosshair_dynamic_maxdist_splitratio), outer = cl_crosshairsize*cl_crosshair_dynamic_maxdist_splitratio]  [0 - 1]
+cl_crosshair_dynamic_splitalpha_innermod                                         : 1                : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the alpha modification that will be used for the INNER crosshair pips once they've split. [0 - 1]
+cl_crosshair_dynamic_splitalpha_outermod                                         : 0.5              : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the alpha modification that will be used for the OUTER crosshair pips once they've split. [0.3 - 1]
+cl_crosshair_dynamic_splitdist                                                   : 6                : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the distance that the crosshair pips will split into 2. (default is 7)
+cl_crosshair_friendly_warning                                                    : 1                : cl, a, release                   : 0: off, 1: on
+cl_crosshair_outlinethickness                                                    : 1.35827          : cl, a, per_user                  : Set how thick you want your crosshair outline to draw (0-3)
+cl_crosshair_recoil                                                              : true             : cl, a, per_user                  : 
+cl_crosshair_sniper_show_normal_inaccuracy                                       : false            : cl, a, per_user                  : Include standing inaccuracy when determining sniper crosshair blur
+cl_crosshair_sniper_width                                                        : 1                : cl, a, per_user                  : If >1 sniper scope cross lines gain extra width (1 for single-pixel hairline)
+cl_crosshair_t                                                                   : true             : cl, a, per_user                  : T style crosshair
+cl_crosshairalpha                                                                : 255              : cl, a, per_user                  : 
+cl_crosshaircolor                                                                : 5                : cl, a, per_user                  : Set crosshair color as defined in game_options.consoles.txt
+cl_crosshaircolor_b                                                              : 255              : cl, a, per_user                  : 
+cl_crosshaircolor_g                                                              : 0                : cl, a, per_user                  : 
+cl_crosshaircolor_r                                                              : 255              : cl, a, per_user                  : 
+cl_crosshairdot                                                                  : true             : cl, a, per_user                  : 
+cl_crosshairgap                                                                  : 1                : cl, a, per_user                  : 
+cl_crosshairgap_useweaponvalue                                                   : true             : cl, a, per_user                  : If set to 1, the gap will update dynamically based on which weapon is currently equipped
+cl_crosshairsize                                                                 : 4.41819          : cl, a, per_user                  : 
+cl_crosshairstyle                                                                : 2                : cl, a, per_user                  : 0 = DEFAULT (DISABLED), 1 = DEFAULT STATIC (DISABLED), 2 = DEFAULT (accurate recoil/spread feedback with a fixed inner part), 3 = ACCURATE DYNAMIC (DISABLED) (accurate recoil/spread feedback), 4 = DEFAULT STATIC, 5 = LEGACY (fake recoil - inaccurate feedback)
+cl_crosshairthickness                                                            : 0.898255         : cl, a, per_user                  : 
+cl_crosshairusealpha                                                             : true             : cl, a, per_user                  : 
+cl_cursor_scale                                                                  : 1                : a                                : Cursor size scaling factor.
+cl_dangerzone_approaching_sound_radius                                           : 700              : cl, cheat, release               : 
+cl_dangerzone_moving_sound_volume                                                : 0.5              : cl, cheat, release               : 
+cl_dangerzone_sound_volume                                                       : 0.2              : cl, cheat, release               : 
+cl_deathcam_audio_mix_phase1_fade_amount                                         : 0.15             : cl, release                      : Sets the amount of ducking to do on death cam fade out. When set to 1, full DeathFadeLayer is applied.
+cl_deathcam_audio_mix_phase1_fade_time                                           : 2                : cl, release                      : Sets the amount of time we fade out over.
+cl_deathcam_audio_mix_phase2_fade_amount                                         : 0.5              : cl, release                      : Sets the amount of ducking to do on death cam fade out. When set to 1, full DeathFadeLayer is applied.
+cl_deathcam_audio_mix_phase2_fade_time                                           : 0.4              : cl, release                      : Sets the amount of time we fade out over.
+cl_deathcampanel_position_dynamic                                                : 1                : cl, a                            : Turn on/off deathcam's kill panel dynamic Y movement
+cl_debounce_zoom                                                                 : true             : cl, a, user, per_user            : Whether or not to disable holding secondary fire to cycle zoom levels
+cl_debug_overlays_broadcast                                                      : false            : release                          : Render debug overlays from server.
+cl_debugoverlay_cycle_domain                                                     : cmd              : cl, cheat                        : Toggles visibility of the debug overlay system.
+cl_debugoverlay_cycle_state                                                      : cmd              : cl, cheat                        : Toggles visibility of the debug overlay system.
+cl_debugoverlay_hide_imgui                                                       : cmd              : cl, cheat                        : Hides the overlay.
+cl_debugoverlay_toggle                                                           : cmd              : cl, cheat                        : Toggles visibility of the debug overlay system.
+cl_disable_deathcam_audio_mix_fade_out                                           : false            : cl, release                      : When set to true, disables audio being silenced while the death cam fades out.
+cl_disable_ragdolls                                                              : false            : cl, cheat                        : 
+cl_disable_round_end_report                                                      : false            : cl, a, release                   : 
+cl_display_game_events                                                           : false            : cl, cheat                        : 
+cl_dm_buyrandomweapons                                                           : true             : cl, a, release                   : Player will automatically receive a random weapon on spawn in deathmatch if this is set to 1 (otherwise, they will receive the last weapon)
+cl_draw_only_deathnotices                                                        : false            : cl, release                      : For drawing only the crosshair and death notices (used for moviemaking)
+cl_drawcross                                                                     : cmd              : cl, cheat                        : Draws a cross at the given location  Arguments: x y z
+cl_drawhud                                                                       : true             : cl, cheat                        : Enable the rendering of the hud
+cl_drawhud_force_deathnotices                                                    : 0                : cl, release                      : 0: default; 1: draw deathnotices even if hud disabled; -1: force no deathnotices
+cl_drawhud_force_radar                                                           : 0                : cl, release                      : 0: default; 1: draw radar even if hud disabled; -1: force no radar
+cl_drawhud_force_teamid_overhead                                                 : 0                : cl, release                      : 0: default; 1: draw teamid even if hud disabled; -1: force no teamid
+cl_drawhud_specvote                                                              : true             : cl, release                      : 1: default; 0: disables vote UI for spectators
+cl_drawline                                                                      : cmd              : cl, cheat                        : Draws line between two 3D Points.  Green if no collision  Red is collides with something  Arguments: x1 y1 z1 x2 y2 z2
+cl_dumpentity                                                                    : cmd              : cl, cheat                        : Dumps info about an entity
+cl_ent_absbox                                                                    : cmd              : cl, cheat                        : Displays the total bounding box for the given entity(s) in green.  Some entites will also display entity specific overlays.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_actornames                                                                : cmd              : cl, cheat                        : Displays the entity name for all entities that have ShouldDisplayInActorNames true in code
+cl_ent_animgraph_debug                                                           : cmd              : cl, cheat                        : Displays debug draws about the given entity(ies) animgraph  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_animgraph_record                                                          : cmd              : cl, cheat                        : Toggles recording of animgraph replay of the given entity(s)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_attachments                                                               : cmd              : cl, cheat                        : Displays the attachment points on an entity.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_bbox                                                                      : cmd              : cl, cheat                        : Displays the movement bounding box for the given entity(ies) in orange.  Some entites will also display entity specific overlays.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_call                                                                      : cmd              : cl, cheat                        : ent_call <funcname> <option:entname> calls function on current look target or filtername, checks on ent, then root, then mode, then map scope
+cl_ent_clear_debug_overlays                                                      : cmd              : cl, cheat                        : Clears all debug overlays
+cl_ent_find                                                                      : cmd              : cl, cheat                        : Find and list all entities with classnames or targetnames that contain the specified substrings. Format: find_ent <substring> 
+cl_ent_find_index                                                                : cmd              : cl, cheat                        : Display data for entity matching specified index. Format: find_ent_index <index> 
+cl_ent_grab                                                                      : cmd              : cl, cheat                        : grabs the object in front of the player. Options: -loose -multiple -toggle
+cl_ent_hierarchy                                                                 : cmd              : cl, cheat                        : Prints the entity hierarchy tree rooted at the specified ent(s)
+cl_ent_hitbox                                                                    : cmd              : cl, cheat                        : Displays the hitboxes for the given entity(ies).  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_joints                                                                    : cmd              : cl, cheat                        : Displays the joint names + axes an entity.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_messages                                                                  : cmd              : cl, cheat                        : Toggles input/output message display for the selected entity(ies).  The name of the entity will be displayed as well as any messages that it sends or receives.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_name                                                                      : cmd              : cl, cheat                        : Displays the entity name
+cl_ent_picker                                                                    : cmd              : cl, cheat                        : Toggles 'picker' mode.  When picker is on, the bounding box, pivot and debugging text is displayed for whatever entity the player is looking at.  Arguments: full - enables all debug information
+cl_ent_pivot                                                                     : cmd              : cl, cheat                        : Displays the pivot for the given entity(ies).  (y=up=green, z=forward=blue, x=left=red).   Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_pivot_size                                                                : 20               : cl, a, cheat                     : 
+cl_ent_remove                                                                    : cmd              : cl, cheat                        : Removes the given entity(s)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_remove_all                                                                : cmd              : cl, cheat                        : Removes all entities of the specified type  Arguments:    {entity_name} / {class_name} 
+cl_ent_scale                                                                     : cmd              : cl, cheat                        : Scales entities. Arguments: <scale factor> <{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}>
+cl_ent_scenehierarchy                                                            : cmd              : cl, cheat                        : Prints the entity scenenode hierarchy tree rooted at the specified ent(s)
+cl_ent_script_dump                                                               : cmd              : cl, cheat                        : Dumps the names and values of this entity's script scope to the console  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_select                                                                    : cmd              : cl, cheat                        : Select or deselects the given entities(s) for later manipulation  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_setang                                                                    : cmd              : cl, cheat                        : Set entity angles
+cl_ent_setname                                                                   : cmd              : cl, cheat                        : Sets the targetname of the given entity(s)  Arguments:    <new entity name> <{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}>
+cl_ent_setpos                                                                    : cmd              : cl, cheat                        : Move entity to position
+cl_ent_show_contexts                                                             : false            : cl, cheat                        : Show entity contexts in ent_text display
+cl_ent_show_damage                                                               : cmd              : cl, cheat                        : Sets damage display mode.  When on, you will see the amount of damage dealt over the target's head.
+cl_ent_showonlyattachment                                                        : 0                : cl, cheat                        : 
+cl_ent_showonlyhitbox                                                            : -1               : cl, cheat                        : 
+cl_ent_skeleton                                                                  : cmd              : cl, cheat                        : Displays the skeleton for the given entity(ies).  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text                                                                      : cmd              : cl, cheat, vconsole_fuzzy        : Displays text debugging information about the given entity(ies) on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text256                                                                   : cmd              : cl, cheat                        : Displays text debugging information about the given entity(ies) [within 256 units of the player] on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text_clear                                                                : cmd              : cl, cheat                        : Hide text debugging information about the given entity(ies) on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text_filter                                                               : cmd              : cl, cheat                        : Set which ent_text filters you want: 
+cl_ent_text_flags_active                                                         : -1               : cl, a, cheat                     : 
+cl_ent_text_no_name_really_i_mean_it                                             : false            : cl, cheat                        : 
+cl_ent_text_radius                                                               : cmd              : cl, cheat                        : Displays text debugging information about the given entity(ies) [near the player] on top of the entity (See Overlay Text)  2 Arguments:    <Radius> <{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}>
+cl_ent_text_sticky_add                                                           : cmd              : cl, cheat                        : Adds to list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text_sticky_clear                                                         : cmd              : cl, cheat                        : Clears the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text_sticky_dump                                                          : cmd              : cl, cheat                        : Spews the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_text_sticky_remove                                                        : cmd              : cl, cheat                        : Removes from the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_ungrab                                                                    : cmd              : cl, cheat                        : un-grabs all objects
+cl_ent_vcollide_wireframe                                                        : cmd              : cl, cheat                        : Displays the interpolated vcollide wireframe pm am entity.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_ent_viewoffset                                                                : cmd              : cl, cheat                        : Displays the eye position for the given entity(ies) in red.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cl_error_report_time                                                             : 0                : cl, release                      : Minimum time in seconds that must elapse before printing prediction error summary. 0 to disable.
+cl_extrapolate                                                                   : true             : cl, cheat                        : Enable/disable extrapolation if interpolation history runs out.
+cl_extrapolate_amount                                                            : 0.25             : cl, cheat                        : Set how many seconds the client will extrapolate entities for.
+cl_eye_occlusion_debug                                                           : false            : cl, cheat                        : 
+cl_fixedcrosshairgap                                                             : 3                : cl, a, per_user                  : For crosshair style 1: How big to make the gap between the pips in the fixed crosshair
+cl_flushentitypacket                                                             : 0                : cheat                            : For debugging. Force the engine to flush an entity packet.
+cl_fullupdate                                                                    : cmd              : cheat                            : Force uncompressed update
+cl_glow_brightness                                                               : 1                : cl, cheat                        : Brightness of player halos
+cl_glow_item_far_b                                                               : 1                : cl, release                      : 
+cl_glow_item_far_g                                                               : 0.4              : cl, release                      : 
+cl_glow_item_far_r                                                               : 0.3              : cl, release                      : 
+cl_hide_avatar_images                                                            : 0                : cl, a                            : Hide avatar images for other players.   0 - Off.  1 - Block All  2 - Block all but friends
+cl_http_log_enable                                                               : false            : cl, norecord, release, clientcmd_can_execute : Allows sending HTTP log from client main menu.
+cl_hud_color                                                                     : 11               : cl, a, release                   : 0 = team color, 1 = white, 2 = bright white, 3 = light blue, 4 = blue, 5 = purple, 6 = red, 7 = orange, 8 = yellow, 9 = green, 10 = aqua, 11 = pink.
+cl_hud_radar_scale                                                               : 1                : cl, a, release                   : 
+cl_ignorepackets                                                                 : false            : cheat                            : Force client to ignore packets (for debugging).
+cl_imgui_set_selection                                                           : cmd              : cl, cheat                        : Sets ImGui selection
+cl_imgui_set_status_text                                                         : cmd              : cl, cheat                        : Sets ImGui header status text
+cl_import_csgo_config                                                            : false            : cl, a, release                   : 
+cl_interp_hermite                                                                : true             : cl, cheat                        : Set to zero do disable hermite interpolation.
+cl_interpolate_report                                                            : false            : cl, a                            : Enable to show interpolation profile timing 
+cl_inventory_debug_tooltip                                                       : false            : cl, release                      : 
+cl_inventory_radial_immediate_select                                             : true             : cl, a, per_user                  : In inventory selection radials. Select weapons the moment the cursor highlights them. Otherwise, only select the selected item on exit.
+cl_inventory_radial_tap_to_cycle                                                 : true             : cl, a, per_user                  : In inventory selection radials. Select weapons the moment the cursor highlights them. Otherwise, only select the selected item on exit.
+cl_inventory_saved_filter2                                                       : all              : cl, a, release                   : 
+cl_inventory_saved_sort2                                                         : inv_sort_age     : cl, a, release                   : 
+cl_invites_only_friends                                                          : false            : cl, a, release                   : If turned on, will ignore in-game invites from recent teammates or other non-friends
+cl_invites_only_mainmenu                                                         : false            : cl, a, release                   : If turned on, will ignore all invites when user is playing a match
+cl_itemimages_dynamically_generated                                              : 2                : cl, a, release                   : 2: use render-targets, fallback to cache and disk; 1: no render targets, but use cache and fallback to disk; 0: disk assets only
+cl_jiggle_bone_debug                                                             : false            : cheat                            : Display physics-based 'jiggle bone' debugging information
+cl_jiggle_bone_debug_pitch_constraints                                           : false            : cheat                            : Display physics-based 'jiggle bone' debugging information
+cl_jiggle_bone_debug_yaw_constraints                                             : false            : cheat                            : Display physics-based 'jiggle bone' debugging information
+cl_jiggle_bone_invert                                                            : false            : cheat                            : 
+cl_join_advertise                                                                : 1                : cl, a                            : Advertise joinable game in progress to Steam friends, otherwise need a Steam invite (2: all servers, 1: official servers, 0: none)
+cl_lagcompensation                                                               : true             : cl, user                         : Perform server side lag compensation of weapon firing events.
+cl_latch_report                                                                  : false            : cl, a                            : Enable to output stats about latching
+cl_leveloverview                                                                 : 0                : cl, cheat                        : 
+cl_lightquery_debug                                                              : false            : cl, cheat                        : 
+cl_loadout_saved_sort                                                            : inv_sort_age     : cl, a, release                   : 
+cl_lock_camera                                                                   : false            : cl, cheat                        : 
+cl_mouselook                                                                     : true             : cl, a, user, per_user, disconnected : Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.
+cl_mute_all_but_friends_and_party                                                : 0                : cl, a                            : Only allow communication from friends and matchmaking party members. Set to 1 to apply the in non-competitive game modes. Set to 2 will apply the setting in all modes. 
+cl_mute_enemy_team                                                               : false            : cl, a                            : Block all communication from players on the enemy team.
+cl_new_user_phase                                                                : -1               : cl, a, release                   : 0: Not Started, 1: Needs Training, 2: Training Complete, -1: Disabled
+cl_obs_interp_enable                                                             : true             : cl, a                            : Enables interpolation between observer targets
+cl_obs_interp_pos_rate                                                           : 0.27             : cl, a                            : 
+cl_observed_bot_crosshair                                                        : 0                : cl, a, release                   : Control the crosshair shown when observing a bot. 0: Show player crosshair. 1: Show player crosshair only when bot can be taken over, otherwise show default.. 2: Always show default crosshair for bots.
+cl_paintkit_override                                                             : 0                : cl, cheat, release               : 
+cl_particle_retire_cost                                                          : 0                : cheat                            : 
+cl_particle_simulate                                                             : true             : cheat                            : Enables/Disables Particle Simulation
+cl_pclass                                                                        : 0                : cl, cheat                        : Dump entity by prediction classname.
+cl_pdump                                                                         : -1               : cl, cheat                        : Dump info about this entity to screen.
+cl_phys_debug_callback_entities                                                  : false            : cl, cheat                        : Print all entities that get touch callbacks. Each entity is printed only once.
+cl_phys_enabled                                                                  : true             : cl, cheat                        : Enable all physics simulation
+cl_phys_sleep_enable                                                             : true             : cl, cheat                        : Enable sleeping for dynamic physics bodies.
+cl_phys_stop_at_collision                                                        : 0                : cl, cheat                        : 
+cl_ping_fade_deadzone                                                            : 60               : cl, a, release                   : Distance from the crosshair over which the ping is completely invisible
+cl_ping_fade_distance                                                            : 300              : cl, a, release                   : Distance from the crosshair over which the ping fades
+cl_pitchdown                                                                     : 89               : cl, cheat                        : 
+cl_pitchup                                                                       : 89               : cl, cheat                        : 
+cl_player_ping_mute                                                              : 0                : cl, a, release                   : If 1, player pinging will make a sound, if 0, pings will be silent
+cl_player_proximity_debug                                                        : false            : cl, rep, cheat                   : 
+cl_player_ragdolls_collide                                                       : false            : cl, cheat, release               : 
+cl_playerspray_auto_apply                                                        : true             : cl, a, release                   : Automatically apply graffiti when graffiti menu closes
+cl_playerspraydisable                                                            : false            : cl, a                            : Disable player sprays.
+cl_predict                                                                       : true             : cl, user, cheat                  : Perform client side prediction.
+cl_predictweapons                                                                : true             : cl, user                         : Perform client side prediction of weapon effects.
+cl_promoted_settings_acknowledged                                                : 1:1696196680965  : cl, a                            : 
+cl_prop_debug                                                                    : cmd              : cl, cheat                        : Toggle prop debug mode. If on, props will show colorcoded bounding boxes. Red means ignore all damage. White means respond physically to damage but never break. Green maps health in the range of 100 down to 1.
+cl_querycache_stats                                                              : cmd              : cl, cheat                        : Display status of the query cache (client only)
+cl_quickinventory_filename                                                       : radial_quickinventory.txt : cl, a, release                   : 
+cl_quickinventory_lastinv                                                        : true             : cl, a, release                   : 
+cl_quickinventory_line_update_speed                                              : 65               : cl, a, release                   : 
+cl_radar_always_centered                                                         : true             : cl, a, release                   : If set to 0, the radar is maximally used. Otherwise the player is always centered, even at map extents.
+cl_radar_icon_scale_min                                                          : 0.6              : cl, a, release                   : Sets the minimum icon scale. Valid values are 0.4 to 1.25.
+cl_radar_rotate                                                                  : true             : cl, a, release                   : 1
+cl_radar_scale                                                                   : 0.7              : cl, a, release                   : Sets the radar scale. Valid values are 0.25 to 1.0.
+cl_radar_square_with_scoreboard                                                  : true             : cl, a, release                   : If set, the radar will toggle to square when the scoreboard is visible.
+cl_radial_radio_tab                                                              : 0                : cl, release                      : 
+cl_radial_radio_tab_0_text_1                                                     : #Chatwheel_requestspend : cl, a, release                   : 
+cl_radial_radio_tab_0_text_2                                                     : #Chatwheel_requestweapon : cl, a, release                   : 
+cl_radial_radio_tab_0_text_3                                                     : #Chatwheel_bplan : cl, a, release                   : 
+cl_radial_radio_tab_0_text_4                                                     : #Chatwheel_followingyou : cl, a, release                   : 
+cl_radial_radio_tab_0_text_5                                                     : #Chatwheel_midplan : cl, a, release                   : 
+cl_radial_radio_tab_0_text_6                                                     : #Chatwheel_followme : cl, a, release                   : 
+cl_radial_radio_tab_0_text_7                                                     : #Chatwheel_aplan : cl, a, release                   : 
+cl_radial_radio_tab_0_text_8                                                     : #Chatwheel_requestecoround : cl, a, release                   : 
+cl_radial_radio_tab_1_text_1                                                     : #Chatwheel_enemyspotted : cl, a, release                   : 
+cl_radial_radio_tab_1_text_2                                                     : #Chatwheel_needbackup : cl, a, release                   : 
+cl_radial_radio_tab_1_text_3                                                     : #Chatwheel_bplan : cl, a, release                   : 
+cl_radial_radio_tab_1_text_4                                                     : #Chatwheel_bombcarrierspotted : cl, a, release                   : 
+cl_radial_radio_tab_1_text_5                                                     : #Chatwheel_multipleenemieshere : cl, a, release                   : 
+cl_radial_radio_tab_1_text_6                                                     : #Chatwheel_sniperspotted : cl, a, release                   : 
+cl_radial_radio_tab_1_text_7                                                     : #Chatwheel_aplan : cl, a, release                   : 
+cl_radial_radio_tab_1_text_8                                                     : #Chatwheel_inposition : cl, a, release                   : 
+cl_radial_radio_tab_2_text_1                                                     : #Chatwheel_affirmative : cl, a, release                   : 
+cl_radial_radio_tab_2_text_2                                                     : #Chatwheel_negative : cl, a, release                   : 
+cl_radial_radio_tab_2_text_3                                                     : #Chatwheel_compliment : cl, a, release                   : 
+cl_radial_radio_tab_2_text_4                                                     : #Chatwheel_thanks : cl, a, release                   : 
+cl_radial_radio_tab_2_text_5                                                     : #Chatwheel_cheer : cl, a, release                   : 
+cl_radial_radio_tab_2_text_6                                                     : #Chatwheel_peptalk : cl, a, release                   : 
+cl_radial_radio_tab_2_text_7                                                     : #Chatwheel_sorry : cl, a, release                   : 
+cl_radial_radio_tab_2_text_8                                                     : #Chatwheel_sectorclear : cl, a, release                   : 
+cl_radial_radio_tap_to_ping                                                      : true             : cl, a, release                   : When tapping the radial radio button, leave a ping if nothing is selected within the time in seconds set in cl_radial_menu_tap_duration
+cl_radial_radio_version_reset                                                    : 12               : cl, a, release                   : 
+cl_radialmenu_deadzone_size                                                      : 0.4              : cl, release                      : 
+cl_radialmenu_deadzone_size_joystick                                             : 0.17             : cl, a, release                   : 
+cl_ragdoll_limit                                                                 : 20               : cl, a                            : Maximum number of ragdolls to show (-1 disables limit)
+cl_ragdoll_lru_debug                                                             : false            : cl, rep, cheat                   : 
+cl_ragdoll_workaround_threshold                                                  : 4                : cl, release                      : Mainly cosmetic, client-only effect: when client doesn't know the last position of another player that spawns a ragdoll, the ragdoll creation is simplified and ragdoll is created in the right place. If you increase this significantly, ragdoll positions on your client may be dramatically wrong, but it won't affect other clients
+cl_rebuy                                                                         : Armor PrimaryWeapon Flashbang SmokeGrenade Defuser HEGrenade Flashbang SecondaryWeapon Molotov IncGrenade Decoy Taser : cl, release                      : The order in which rebuy will attempt to repurchase items
+cl_redemption_reset_timestamp                                                    : 1695896463       : cl, a, release                   : 
+cl_removedecals                                                                  : cmd              : cl, cheat                        : Remove the decals from the entity under the crosshair.
+cl_resend                                                                        : 0.5              : release                          : Delay in seconds before the client will resend the 'connect' attempt
+cl_rr_reloadresponsesystems                                                      : cmd              : cl, cheat                        : Reload all response system scripts.
+cl_sanitize_muted_players                                                        : true             : cl, release                      : Hide names and avatars of muted players.
+cl_sanitize_player_names                                                         : false            : cl, a                            : Replace names of other players with something non-offensive.
+cl_save_animgraph_recording                                                      : cmd              : cl, cheat                        : Saves all active animgraph recordings to disk
+cl_scoreboard_mouse_enable_binding                                               : +attack2         : cl, a                            : Name of the binding to enable mouse selection in the scoreboard
+cl_scoreboard_survivors_always_on                                                : false            : cl, a, release                   : 
+cl_script_add_debug_filter                                                       : cmd              : cl, cheat                        : Add a filter to the game debug overlay
+cl_script_add_watch                                                              : cmd              : cl, cheat                        : Add a watch to the game debug overlay
+cl_script_add_watch_pattern                                                      : cmd              : cl, cheat                        : Add a watch to the game debug overlay
+cl_script_attach_debugger                                                        : cmd              : cl, cheat                        : Connect the vscript VM to the script debugger
+cl_script_clear_watches                                                          : cmd              : cl, cheat                        : Clear all watches from the game debug overlay
+cl_script_debug                                                                  : cmd              : cl, cheat                        : Toggle the in-game script debug features
+cl_script_dump_all                                                               : cmd              : cl, cheat                        : Dump the state of the VM to the console
+cl_script_find                                                                   : cmd              : cl, cheat                        : Find a key in the VM 
+cl_script_help                                                                   : cmd              : cl, cheat                        : Output help for script functions
+cl_script_reload                                                                 : cmd              : cl, cheat                        : Reload scripts
+cl_script_reload_code                                                            : cmd              : cl, cheat                        : Execute a vscript file, replacing existing functions with the functions in the run script
+cl_script_reload_entity_code                                                     : cmd              : cl, cheat                        : Execute all of this entity's VScripts, replacing existing functions with the functions in the run scripts
+cl_script_remove_debug_filter                                                    : cmd              : cl, cheat                        : Remove a filter from the game debug overlay
+cl_script_remove_watch                                                           : cmd              : cl, cheat                        : Remove a watch from the game debug overlay
+cl_script_remove_watch_pattern                                                   : cmd              : cl, cheat                        : Remove a watch from the game debug overlay
+cl_script_resurrect_unreachable                                                  : cmd              : cl, cheat                        : Use the garbage collector to track down reference cycles
+cl_script_trace_disable                                                          : cmd              : cl, cheat                        : Turn off a particular trace output by file or function name
+cl_script_trace_disable_all                                                      : cmd              : cl, cheat                        : Turn off all trace output
+cl_script_trace_disable_key                                                      : cmd              : cl, cheat                        : Turn off a particular trace output by table/instance
+cl_script_trace_enable                                                           : cmd              : cl, cheat                        : Turn on a particular trace output by file or function name
+cl_script_trace_enable_all                                                       : cmd              : cl, cheat                        : Turn on all trace output
+cl_script_trace_enable_key                                                       : cmd              : cl, cheat                        : Turn on a particular trace output by table/instance
+cl_server_graphic1_enable                                                        : true             : cl, release                      : When enabled, 360x60 (<16kb) image file will be displayed to on-server spectators.
+cl_server_graphic2_enable                                                        : true             : cl, release                      : When enabled, 220x45 (<16kb) image file will be displayed to on-server spectators.
+cl_show_clan_in_death_notice                                                     : true             : cl, a, release                   : Is set, the clan name will show next to player names in the death notices.
+cl_show_equipped_character_for_player_avatars                                    : false            : cl, a                            : 
+cl_show_observer_crosshair                                                       : 1                : cl, a, release                   : Show the crosshair of the player being observed. 0: off 1: friends and party 2: everyone 
+cl_showents                                                                      : cmd              : cl, cheat                        : Dump entity list to console.
+cl_showerror                                                                     : 0                : cl, release                      : Show prediction errors, 2 for above plus detailed field deltas, 3 to filter out serverside known prediction errors, -entindex for specific entity.
+cl_showfps                                                                       : 0                : cl, release                      : Draw fps meter at top of screen (1 = fps, 2 = smooth fps, 3 = server MS, 4 = Show FPS and Log to file )
+cl_showloadout                                                                   : true             : cl, a, per_user                  : Toggles display of current loadout.
+cl_showmem                                                                       : 0                : cl, release                      : Draw approximate memory use at top of screen
+cl_showpos                                                                       : 0                : cl, cheat, release               : Draw current position at top of screen
+cl_silencer_mode                                                                 : 0                : cl, a, user, per_user            : 0: cannot detach; 1: press secondary fire to detach
+cl_sim_grenade_trajectory                                                        : cmd              : cl, cheat                        : Draw trajectory of the deployed grenade if thrown from this position. Takes an optional parameter for how long the drawn trajectory will last.
+cl_skel_constraints_enable                                                       : true             : rep, cheat                       : 
+cl_skeleton_instance_smear_boneflags                                             : false            : cl, cheat                        : Smear boneflags across the model.  Costs computation, but tests to make sure your bone flags are consistent.
+cl_smoke_player_particle_effect                                                  : true             : cl, cheat                        : 
+cl_snd_new_visualize                                                             : false            : cl, cheat                        : Displays soundevent name played at it's 3d position
+cl_sniper_auto_rezoom                                                            : true             : cl, a, user, per_user            : Auto-rezoom snipers after a shot
+cl_sniper_delay_unscope                                                          : false            : cl, a, release                   : 
+cl_sos_test_get_opvar                                                            : cmd              : cl, cheat                        : 
+cl_sos_test_set_opvar                                                            : cmd              : cl, cheat                        : 
+cl_soundscape_flush                                                              : cmd              : cl, cheat, server_can_execute    : Flushes the client side soundscapes
+cl_spec_show_bindings                                                            : true             : cl, release, clientcmd_can_execute : Toggle the visibility of the spectator bindings.
+cl_spec_stats                                                                    : true             : cl, release                      : 
+cl_spec_swapplayersides                                                          : false            : cl, release                      : Toggle set the player names and team names to the opposite side in which they are are on the spectator panel.
+cl_spec_use_tournament_content_standards                                         : false            : cl, release                      : 
+cl_spewserializers                                                               : cmd              : cheat                            : Spew serializers
+cl_teamid_overhead_colors_show                                                   : false            : cl, a, release                   : Show team overhead id in teammate color
+cl_teamid_overhead_maxdist                                                       : 6000             : cl, cheat, per_user              : max distance at which the overhead team id icons will show
+cl_teamid_overhead_maxdist_spec                                                  : 4000             : cl, cheat, per_user              : max distance at which the overhead team id icons will show when a spectator
+cl_teamid_overhead_mode                                                          : 2                : cl, a, release                   : Always show team id over teammates. 1 = pips; 2 = pips, name, and equipment
+cl_teammate_colors_show                                                          : 1                : cl, a, release                   : In competitive, 1 = show teammates as separate colors in the radar, scoreboard, etc., 2 = show colors and letters
+cl_test_list_entities                                                            : cmd              : cl, cheat                        : test-list entities
+cl_timeout                                                                       : 30               : a                                : After this many seconds without receiving a packet from the server, the client will disconnect itself
+cl_track_aim_head_log_closest                                                    : false            : cl, release                      : Log when closest distance to head was reached and what it was
+cl_track_aim_head_threshold                                                      : 0                : cl, release                      : Notify render device when rendering a frame with enemy head within threshold distance
+cl_track_render_eye_angles                                                       : false            : cl, release                      : Spew render eye angles
+cl_use_opens_buy_menu                                                            : true             : cl, a, user, per_user            : Pressing the +use key will open the buy menu if in a buy zone (just as if you pressed the 'buy' key).
+cl_usercmd_maxcount                                                              : 4                : release                          : max number of CUserCmds to send in one packet
+cl_versus_intro                                                                  : true             : cl, a, release                   : 
+cl_wallbang_heavy_threshold                                                      : 22               : cl, cheat, release               : The Threshold where to switch from Light to Heavy Wallbang tracer
+cl_weapon_clip_thinwalls                                                         : true             : cl, rep, cheat                   : 
+cl_weapon_clip_thinwalls_debug                                                   : false            : cl, rep, cheat                   : 
+cl_weapon_clip_thinwalls_lock                                                    : false            : cl, rep, cheat                   : 
+cl_weapon_debug_show_accuracy                                                    : 0                : cl, cheat, release               : Draws a circle representing the effective range with every shot.
+cl_weapon_debug_show_accuracy_duration                                           : 10               : cl, cheat, release               : 
+cl_wpn_sway_scale                                                                : 1                : cl, cheat                        : 
+clear                                                                            : cmd              : norecord, release                : Clear console output.
+clear_bombs                                                                      : cmd              : sv, cheat                        : 
+clearall                                                                         : cmd              : norecord, release                : Clear console output from all views.
+cli_ent_attachments                                                              : cmd              : cl, cheat                        : Displays the interpolated attachment points on an entity.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cli_ent_hitbox                                                                   : cmd              : cl, cheat                        : Displays the skeleton for the given entity(ies).  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cli_ent_pivot                                                                    : cmd              : cl, cheat                        : Displays the interpolated pivot for the given entity(ies).  (y=up=green, z=forward=blue, x=left=red).   Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cli_ent_skeleton                                                                 : cmd              : cl, cheat                        : Displays the skeleton for the given entity(ies).  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+cli_ent_vcollide_wireframe                                                       : cmd              : cl, cheat                        : Displays the interpolated vcollide wireframe pm am entity.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+clientport                                                                       : 0                : release                          : If non-zero, client binds port to specific address.  Usually you should leave this blank to use a different random system-assigned port for each connection.
+closecaption                                                                     : false            : cl, a, user                      : Enable close captioning.
+clutch_mode_toggle                                                               : cmd              : cl, release                      : Toggle clutch mode convar
+collect_entity_model_name                                                        : cmd              : sv, cheat                        : Collect model names of the entities you're pointing at
+commentary                                                                       : false            : sv, a                            : Desired commentary mode state.
+commentary_finishnode                                                            : cmd              : sv                               : 
+con_enable                                                                       : false            : a                                : Allows the console to be activated.
+condump                                                                          : cmd              : release                          : dump the text currently in the console to condumpXX.log
+connect                                                                          : cmd              : release                          : Connect to a remote server.
+connect_hltv                                                                     : cmd              : release                          : Connect to a remote HLTV server.
+consoletool                                                                      : cmd              : norecord, release                : Open a VConsole subtool.
+contributionscore_assist                                                         : 1                : sv, release                      : amount of contribution score added for an assist
+contributionscore_bomb_defuse_major                                              : 3                : sv, release                      : amount of contribution score for defusing a bomb while at least one enemy remains alive
+contributionscore_bomb_defuse_minor                                              : 1                : sv, release                      : amount of contribution score for defusing a bomb after eliminating enemy team
+contributionscore_bomb_exploded                                                  : 1                : sv, release                      : amount of contribution score awarded to bomb planter and terrorists remaining alive if bomb explosion wins the round
+contributionscore_bomb_planted                                                   : 2                : sv, release                      : amount of contribution score for planting a bomb
+contributionscore_cash_bundle                                                    : 0                : sv, release                      : amount of contribution score for picking up a cash bundle
+contributionscore_crate_break                                                    : 0                : sv, release                      : amount of contribution score for breaking an item crate
+contributionscore_hostage_kill                                                   : -2               : sv, release                      : amount of contribution score for killing a hostage, normally negative
+contributionscore_hostage_rescue_major                                           : 3                : sv, release                      : amount of contribution score added to rescuer per hostage rescued
+contributionscore_hostage_rescue_minor                                           : 1                : sv, release                      : amount of contribution score added to all alive CTs per hostage rescued
+contributionscore_kill                                                           : 2                : sv, release                      : amount of contribution score added for a kill
+contributionscore_kill_factor                                                    : 0                : sv, release                      : percentage of victim's contribution score to award to their killer as a bonus
+contributionscore_objective_kill                                                 : 3                : sv, release                      : amount of contribution score added for an objective related kill
+contributionscore_suicide                                                        : -2               : sv, release                      : amount of contribution score for a suicide, normally negative
+contributionscore_team_kill                                                      : -2               : sv, release                      : amount of contribution score for a team kill, normally negative
+cq_netgraph                                                                      : 0                : cl, user                         : Display command queue statistics on the hud
+crash                                                                            : cmd              : cheat                            : Crash the client. Optional parameter -- type of crash:  0: read from NULL  1: write to NULL  2: force an Assert  3: infinite loop  4: stack buffer overrun  5: multiple asserts across multiple threads
+crash_error                                                                      : cmd              : cheat                            : Cause the engine to crash by Plat_FatalError on main thread (Debug!!)
+crash_error_job                                                                  : cmd              : cheat                            : Cause the engine to crash by Plat_FatalError on job thread (Debug!!)
+crash_error_thread                                                               : cmd              : cheat                            : Cause the engine to crash by Plat_FatalError on non-main thread (Debug!!)
+crash_job                                                                        : cmd              : cheat                            : Cause the engine to crash in a job thread (Debug!!)
+crash_thread                                                                     : cmd              : cheat                            : Cause the engine to crash in a brand new non-main thread (Debug!!)
+create_flashlight                                                                : cmd              : sv, cheat                        : 
+CreatePredictionError                                                            : cmd              : sv, cheat                        : Create a prediction error
+crosshair                                                                        : true             : cl, a, per_user                  : 
+cs_enable_player_physics_box                                                     : false            : sv, release                      : 
+cs_hostage_near_rescue_music_distance                                            : 2000             : sv, cheat                        : 
+cs_logtouchexpansion                                                             : -2               : sv, cheat                        : cs_logtouchexpansion <ent index or -1 for all>. Log player touch expansion component.
+cs_minimap_create_output_size                                                    : 512              : cl, cheat                        : Size of minimap texture generated with cs_minimap_create (512 default)
+cs_quit_prompt                                                                   : cmd              : cl, release                      : Quit the game
+cs_ShowStateTransitions                                                          : -2               : sv, cheat                        : cs_ShowStateTransitions <ent index or -1 for all>. Show player state transitions.
+CS_WarnFriendlyDamageInterval                                                    : 3                : sv, cheat                        : Defines how frequently the server notifies clients that a player damaged a friend
+csgo_download_match                                                              : cmd              : cl, norecord, clientcmd_can_execute : Downloads a match via serial code and starts playback
+csgo_fatdemo_enable                                                              : false            : sv, cl, rep, release             : 
+csgo_fatdemo_output                                                              : test.fatdem      : sv, cl, rep, release             : 
+csgo_map_preview_scale                                                           : 2.09             : cl, a                            : 
+csgo_use_fullsort_for_opaque                                                     : true             : cl, cheat                        : fullsort the opaque pass when there wasn't a depth prepass
+csgo_video_settings_restore_previous                                             : cmd              : cl, release                      : csgo_video_settings_restore_previous
+csm_bias_override_0                                                              : 1                : cheat                            : 
+csm_bias_override_1                                                              : 1                : cheat                            : 
+csm_bias_override_2                                                              : 1                : cheat                            : 
+csm_bias_override_3                                                              : 1                : cheat                            : 
+csm_cascade0_override_dist                                                       : -1               : cheat                            : 
+csm_cascade1_override_dist                                                       : -1               : cheat                            : 
+csm_cascade2_override_dist                                                       : -1               : cheat                            : 
+csm_cascade3_override_dist                                                       : -1               : cheat                            : 
+csm_cascade_viewdir_shadow_bias_scale                                            : 2                : cheat                            : 
+csm_res_override_0                                                               : 0                : cheat                            : 
+csm_res_override_1                                                               : 0                : cheat                            : 
+csm_res_override_2                                                               : 0                : cheat                            : 
+csm_res_override_3                                                               : 0                : cheat                            : 
+csm_slope_scale_db_override                                                      : 3                : cheat                            : 
+csm_split_log_scalar                                                             : 0.85             : cheat                            : 
+csm_viewdir_shadow_bias                                                          : 0                : cheat                            : 
+csm_viewmodel_farz                                                               : 30               : cheat                            : 
+csm_viewmodel_max_shadow_dist                                                    : 21               : cheat                            : 
+csm_viewmodel_max_visible_dist                                                   : 1000             : cheat                            : 
+custom_bot_difficulty                                                            : 2                : sv, cl, rep, release             : Bot difficulty for offline play.
+cv_bot_ai_bt_debug_target                                                        : -1               : sv, rep, cheat                   : Draw the behavior tree of the given bot.
+cv_bot_ai_bt_hiding_spot_show                                                    : false            : sv, rep, cheat                   : Draw hiding spots.
+cv_bot_ai_bt_moveto_show_next_hiding_spot                                        : false            : sv, rep, cheat                   : Draw the hiding spot the bot will check next.
+cvarlist                                                                         : cmd              : release                          : Show the list of convars/concommands.
+cyclevar                                                                         : cmd              : norecord, release                : Cycle through specified convar values.
