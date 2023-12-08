@@ -1,9 +1,0 @@
-cl_player_proximity_debug                                                        : false            : cl, rep, cheat                   : 
-cl_ragdoll_lru_debug                                                             : false            : cl, rep, cheat                   : 
-cl_skel_constraints_enable                                                       : true             : rep, cheat                       : 
-cl_weapon_clip_thinwalls                                                         : true             : cl, rep, cheat                   : 
-cl_weapon_clip_thinwalls_debug                                                   : false            : cl, rep, cheat                   : 
-cl_weapon_clip_thinwalls_lock                                                    : false            : cl, rep, cheat                   : 
-cv_bot_ai_bt_debug_target                                                        : -1               : sv, rep, cheat                   : Draw the behavior tree of the given bot.
-cv_bot_ai_bt_hiding_spot_show                                                    : false            : sv, rep, cheat                   : Draw hiding spots.
-cv_bot_ai_bt_moveto_show_next_hiding_spot                                        : false            : sv, rep, cheat                   : Draw the hiding spot the bot will check next.

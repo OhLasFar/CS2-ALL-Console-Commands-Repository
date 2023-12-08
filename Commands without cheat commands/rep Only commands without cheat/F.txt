@@ -1,1 +1,0 @@
-fish_dormant                                                                     : false            : sv, rep, cheat                   : Turns off interactive fish behavior. Fish become immobile and unresponsive.

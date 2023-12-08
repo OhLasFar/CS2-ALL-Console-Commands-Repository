@@ -1,1 +1,0 @@
-glow_use_tolerance                                                               : 0.85             : cl, rep, cheat                   : 
