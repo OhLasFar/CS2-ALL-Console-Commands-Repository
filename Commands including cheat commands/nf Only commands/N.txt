@@ -1,0 +1,2 @@
+nextlevel                                                                        : 0                : sv, nf, release                  : If set to a valid map name, will trigger a changelevel to the specified map at the end of the round
+nextmode                                                                         : 0                : sv, nf, rep, release             : Sets the game mode to be played when the next level loads

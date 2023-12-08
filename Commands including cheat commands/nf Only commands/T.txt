@@ -1,0 +1,6 @@
+tv_advertise_watchable                                                           : false            : prot, nf, norecord, release      : GOTV advertises the match as watchable via game UI, clients watching via UI will not need to type password
+tv_enable                                                                        : false            : nf, release                      : Activates SourceTV on server.
+tv_enable1                                                                       : false            : nf, release                      : Activates SourceTV[1] on server.
+tv_enable_dynamic                                                                : false            : nf, release                      : When enabled, changes in tv_enable convars cause immediate startup or shutdown of hltv server
+tv_password                                                                      : 0                : prot, nf, norecord, release      : SourceTV password for all clients
+tv_relaypassword                                                                 : 0                : prot, nf, norecord, release      : SourceTV password for relay proxies

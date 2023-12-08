@@ -1,0 +1,1 @@
+voice_vox                                                                        : 0                : cl, a, per_user                  : Voice chat uses a vox-style always on
