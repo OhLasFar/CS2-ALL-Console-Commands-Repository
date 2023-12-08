@@ -1,0 +1,4 @@
+player_ping                                                                      : cmd              : sv                               : Creates a ping notification where the player is looking.
+print_mapgroup_sv                                                                : cmd              : sv, release                      : Prints the current mapgroup and the contained maps
+pvs_debugentity                                                                  : -1               : sv, release                      : Verbose spew for this entity when doing IsInPVS computation.
+pvs_flowtype                                                                     : 0                : sv, release                      : Flow through spawn groups for vis (0 == default, 1 == always visible, 2 == never visible.

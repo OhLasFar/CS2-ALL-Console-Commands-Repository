@@ -1,0 +1,25 @@
+buymenu                                                                          : cmd              : cl, server_can_execute           : Show or hide main buy menu
+cancelselect                                                                     : cmd              : cl, server_can_execute           : 
+dm_togglerandomweapons                                                           : cmd              : cl, server_can_execute, clientcmd_can_execute : Turns random weapons in deathmatch on/off
+echo                                                                             : cmd              : server_can_execute               : Echo text to console.
+invnext                                                                          : cmd              : cl, server_can_execute           : 
+invnextselect                                                                    : cmd              : cl, server_can_execute           : 
+invprev                                                                          : cmd              : cl, server_can_execute           : 
+invprevselect                                                                    : cmd              : cl, server_can_execute           : 
+lastinv                                                                          : cmd              : cl, server_can_execute           : 
+play                                                                             : cmd              : server_can_execute               : Play a sound.
+slot0                                                                            : cmd              : cl, server_can_execute           : 
+slot1                                                                            : cmd              : cl, server_can_execute           : 
+slot10                                                                           : cmd              : cl, server_can_execute           : 
+slot11                                                                           : cmd              : cl, server_can_execute           : 
+slot12                                                                           : cmd              : cl, server_can_execute           : 
+slot13                                                                           : cmd              : cl, server_can_execute           : 
+slot2                                                                            : cmd              : cl, server_can_execute           : 
+slot3                                                                            : cmd              : cl, server_can_execute           : 
+slot4                                                                            : cmd              : cl, server_can_execute           : 
+slot5                                                                            : cmd              : cl, server_can_execute           : 
+slot6                                                                            : cmd              : cl, server_can_execute           : 
+slot7                                                                            : cmd              : cl, server_can_execute           : 
+slot8                                                                            : cmd              : cl, server_can_execute           : 
+slot9                                                                            : cmd              : cl, server_can_execute           : 
+teammenu                                                                         : cmd              : cl, server_can_execute           : Show team selection window

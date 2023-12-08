@@ -1,0 +1,1 @@
+teammenu                                                                         : cmd              : cl, server_can_execute           : Show team selection window

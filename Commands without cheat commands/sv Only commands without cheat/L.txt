@@ -1,0 +1,6 @@
+listissues                                                                       : cmd              : sv                               : List all the issues that can be voted on.
+logaddress_add_http                                                              : cmd              : sv, nolog, release               : Set URI of a listener to receive logs via http post. Wrap URI in double quotes.
+logaddress_add_http_delayed                                                      : cmd              : sv, nolog, release               : Set a delay and URI of a listener to receive logs via http post. Wrap URI in double quotes.
+logaddress_delall_http                                                           : cmd              : sv, nolog, release               : Remove all http listeners from the dispatch list.
+logaddress_list_http                                                             : cmd              : sv, nolog, release               : List all URIs currently receiving server logs
+logaddress_token_secret                                                          : 0                : sv, release                      : Set a secret string that will be hashed when using logaddress with explicit token hash.

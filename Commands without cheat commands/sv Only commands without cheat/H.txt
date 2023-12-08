@@ -1,0 +1,6 @@
+healthshot_allow_use_at_full                                                     : true             : sv, cl, rep, release             : 
+healthshot_health                                                                : 50               : sv, cl, rep, release             : 
+healthshot_healthboost_damage_multiplier                                         : 1                : sv, rep, release                 : 
+healthshot_healthboost_speed_multiplier                                          : 1                : sv, cl, rep, release             : 
+healthshot_healthboost_time                                                      : 1                : sv, cl, rep, release             : 
+hostfile                                                                         : host.txt         : sv, release                      : The HOST file to load.
