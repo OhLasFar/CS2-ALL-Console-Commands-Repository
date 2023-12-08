@@ -1,2 +1,0 @@
-weapon_debug_spread_gap                                                          : 0.67             : cl, cheat, per_user              : 
-weapon_debug_spread_show                                                         : 0                : cl, cheat, per_user              : Enables display of weapon accuracy; 1: show accuracy box, 3: show accuracy with dynamic crosshair

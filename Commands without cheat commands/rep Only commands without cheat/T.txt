@@ -1,1 +1,0 @@
-thirdperson_lockcamera                                                           : false            : cl, rep, cheat                   : 

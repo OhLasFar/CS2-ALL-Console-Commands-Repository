@@ -1,3 +1,0 @@
-ik_debug_chain_to_filter_by                                                      : 0                : sv, cl, rep, cheat               : 
-ik_hinge_debug_bone_index                                                        : -1               : sv, cl, rep, cheat               : 
-inferno_dlight_spacing                                                           : 7200             : cl, cheat                        : Inferno dlights are at least this far apart

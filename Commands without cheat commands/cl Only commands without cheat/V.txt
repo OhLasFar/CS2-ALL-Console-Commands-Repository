@@ -1,3 +1,0 @@
-view_punch_decay                                                                 : 18               : sv, cl, rep, cheat, release      : Decay factor exponent for view punch
-viewmodel_always_on                                                              : false            : cl, cheat                        : Force the view model to draw, even when in 3rd person
-viewmodel_offset_randomize                                                       : false            : cl, cheat                        : randomly change viewmodel offsets to visualize range

@@ -1,8 +1,0 @@
-telemetry_message                                                                : cmd              : sv, cheat                        : Place a message in the telemetry timeline
-telemetry_toggle_timespan                                                        : cmd              : sv, cheat                        : Starts/stops a timespan with an ever increasing name.
-Test_CreateEntity                                                                : cmd              : sv, cheat                        : 
-test_dispatcheffect                                                              : cmd              : sv, cheat                        : Test a clientside dispatch effect.  Usage: test_dispatcheffect <effect name> <distance away> <flags> <magnitude> <scale>  Defaults are: <distance 1024> <flags 0> <magnitude 0> <scale 0> 
-Test_EHandle                                                                     : cmd              : sv, cheat                        : 
-test_entity_blocker                                                              : cmd              : sv, cheat                        : Test command that drops an entity blocker out in front of the player.
-test_list_entities                                                               : cmd              : sv, cheat                        : test-list entities
-Test_RandomPlayerPosition                                                        : cmd              : sv, cheat                        : 

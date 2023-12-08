@@ -1,7 +1,0 @@
-phys_dynamic_scaling                                                             : true             : sv, cl, rep, cheat               : 
-phys_expensive_shape_threshold                                                   : 6                : cl, cheat                        : 
-phys_visualize_traces                                                            : false            : sv, cl, rep, cheat               : 
-player_use_radius                                                                : 80               : sv, cl, rep, cheat               : 
-playsoundscape                                                                   : cmd              : cl, cheat                        : Forces a soundscape to play
-pwatchent                                                                        : -1               : cl, cheat                        : Entity to watch for prediction system changes.
-pwatchvar                                                                        : 0                : cl, cheat                        : Entity variable to watch in prediction system for changes.
