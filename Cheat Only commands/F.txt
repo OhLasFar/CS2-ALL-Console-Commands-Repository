@@ -1,0 +1,26 @@
+fadein                                                                           : cmd              : sv, cheat                        : fadein {time r g b}: Fades the screen in from black or from the specified color over the given number of seconds.
+fadeout                                                                          : cmd              : sv, cheat                        : fadeout {time r g b}: Fades the screen to black or to the specified color over the given number of seconds.
+firetarget                                                                       : cmd              : sv, cheat                        : 
+fish_debug                                                                       : false            : cl, cheat                        : Show debug info for fish
+fish_dormant                                                                     : false            : sv, rep, cheat                   : Turns off interactive fish behavior. Fish become immobile and unresponsive.
+fog_color                                                                        : -1.000000 -1.000000 -1.000000 : cl, cheat                        : 
+fog_colorskybox                                                                  : -1.000000 -1.000000 -1.000000 : cl, cheat                        : 
+fog_enable                                                                       : true             : cl, cheat                        : Enable fog
+fog_enableskybox                                                                 : true             : cl, cheat                        : 
+fog_end                                                                          : -1               : cl, cheat                        : 
+fog_endskybox                                                                    : -1               : cl, cheat                        : 
+fog_hdrcolorscale                                                                : -1               : cl, cheat                        : 
+fog_hdrcolorscaleskybox                                                          : -1               : cl, cheat                        : 
+fog_maxdensity                                                                   : -1               : cl, cheat                        : 
+fog_maxdensityskybox                                                             : -1               : cl, cheat                        : 
+fog_override                                                                     : 0                : cl, cheat                        : Overrides the map's fog settings (-1 populates fog_ vars with map's values)
+fog_override_color                                                               : cmd              : cheat                            : Sets the fog color override
+fog_override_enable                                                              : false            : cheat                            : Use fog_override convars instead of world fog data
+fog_override_end                                                                 : 3500             : cheat                            : 
+fog_override_exponent                                                            : 2                : cheat                            : 
+fog_override_max_density                                                         : 0.4              : cheat                            : 
+fog_override_start                                                               : 1000             : cheat                            : 
+fog_start                                                                        : -1               : cl, cheat                        : 
+fog_startskybox                                                                  : -1               : cl, cheat                        : 
+fov_cs_debug                                                                     : 0                : cl, cheat                        : Sets the view fov if cheats are on.
+fs_spew_readfieldlist                                                            : cmd              : cheat                            : index <threshold bytes>: spew changes to ent index, optionally only spewing if update is > than threshold bytes

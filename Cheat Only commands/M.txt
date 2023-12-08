@@ -1,0 +1,41 @@
+map_enable_background_maps                                                       : cmd              : cl, cheat                        : Enables/disables portrait background maps
+map_setbombradius                                                                : cmd              : sv, cheat                        : Sets the bomb radius for the map.
+map_showbombradius                                                               : cmd              : sv, cheat                        : Shows bomb radius from the center of each bomb site and planted bomb.
+markup_group_ent_bbox                                                            : cmd              : sv, cheat                        : markup_group_ent_bbox <markup_group name> -> toggle ent_bbox for all members of the named markup group
+markup_group_ent_text                                                            : cmd              : sv, cheat                        : markup_group_ent_text <markup_group name> -> toggle ent_text for all members of the named markup group
+markup_group_spew                                                                : cmd              : sv, cheat                        : Spew all current markup groups and their members
+mat_colcorrection_forceentitiesclientside                                        : false            : cl, cheat                        : Forces color correction entities to be updated on the client
+mat_disable_normal_mapping                                                       : false            : cl, cheat                        : 
+mat_fullbright                                                                   : 0                : cheat                            : 
+mat_lpv_luxels                                                                   : false            : cheat                            : 
+mat_luxels                                                                       : false            : cheat                            : 
+mat_max_lighting_complexity                                                      : 8                : cheat                            : 
+mat_overdraw                                                                     : 0                : cheat                            : Visualize overdraw
+mat_overdraw_color                                                               : 0.075000 0.150000 0.300000 : cheat                            : 
+mat_shading_complexity                                                           : false            : cheat                            : Visualize shading complexity
+mat_shading_complexity_color                                                     : 1.000000 0.500000 0.250000 : cheat                            : 
+mat_shading_complexity_max_instruction_count                                     : 1024             : cheat                            : 
+mat_shading_complexity_max_register_count                                        : 128              : cheat                            : 
+mat_show_distance_field                                                          : 0                : cheat                            : 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion
+mat_tonemap_bloom_scale                                                          : -1               : cheat                            : 
+mat_tonemap_bloom_start_value                                                    : -1               : cheat                            : 
+mat_tonemap_force_accelerate_exposure_down                                       : -1               : cheat                            : 
+mat_tonemap_force_average_lum_min                                                : -1               : cheat                            : Override. Old default was 3.0
+mat_tonemap_force_log_lum_max                                                    : -1               : cheat                            : 
+mat_tonemap_force_log_lum_min                                                    : -1               : cheat                            : 
+mat_tonemap_force_max                                                            : -1               : cheat                            : 
+mat_tonemap_force_min                                                            : -1               : cheat                            : 
+mat_tonemap_force_percent_bright_pixels                                          : -1               : cheat                            : Override. Old value was 1.0
+mat_tonemap_force_percent_target                                                 : -1               : cheat                            : Override. Old default was 45.
+mat_tonemap_force_rate                                                           : -1               : cheat                            : 
+mat_tonemap_force_scale                                                          : 0                : cheat                            : 
+mat_tonemap_force_use_alpha                                                      : -1               : cheat                            : 
+mat_tonemap_uncap_exposure                                                       : 0                : cheat                            : 
+mat_wireframe                                                                    : 0                : cheat                            : 0=Off, 1=Surface Wireframe, 2=Transparent Wireframe
+mesh_calculate_curvature_smooth_invert                                           : false            : sv, cl, rep, cheat               : 
+mesh_calculate_curvature_smooth_pass_count                                       : 3                : sv, cl, rep, cheat               : 
+mesh_calculate_curvature_smooth_weight                                           : 1                : sv, cl, rep, cheat               : 
+minimap_create                                                                   : cmd              : cl, cheat                        : Does a bunch of work to create a minimap
+mp_weapon_melee_touch_time_after_hit                                             : 5                : sv, cheat, release               : 
+mp_weapon_next_owner_touch_time                                                  : 1.3              : sv, cheat, release               : 
+mp_weapon_prev_owner_touch_time                                                  : 1.5              : sv, cheat, release               : 
