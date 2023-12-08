@@ -1,4 +1,4 @@
-# CS2 Console Commands Repository
+# CS2 ALL Console Commands Repository
 
 ## Introduction
 This repository contains a comprehensive list of all Counter-Strike 2 console commands and variables, categorized for ease of use and reference. The commands are sourced from [Valve Software's developer page](https://developer.valvesoftware.com/wiki/List_of_Counter-Strike_2_console_commands_and_variables).
