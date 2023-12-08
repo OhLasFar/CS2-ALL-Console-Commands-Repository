@@ -1,0 +1,3 @@
+phys_dynamic_scaling                                                             : true             : sv, cl, rep, cheat               : 
+phys_visualize_traces                                                            : false            : sv, cl, rep, cheat               : 
+player_use_radius                                                                : 80               : sv, cl, rep, cheat               : 

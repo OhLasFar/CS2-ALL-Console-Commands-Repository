@@ -1,0 +1,24 @@
+ r_AirboatViewDampenDamp                                                          : 1                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewDampenFreq                                                          : 7                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewZHeight                                                             : 0                : sv, cl, nf, rep, cheat           : 
+r_JeepViewDampenDamp                                                             : 1                : sv, cl, nf, rep, cheat           : 
+r_JeepViewDampenFreq                                                             : 7                : sv, cl, nf, rep, cheat           : 
+r_JeepViewZHeight                                                                : 10               : sv, cl, nf, rep, cheat           : 
+radarvisdistance                                                                 : 1000             : sv, cheat                        : at this distance and beyond you need to be point right at someone to see them
+radarvismaxdot                                                                   : 0.996            : sv, cheat                        : how closely you have to point at someone to see them beyond max distance
+radarvismethod                                                                   : 1                : sv, cheat                        : 0 for traditional method, 1 for more realistic method
+radarvispow                                                                      : 0.4              : sv, cheat                        : the degree to which you can point away from a target, and still see them on radar.
+ragdoll_friction_scale                                                           : 0.6              : sv, cl, rep, cheat               : 
+ragdoll_gravity_scale                                                            : 1                : sv, cl, rep, cheat               : 
+ragdoll_lru_debug_removal                                                        : false            : sv, cl, rep, cheat               : 
+ragdoll_lru_min_age                                                              : 10               : sv, cl, rep, cheat               : 
+rangefinder                                                                      : cmd              : sv, cheat                        : Measures distance along a ray
+remove_weapon                                                                    : cmd              : sv, cheat                        : Remove a weapon held by the player.  Arguments: <weapon subclass name>
+replay_death                                                                     : cmd              : sv, cheat                        : start hltv replay of last death
+replay_start                                                                     : cmd              : sv, cheat                        : Start GOTV replay: replay_start <delay> [<player name or index>]
+replay_stop                                                                      : cmd              : sv                               : stop hltv replay
+respawn_player                                                                   : cmd              : sv, cheat                        : Respawns the player from death! 
+rr_followup_maxdist                                                              : 1800             : sv, cheat                        : 'then ANY' or 'then ALL' response followups will be dispatched only to characters within this distance.
+rr_forceconcept                                                                  : cmd              : sv, cheat                        : fire a response concept directly at a given character. USAGE: rr_forceconcept <target> <concept> 'criteria1:value1,criteria2:value2,...' criteria values are optional. 
+rr_reloadresponsesystems                                                         : cmd              : sv, cheat                        : Reload all response system scripts.
+rr_thenany_score_slop                                                            : 0                : sv, a, cheat                     : When computing respondents for a 'THEN ANY' rule, all rule-matching scores within this much of the best score will be considered.
