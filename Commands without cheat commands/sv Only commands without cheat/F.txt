@@ -1,4 +1,0 @@
-fadein                                                                           : cmd              : sv, cheat                        : fadein {time r g b}: Fades the screen in from black or from the specified color over the given number of seconds.
-fadeout                                                                          : cmd              : sv, cheat                        : fadeout {time r g b}: Fades the screen to black or to the specified color over the given number of seconds.
-firetarget                                                                       : cmd              : sv, cheat                        : 
-fish_dormant                                                                     : false            : sv, rep, cheat                   : Turns off interactive fish behavior. Fish become immobile and unresponsive.
