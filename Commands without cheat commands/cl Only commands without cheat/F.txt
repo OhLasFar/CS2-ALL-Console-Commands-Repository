@@ -1,0 +1,15 @@
+fish_debug                                                                       : false            : cl, cheat                        : Show debug info for fish
+fog_color                                                                        : -1.000000 -1.000000 -1.000000 : cl, cheat                        : 
+fog_colorskybox                                                                  : -1.000000 -1.000000 -1.000000 : cl, cheat                        : 
+fog_enable                                                                       : true             : cl, cheat                        : Enable fog
+fog_enableskybox                                                                 : true             : cl, cheat                        : 
+fog_end                                                                          : -1               : cl, cheat                        : 
+fog_endskybox                                                                    : -1               : cl, cheat                        : 
+fog_hdrcolorscale                                                                : -1               : cl, cheat                        : 
+fog_hdrcolorscaleskybox                                                          : -1               : cl, cheat                        : 
+fog_maxdensity                                                                   : -1               : cl, cheat                        : 
+fog_maxdensityskybox                                                             : -1               : cl, cheat                        : 
+fog_override                                                                     : 0                : cl, cheat                        : Overrides the map's fog settings (-1 populates fog_ vars with map's values)
+fog_start                                                                        : -1               : cl, cheat                        : 
+fog_startskybox                                                                  : -1               : cl, cheat                        : 
+fov_cs_debug                                                                     : 0                : cl, cheat                        : Sets the view fov if cheats are on.
