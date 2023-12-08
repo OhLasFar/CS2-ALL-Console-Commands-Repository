@@ -1,1 +1,0 @@
-net_client_steamdatagram_enable_override                                         : 0                : cl, release                      : 0: Use connect method requested by GC.  >0: Always use SDR if possible.  <0: Always use direct UDP if possible

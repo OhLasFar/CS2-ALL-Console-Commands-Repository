@@ -1,8 +1,0 @@
-healthshot_allow_use_at_full                                                     : true             : sv, cl, rep, release             : 
-healthshot_health                                                                : 50               : sv, cl, rep, release             : 
-healthshot_healthboost_damage_multiplier                                         : 1                : sv, rep, release                 : 
-healthshot_healthboost_speed_multiplier                                          : 1                : sv, cl, rep, release             : 
-healthshot_healthboost_time                                                      : 1                : sv, cl, rep, release             : 
-host_timescale                                                                   : 1                : rep, cheat                       : Prescale the clock by this amount.
-hostage_debug                                                                    : 0                : sv, cl, rep, cheat               : Show hostage AI debug information
-hostage_is_silent                                                                : false            : sv, cl, rep, cheat               : When set, the hostage won't play any code driven response rules lines

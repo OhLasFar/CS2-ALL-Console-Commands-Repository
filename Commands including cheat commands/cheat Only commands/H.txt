@@ -1,7 +1,0 @@
-hidehud                                                                          : 0                : cl, cheat                        : bitmask: 1=weapon selection, 2=flashlight, 4=all, 8=health, 16=player dead, 32=needssuit, 64=misc, 128=chat, 256=crosshair, 512=vehicle crosshair, 1024=in vehicle
-host_timescale                                                                   : 1                : rep, cheat                       : Prescale the clock by this amount.
-host_timescale_dec                                                               : cmd              : cheat                            : Decrement the timescale by one step
-host_timescale_inc                                                               : cmd              : cheat                            : Increment the timescale by one step
-hostage_debug                                                                    : 0                : sv, cl, rep, cheat               : Show hostage AI debug information
-hostage_is_silent                                                                : false            : sv, cl, rep, cheat               : When set, the hostage won't play any code driven response rules lines
-hurtme                                                                           : cmd              : sv, cheat                        : Hurts the player.  Arguments: <health to lose>

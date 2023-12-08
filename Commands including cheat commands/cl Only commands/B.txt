@@ -1,5 +1,0 @@
-bot_autodifficulty_threshold_high                                                : 0                : sv, cl, rep, release             : Upper bound above Average Human Contribution Score that a bot must be above to change its difficulty
-bot_autodifficulty_threshold_low                                                 : -2               : sv, cl, rep, release             : Lower bound below Average Human Contribution Score that a bot must be below to change its difficulty
-bot_mimic                                                                        : 0                : sv, cl, rep, cheat               : Bot uses usercmd of player by index.
-bot_mimic_spec_buttons                                                           : true             : cl, cheat                        : +attack, +jump etc are used for spectator control instead of being passed on to spectated bot
-buymenu                                                                          : cmd              : cl, server_can_execute           : Show or hide main buy menu

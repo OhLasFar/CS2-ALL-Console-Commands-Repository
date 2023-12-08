@@ -1,8 +1,0 @@
-g_debug_angularsensor                                                            : false            : sv, cheat                        : 
-g_debug_constraint_sounds                                                        : false            : sv, cheat                        : Enable debug printing about constraint sounds.
-game_mode                                                                        : 1                : sv, cl, rep, release             : The current game mode (based on game type). See GameModes.txt.
-game_type                                                                        : 0                : sv, cl, rep, release             : The current game type. See GameModes.txt.
-give                                                                             : cmd              : sv, vconsole_fuzzy               : Give item to player.  Arguments: <item_name>
-givecurrentammo                                                                  : cmd              : sv, cheat                        : Give a supply of ammo for current weapon.. 
-global_set                                                                       : cmd              : sv, cheat                        : global_set <globalname> <state>: Sets the state of the given env_global (0 = OFF, 1 = ON, 2 = DEAD).
-god                                                                              : cmd              : sv, cheat                        : Toggle by default, or 0 to disable and 1 to enable. Player becomes invulnerable.

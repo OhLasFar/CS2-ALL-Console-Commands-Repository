@@ -1,3 +1,0 @@
-game_mode                                                                        : 1                : sv, cl, rep, release             : The current game mode (based on game type). See GameModes.txt.
-game_type                                                                        : 0                : sv, cl, rep, release             : The current game type. See GameModes.txt.
-glow_use_tolerance                                                               : 0.85             : cl, rep, cheat                   : 

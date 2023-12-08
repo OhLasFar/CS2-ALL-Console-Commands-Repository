@@ -1,2 +1,0 @@
-player_nevershow_communityservermessage                                          : 1                : cl, a, per_user                  : 
-player_teamplayedlast                                                            : 3                : cl, a, per_user                  : 
