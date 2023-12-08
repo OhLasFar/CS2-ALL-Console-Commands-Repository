@@ -1,0 +1,2 @@
+sensitivity                                                                      : 2.5              : cl, a, per_user                  : Mouse sensitivity.
+skill                                                                            : 1                : sv, cl, a, rep, per_user         : Game skill level.

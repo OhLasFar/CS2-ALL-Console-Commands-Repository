@@ -1,0 +1,5 @@
+vconsole_rcon_server_details                                                     : 0                : norecord, release, server_cant_query : when non-empty allows for easy vconsole connection to the dedicated server.
+view_punch_decay                                                                 : 18               : sv, cl, rep, cheat, release      : Decay factor exponent for view punch
+voice_modenable                                                                  : true             : cl, a, release, clientcmd_can_execute : Enable/disable voice in this mod.
+voice_modenable_toggle                                                           : cmd              : cl, release                      : Toggle the voice_modenable convar.
+voice_test_log_send                                                              : false            : release                          : 

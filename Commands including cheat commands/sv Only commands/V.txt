@@ -1,0 +1,5 @@
+view_punch_decay                                                                 : 18               : sv, cl, rep, cheat, release      : Decay factor exponent for view punch
+vis_force                                                                        : false            : sv, cheat                        : 
+vismon_poll_frequency                                                            : 0.5              : sv, cheat                        : 
+vismon_trace_limit                                                               : 12               : sv, cheat                        : 
+voice_player_speaking_delay_threshold                                            : 0.5              : sv, cheat                        : 
