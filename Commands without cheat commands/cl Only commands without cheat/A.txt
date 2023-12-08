@@ -1,9 +1,0 @@
-ai_debug_shoot_positions                                                         : 0                : sv, cl, rep, cheat               : 
-ai_disabled                                                                      : false            : sv, cl, rep, cheat               : 
-animated_material_attributes                                                     : true             : cl, cheat                        : 
-animgraph_debug                                                                  : false            : sv, cl, rep, cheat               : Debug animation graph
-animgraph_debug_entindex                                                         : 0                : sv, cl, rep, cheat               : The entity to specifically debug
-animgraph_record_all                                                             : false            : sv, cl, rep, cheat               : Automatically start recording AnimGraphs when they get created, and save them to disk when they are destroyed
-animgraph_slope_draw_raycasts                                                    : false            : sv, cl, rep, cheat               : 
-animgraph_slope_enable                                                           : true             : sv, cl, rep, cheat               : 
-animgraph_trace_static_only                                                      : false            : sv, cl, rep, cheat               : 

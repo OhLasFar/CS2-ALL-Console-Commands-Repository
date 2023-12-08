@@ -1,6 +1,0 @@
-ent_actornames_font                                                              : Consolas         : sv, cl, rep, cheat               : ent_actornames font name
-ent_actornames_fontsize                                                          : 24               : sv, cl, rep, cheat               : ent_actornames font size
-ent_messages_draw                                                                : false            : sv, cl, rep, cheat               : Visualizes all entity input/output activity.
-ent_rbox                                                                         : cmd              : cl, cheat                        : Displays the total bounding box for the given entity(s) in green.  Some entites will also display entity specific overlays.  Arguments:    {entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
-ent_skeleton_duration                                                            : 0                : sv, cl, rep, cheat               : Duration of ent_skeleton display
-entity_log_load_unserialize                                                      : 0                : sv, cl, rep, cheat               : Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
