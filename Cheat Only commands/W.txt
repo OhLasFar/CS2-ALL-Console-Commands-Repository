@@ -1,5 +1,0 @@
-weapon_accuracy_reset_on_deploy                                                  : false            : sv, cl, rep, cheat, release      : On deploy, forcibly reset weapon accuracy to zero.
-weapon_debug_spread_gap                                                          : 0.67             : cl, cheat, per_user              : 
-weapon_debug_spread_show                                                         : 0                : cl, cheat, per_user              : Enables display of weapon accuracy; 1: show accuracy box, 3: show accuracy with dynamic crosshair
-weapon_near_empty_sound                                                          : true             : sv, cl, rep, cheat               : 
-weapon_sound_falloff_multiplier                                                  : 1                : sv, cl, rep, cheat, release      : Scaling for falloff of weapon firing sounds
