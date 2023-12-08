@@ -1,2 +1,0 @@
-cl_teamid_overhead_maxdist                                                       : 6000             : cl, cheat, per_user              : max distance at which the overhead team id icons will show
-cl_teamid_overhead_maxdist_spec                                                  : 4000             : cl, cheat, per_user              : max distance at which the overhead team id icons will show when a spectator
