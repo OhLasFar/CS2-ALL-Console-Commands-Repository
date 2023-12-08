@@ -1,0 +1,4 @@
+game_mode                                                                        : 1                : sv, cl, rep, release             : The current game mode (based on game type). See GameModes.txt.
+game_type                                                                        : 0                : sv, cl, rep, release             : The current game type. See GameModes.txt.
+gameinstructor_enable                                                            : false            : cl, release                      : Display in game lessons that teach new players.
+gotv_theater_container                                                           : 0                : cl, release                      : Enables GOTV theater mode for the specified container, setting it to 'live' will play top live matches

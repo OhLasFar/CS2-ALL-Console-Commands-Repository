@@ -1,0 +1,3 @@
+bot_autodifficulty_threshold_high                                                : 0                : sv, cl, rep, release             : Upper bound above Average Human Contribution Score that a bot must be above to change its difficulty
+bot_autodifficulty_threshold_low                                                 : -2               : sv, cl, rep, release             : Lower bound below Average Human Contribution Score that a bot must be below to change its difficulty
+buymenu                                                                          : cmd              : cl, server_can_execute           : Show or hide main buy menu

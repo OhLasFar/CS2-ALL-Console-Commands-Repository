@@ -1,0 +1,2 @@
+battery_saver                                                                    : false            : a                                : OBSOLETE replaced by mobile_fps_* - Battery saver mode. 0=off, 1=on
+bug_submitter_override                                                           : 0                : a                                : 

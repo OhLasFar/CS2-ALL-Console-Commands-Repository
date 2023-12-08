@@ -1,0 +1,6 @@
+lastinv                                                                          : cmd              : cl, server_can_execute           : 
+launch_warmup_map                                                                : cmd              : cl, norecord, clientcmd_can_execute : Launches warmup map
+lobby_default_privacy_bits2                                                      : 0                : cl, a, release                   : Lobby default permissions (0: private, 1: public)
+lockMoveControllerRet                                                            : false            : cl, a                            : 
++lookatweapon                                                                    : cmd              : cl, release                      : 
+-lookatweapon                                                                    : cmd              : cl, release                      : 

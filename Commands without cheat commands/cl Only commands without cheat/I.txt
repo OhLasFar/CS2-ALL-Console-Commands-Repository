@@ -1,0 +1,7 @@
+impulse                                                                          : cmd              : cl, release                      : Triggers impulse command
+input_filter_relative_analog_inputs                                              : false            : cl, a                            : 
+install_dlc_workshoptools_cvar                                                   : -1               : cl, release                      : DLC Install Status
+invnext                                                                          : cmd              : cl, server_can_execute           : 
+invnextselect                                                                    : cmd              : cl, server_can_execute           : 
+invprev                                                                          : cmd              : cl, server_can_execute           : 
+invprevselect                                                                    : cmd              : cl, server_can_execute           : 

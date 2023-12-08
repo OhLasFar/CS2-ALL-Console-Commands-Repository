@@ -1,0 +1,2 @@
+cl_mouselook                                                                     : true             : cl, a, user, per_user, disconnected : Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.
+sv_disconnected_player_data_hold_time                                            : 60               : sv, cl, rep, release             : Duration, in seconds, to hold onto the data of disconnected players, for scoreboard display.

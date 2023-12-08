@@ -1,0 +1,2 @@
+demo_flush                                                                       : false            : a                                : Flush writing the demo file every network update
+dsp_volume                                                                       : 0.8              : a, demo                          : 

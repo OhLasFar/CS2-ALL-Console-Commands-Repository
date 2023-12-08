@@ -1,0 +1,13 @@
+r_player_visibility_mode                                                         : 1                : cl, a, release                   : 
+r_show_build_info                                                                : true             : cl, a, release                   : Build information. Leave this enabled when submitting bug screenshots and videos, please!
++radialradio                                                                     : cmd              : cl, release                      : 
+-radialradio                                                                     : cmd              : cl, release                      : 
++radialradio2                                                                    : cmd              : cl, release                      : 
+-radialradio2                                                                    : cmd              : cl, release                      : 
++radialradio3                                                                    : cmd              : cl, release                      : 
+-radialradio3                                                                    : cmd              : cl, release                      : 
+radio                                                                            : cmd              : cl, release                      : Opens a radio menu
+radio1                                                                           : cmd              : cl, release                      : Opens a radio menu
+radio2                                                                           : cmd              : cl, release                      : Opens a radio menu
+radio3                                                                           : cmd              : cl, release                      : Opens a radio menu
+rebuy                                                                            : cmd              : cl, clientcmd_can_execute        : Attempt to repurchase items with the order listed in cl_rebuy

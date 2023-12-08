@@ -1,0 +1,1 @@
+voice_modenable                                                                  : true             : cl, a, release, clientcmd_can_execute : Enable/disable voice in this mod.

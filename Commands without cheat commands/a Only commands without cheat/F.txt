@@ -1,0 +1,5 @@
+fov_desired                                                                      : 75               : cl, a, user                      : Sets the base field-of-view.
+fps_max                                                                          : 400              : a, release                       : Frame rate limiter.  0=no limit.  Does not apply to dedicated server.
+fps_max_tools                                                                    : 120              : a                                : Additional frame rate limit while in tools mode and a window other than the game window has focus. Note that fps_max still applies, this only allows the maximum frame rate for tools mode to be lower. 0=no tools specific limit.
+fps_max_ui                                                                       : 120              : a                                : Frame rate limiter while the game UI is displayed.  0=no limit.  Does not apply to dedicated server.
+func_break_max_pieces                                                            : 15               : sv, a, rep                       : 

@@ -1,0 +1,2 @@
+menuselect                                                                       : cmd              : cl, clientcmd_can_execute        : menuselect
+mm_queue_show_stats                                                              : cmd              : cl, clientcmd_can_execute        : Display global server stats

@@ -1,0 +1,7 @@
+healthshot_allow_use_at_full                                                     : true             : sv, cl, rep, release             : 
+healthshot_health                                                                : 50               : sv, cl, rep, release             : 
+healthshot_healthboost_speed_multiplier                                          : 1                : sv, cl, rep, release             : 
+healthshot_healthboost_time                                                      : 1                : sv, cl, rep, release             : 
+hud_fastswitch                                                                   : 0                : cl, a                            : 
+hud_scaling                                                                      : 1                : cl, a                            : Scales hud elements
+hud_showtargetid                                                                 : true             : cl, a, per_user                  : Enables display of target names

@@ -1,0 +1,2 @@
+endmatch_votenextmap                                                             : cmd              : cl, clientcmd_can_execute        : Votes for the next map at the end of the match
+escape                                                                           : cmd              : release, clientcmd_can_execute   : Escape key pressed.

@@ -1,0 +1,3 @@
+cl_http_log_enable                                                               : false            : cl, norecord, release, clientcmd_can_execute : Allows sending HTTP log from client main menu.
+cl_spec_show_bindings                                                            : true             : cl, release, clientcmd_can_execute : Toggle the visibility of the spectator bindings.
+csgo_download_match                                                              : cmd              : cl, norecord, clientcmd_can_execute : Downloads a match via serial code and starts playback

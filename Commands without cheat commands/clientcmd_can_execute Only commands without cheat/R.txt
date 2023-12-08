@@ -1,0 +1,1 @@
+rebuy                                                                            : cmd              : cl, clientcmd_can_execute        : Attempt to repurchase items with the order listed in cl_rebuy

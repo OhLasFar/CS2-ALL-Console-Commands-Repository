@@ -1,0 +1,18 @@
+autobuy                                                                          : cmd              : cl, clientcmd_can_execute        : Attempt to purchase items with the order listed in cl_autobuy
+cl_http_log_enable                                                               : false            : cl, norecord, release, clientcmd_can_execute : Allows sending HTTP log from client main menu.
+cl_spec_show_bindings                                                            : true             : cl, release, clientcmd_can_execute : Toggle the visibility of the spectator bindings.
+csgo_download_match                                                              : cmd              : cl, norecord, clientcmd_can_execute : Downloads a match via serial code and starts playback
+debug_purchase_defidx                                                            : cmd              : cl, release, clientcmd_can_execute : Purchase an item by defindex
+dm_togglerandomweapons                                                           : cmd              : cl, server_can_execute, clientcmd_can_execute : Turns random weapons in deathmatch on/off
+endmatch_votenextmap                                                             : cmd              : cl, clientcmd_can_execute        : Votes for the next map at the end of the match
+escape                                                                           : cmd              : release, clientcmd_can_execute   : Escape key pressed.
+launch_warmup_map                                                                : cmd              : cl, norecord, clientcmd_can_execute : Launches warmup map
+menuselect                                                                       : cmd              : cl, clientcmd_can_execute        : menuselect
+mm_queue_show_stats                                                              : cmd              : cl, clientcmd_can_execute        : Display global server stats
+rebuy                                                                            : cmd              : cl, clientcmd_can_execute        : Attempt to repurchase items with the order listed in cl_rebuy
+setinfo                                                                          : cmd              : clientcmd_can_execute            : Adds a new user info value
+show_loadout_toggle                                                              : cmd              : cl, clientcmd_can_execute        : Toggles loadout display
+snd_headphone_eq                                                                 : 0                : cl, a, clientcmd_can_execute     : Select Headphone EQ Preset
+spec_autodirector                                                                : false            : cl, clientcmd_can_execute        : Auto-director chooses best view modes while spectating
+spec_hide_players                                                                : false            : cl, release, clientcmd_can_execute : Toggle the visibility of scoreboard players.
+voice_modenable                                                                  : true             : cl, a, release, clientcmd_can_execute : Enable/disable voice in this mod.
