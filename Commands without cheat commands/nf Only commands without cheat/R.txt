@@ -1,0 +1,6 @@
+ r_AirboatViewDampenDamp                                                          : 1                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewDampenFreq                                                          : 7                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewZHeight                                                             : 0                : sv, cl, nf, rep, cheat           : 
+r_JeepViewDampenDamp                                                             : 1                : sv, cl, nf, rep, cheat           : 
+r_JeepViewDampenFreq                                                             : 7                : sv, cl, nf, rep, cheat           : 
+r_JeepViewZHeight                                                                : 10               : sv, cl, nf, rep, cheat           : 
