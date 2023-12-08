@@ -1,0 +1,2 @@
+m_pitch                                                                          : 0.022            : cl, a, per_user                  : Mouse pitch factor.
+m_yaw                                                                            : 0.022            : cl, a, per_user                  : Mouse yaw factor.

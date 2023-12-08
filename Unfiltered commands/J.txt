@@ -1,0 +1,37 @@
+joy_advanced                                                                     : false            : cl, a                            : 
+joy_advaxisr                                                                     : 0                : cl, a                            : 
+joy_advaxisu                                                                     : 0                : cl, a                            : 
+joy_advaxisv                                                                     : 0                : cl, a                            : 
+joy_advaxisx                                                                     : 0                : cl, a                            : 
+joy_advaxisy                                                                     : 0                : cl, a                            : 
+joy_advaxisz                                                                     : 0                : cl, a                            : 
+joy_axisbutton_threshold                                                         : 0.3              : a                                : Analog axis range before a button press is registered.
+joy_axisr_deadzone                                                               : 0.15             : a, per_user                      : 
+joy_axisr_relative                                                               : false            : a, per_user                      : 
+joy_axisu_deadzone                                                               : 0.15             : a, per_user                      : 
+joy_axisu_relative                                                               : false            : a, per_user                      : 
+joy_axisv_deadzone                                                               : 0.15             : a, per_user                      : 
+joy_axisv_relative                                                               : false            : a, per_user                      : 
+joy_axisx_deadzone                                                               : 0.15             : a, per_user                      : 
+joy_axisx_relative                                                               : false            : a, per_user                      : 
+joy_axisy_deadzone                                                               : 0.15             : a, per_user                      : 
+joy_axisy_relative                                                               : false            : a, per_user                      : 
+joy_axisz_deadzone                                                               : 0.15             : a, per_user                      : 
+joy_axisz_relative                                                               : false            : a, per_user                      : 
+joy_circle_correct_mode                                                          : 1                : cl, a, per_user                  : 
+joy_circle_correct_mode_vehicle                                                  : 2                : cl, a, per_user                  : 
+joy_display_input                                                                : false            : cl, a                            : 
+joy_forward_sensitivity                                                          : 1                : cl, a, per_user                  : 
+joy_movement_stick                                                               : false            : cl, a, per_user                  : Which stick controls movement (0 is left stick)
+joy_name                                                                         : joystick         : cl, a                            : 
+joy_pitch_sensitivity                                                            : 3                : cl, a, per_user                  : 
+joy_pitchsensitivity                                                             : 1                : cl, a, per_user                  : 
+joy_response_look                                                                : 0                : cl, a, per_user                  : 
+joy_response_move                                                                : 9                : cl, a, per_user                  : 
+joy_side_sensitivity                                                             : 1                : cl, a, per_user                  : 
+joy_sidesensitivity                                                              : 1                : cl, a                            : 
+joy_wingmanwarrior_centerhack                                                    : false            : a                                : Wingman warrior centering hack.
+joy_wingmanwarrior_turnhack                                                      : false            : a                                : Wingman warrior hack related to turn axes.
+joy_yaw_sensitivity                                                              : 3                : cl, a, per_user                  : 
+joy_yawsensitivity                                                               : -1               : cl, a, per_user                  : 
+joystick                                                                         : false            : cl, a                            : True if the joystick is enabled, false otherwise.

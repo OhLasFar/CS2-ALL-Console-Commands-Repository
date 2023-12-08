@@ -1,0 +1,17 @@
+healthshot_allow_use_at_full                                                     : true             : sv, cl, rep, release             : 
+healthshot_health                                                                : 50               : sv, cl, rep, release             : 
+healthshot_healthboost_damage_multiplier                                         : 1                : sv, rep, release                 : 
+healthshot_healthboost_speed_multiplier                                          : 1                : sv, cl, rep, release             : 
+healthshot_healthboost_time                                                      : 1                : sv, cl, rep, release             : 
+help                                                                             : cmd              : release                          : Find help about a convar/concommand.
+hideconsole                                                                      : cmd              : norecord, release                : Hide the console.
+host_framerate                                                                   : 0                : release                          : Set to lock per-frame time elapse.
+host_writeconfig                                                                 : cmd              : release                          : Saves out the user config values.
+hostfile                                                                         : host.txt         : sv, release                      : The HOST file to load.
+hostip                                                                           : 0                : release                          : Host game server ip
+hostname                                                                         : мяFunreal      : release                          : Hostname for server.
+hostname_in_client_status                                                        : false            : release                          : Show server hostname in client status.
+hostport                                                                         : 27015            : release                          : Host game server port
+hud_fastswitch                                                                   : 0                : cl, a                            : 
+hud_scaling                                                                      : 1                : cl, a                            : Scales hud elements
+hud_showtargetid                                                                 : true             : cl, a, per_user                  : Enables display of target names

@@ -1,0 +1,23 @@
+r_fullscreen_gamma                                                               : 2.2              : a                                : Screen Gamma (only in fullscreen modes)
+r_player_visibility_mode                                                         : 1                : cl, a, release                   : 
+r_show_build_info                                                                : true             : cl, a, release                   : Build information. Leave this enabled when submitting bug screenshots and videos, please!
++radialradio                                                                     : cmd              : cl, release                      : 
+-radialradio                                                                     : cmd              : cl, release                      : 
++radialradio2                                                                    : cmd              : cl, release                      : 
+-radialradio2                                                                    : cmd              : cl, release                      : 
++radialradio3                                                                    : cmd              : cl, release                      : 
+-radialradio3                                                                    : cmd              : cl, release                      : 
+radio                                                                            : cmd              : cl, release                      : Opens a radio menu
+radio1                                                                           : cmd              : cl, release                      : Opens a radio menu
+radio2                                                                           : cmd              : cl, release                      : Opens a radio menu
+radio3                                                                           : cmd              : cl, release                      : Opens a radio menu
+rate                                                                             : 786432           : a, user                          : Min bytes/sec the host can receive data
+rcon                                                                             : cmd              : norecord, release                : Issue an rcon command.
+rcon_address                                                                     : 0                : norecord, release, server_cant_query : Address of remote server if sending unconnected rcon commands (format x.x.x.x:p) 
+rcon_connected_clients_allow                                                     : true             : rep, release                     : Allow clients to use rcon commands on server.
+rcon_password                                                                    : 0                : norecord, release, server_cant_query : remote console password.
+rebuy                                                                            : cmd              : cl, clientcmd_can_execute        : Attempt to repurchase items with the order listed in cl_rebuy
+record                                                                           : cmd              : norecord, release                : Record a demo.
+repeat_last_console_command                                                      : cmd              : release                          : Repeat last console command.
+replay_debug                                                                     : 0                : rep, release                     : 
+replay_stop                                                                      : cmd              : sv                               : stop hltv replay

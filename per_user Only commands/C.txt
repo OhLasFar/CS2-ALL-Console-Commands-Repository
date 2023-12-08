@@ -1,0 +1,36 @@
+cl_buywheel_donate_key                                                           : 0                : cl, a, per_user, release         : Set the key to use for donation in the buy menu. 0: Left Control; 1: Left Alt; 2: Left Shift.
+cl_buywheel_nonumberpurchasing                                                   : false            : cl, a, per_user, release         : Set non-zero to prevent buy wheel from purchasing via number keys
+cl_crosshair_drawoutline                                                         : true             : cl, a, per_user                  : Draws a black outline around the crosshair for better visibility
+cl_crosshair_dynamic_maxdist_splitratio                                          : 0.35             : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the ratio used to determine how long the inner and outer xhair pips will be. [inner = cl_crosshairsize*(1-cl_crosshair_dynamic_maxdist_splitratio), outer = cl_crosshairsize*cl_crosshair_dynamic_maxdist_splitratio]  [0 - 1]
+cl_crosshair_dynamic_splitalpha_innermod                                         : 1                : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the alpha modification that will be used for the INNER crosshair pips once they've split. [0 - 1]
+cl_crosshair_dynamic_splitalpha_outermod                                         : 0.5              : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the alpha modification that will be used for the OUTER crosshair pips once they've split. [0.3 - 1]
+cl_crosshair_dynamic_splitdist                                                   : 6                : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the distance that the crosshair pips will split into 2. (default is 7)
+cl_crosshair_outlinethickness                                                    : 1.35827          : cl, a, per_user                  : Set how thick you want your crosshair outline to draw (0-3)
+cl_crosshair_recoil                                                              : true             : cl, a, per_user                  : 
+cl_crosshair_sniper_show_normal_inaccuracy                                       : false            : cl, a, per_user                  : Include standing inaccuracy when determining sniper crosshair blur
+cl_crosshair_sniper_width                                                        : 1                : cl, a, per_user                  : If >1 sniper scope cross lines gain extra width (1 for single-pixel hairline)
+cl_crosshair_t                                                                   : true             : cl, a, per_user                  : T style crosshair
+cl_crosshairalpha                                                                : 255              : cl, a, per_user                  : 
+cl_crosshaircolor                                                                : 5                : cl, a, per_user                  : Set crosshair color as defined in game_options.consoles.txt
+cl_crosshaircolor_b                                                              : 255              : cl, a, per_user                  : 
+cl_crosshaircolor_g                                                              : 0                : cl, a, per_user                  : 
+cl_crosshaircolor_r                                                              : 255              : cl, a, per_user                  : 
+cl_crosshairdot                                                                  : true             : cl, a, per_user                  : 
+cl_crosshairgap                                                                  : 1                : cl, a, per_user                  : 
+cl_crosshairgap_useweaponvalue                                                   : true             : cl, a, per_user                  : If set to 1, the gap will update dynamically based on which weapon is currently equipped
+cl_crosshairsize                                                                 : 4.41819          : cl, a, per_user                  : 
+cl_crosshairstyle                                                                : 2                : cl, a, per_user                  : 0 = DEFAULT (DISABLED), 1 = DEFAULT STATIC (DISABLED), 2 = DEFAULT (accurate recoil/spread feedback with a fixed inner part), 3 = ACCURATE DYNAMIC (DISABLED) (accurate recoil/spread feedback), 4 = DEFAULT STATIC, 5 = LEGACY (fake recoil - inaccurate feedback)
+cl_crosshairthickness                                                            : 0.898255         : cl, a, per_user                  : 
+cl_crosshairusealpha                                                             : true             : cl, a, per_user                  : 
+cl_debounce_zoom                                                                 : true             : cl, a, user, per_user            : Whether or not to disable holding secondary fire to cycle zoom levels
+cl_fixedcrosshairgap                                                             : 3                : cl, a, per_user                  : For crosshair style 1: How big to make the gap between the pips in the fixed crosshair
+cl_inventory_radial_immediate_select                                             : true             : cl, a, per_user                  : In inventory selection radials. Select weapons the moment the cursor highlights them. Otherwise, only select the selected item on exit.
+cl_inventory_radial_tap_to_cycle                                                 : true             : cl, a, per_user                  : In inventory selection radials. Select weapons the moment the cursor highlights them. Otherwise, only select the selected item on exit.
+cl_mouselook                                                                     : true             : cl, a, user, per_user, disconnected : Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.
+cl_showloadout                                                                   : true             : cl, a, per_user                  : Toggles display of current loadout.
+cl_silencer_mode                                                                 : 0                : cl, a, user, per_user            : 0: cannot detach; 1: press secondary fire to detach
+cl_sniper_auto_rezoom                                                            : true             : cl, a, user, per_user            : Auto-rezoom snipers after a shot
+cl_teamid_overhead_maxdist                                                       : 6000             : cl, cheat, per_user              : max distance at which the overhead team id icons will show
+cl_teamid_overhead_maxdist_spec                                                  : 4000             : cl, cheat, per_user              : max distance at which the overhead team id icons will show when a spectator
+cl_use_opens_buy_menu                                                            : true             : cl, a, user, per_user            : Pressing the +use key will open the buy menu if in a buy zone (just as if you pressed the 'buy' key).
+crosshair                                                                        : true             : cl, a, per_user                  : 

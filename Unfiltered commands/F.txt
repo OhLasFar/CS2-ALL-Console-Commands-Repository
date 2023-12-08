@@ -1,0 +1,41 @@
+fadein                                                                           : cmd              : sv, cheat                        : fadein {time r g b}: Fades the screen in from black or from the specified color over the given number of seconds.
+fadeout                                                                          : cmd              : sv, cheat                        : fadeout {time r g b}: Fades the screen to black or to the specified color over the given number of seconds.
+ff_damage_bullet_penetration                                                     : 0                : sv, cl, rep, release             : If friendly fire is off, this will scale the penetration power and damage a bullet does when penetrating another friendly player
+ff_damage_decoy_explosion                                                        : false            : sv, cl, rep, release             : Enables or disables team damage from decoy detonation
+ff_damage_reduction_bullets                                                      : 0.33             : sv, cl, rep, release             : How much to reduce damage done to teammates when shot.  Range is from 0 - 1 (with 1 being damage equal to what is done to an enemy)
+ff_damage_reduction_grenade                                                      : 0.85             : sv, cl, rep, release             : How much to reduce damage done to teammates by a thrown grenade.  Range is from 0 - 1 (with 1 being damage equal to what is done to an enemy)
+ff_damage_reduction_grenade_self                                                 : 1                : sv, cl, rep, release             : How much to damage a player does to himself with his own grenade.  Range is from 0 - 1 (with 1 being damage equal to what is done to an enemy)
+ff_damage_reduction_other                                                        : 0.4              : sv, cl, rep, release             : How much to reduce damage done to teammates by things other than bullets and grenades.  Range is from 0 - 1 (with 1 being damage equal to what is done to an enemy)
+find                                                                             : cmd              : release                          : Find concommands with the specified string in their name/help text.
+findflags                                                                        : cmd              : release                          : Find concommands by flags.
+firetarget                                                                       : cmd              : sv, cheat                        : 
+firstperson                                                                      : cmd              : cl, release, execute_per_tick    : Switch to firstperson camera.
+fish_debug                                                                       : false            : cl, cheat                        : Show debug info for fish
+fish_dormant                                                                     : false            : sv, rep, cheat                   : Turns off interactive fish behavior. Fish become immobile and unresponsive.
+fog_color                                                                        : -1.000000 -1.000000 -1.000000 : cl, cheat                        : 
+fog_colorskybox                                                                  : -1.000000 -1.000000 -1.000000 : cl, cheat                        : 
+fog_enable                                                                       : true             : cl, cheat                        : Enable fog
+fog_enableskybox                                                                 : true             : cl, cheat                        : 
+fog_end                                                                          : -1               : cl, cheat                        : 
+fog_endskybox                                                                    : -1               : cl, cheat                        : 
+fog_hdrcolorscale                                                                : -1               : cl, cheat                        : 
+fog_hdrcolorscaleskybox                                                          : -1               : cl, cheat                        : 
+fog_maxdensity                                                                   : -1               : cl, cheat                        : 
+fog_maxdensityskybox                                                             : -1               : cl, cheat                        : 
+fog_override                                                                     : 0                : cl, cheat                        : Overrides the map's fog settings (-1 populates fog_ vars with map's values)
+fog_override_color                                                               : cmd              : cheat                            : Sets the fog color override
+fog_override_enable                                                              : false            : cheat                            : Use fog_override convars instead of world fog data
+fog_override_end                                                                 : 3500             : cheat                            : 
+fog_override_exponent                                                            : 2                : cheat                            : 
+fog_override_max_density                                                         : 0.4              : cheat                            : 
+fog_override_start                                                               : 1000             : cheat                            : 
+fog_start                                                                        : -1               : cl, cheat                        : 
+fog_startskybox                                                                  : -1               : cl, cheat                        : 
+fov_cs_debug                                                                     : 0                : cl, cheat                        : Sets the view fov if cheats are on.
+fov_desired                                                                      : 75               : cl, a, user                      : Sets the base field-of-view.
+fps_max                                                                          : 400              : a, release                       : Frame rate limiter.  0=no limit.  Does not apply to dedicated server.
+fps_max_tools                                                                    : 120              : a                                : Additional frame rate limit while in tools mode and a window other than the game window has focus. Note that fps_max still applies, this only allows the maximum frame rate for tools mode to be lower. 0=no tools specific limit.
+fps_max_ui                                                                       : 120              : a                                : Frame rate limiter while the game UI is displayed.  0=no limit.  Does not apply to dedicated server.
+fs_report_sync_opens                                                             : 0                : release                          : 0:Off, 1:Always, 2:Not during load
+fs_spew_readfieldlist                                                            : cmd              : cheat                            : index <threshold bytes>: spew changes to ent index, optionally only spewing if update is > than threshold bytes
+func_break_max_pieces                                                            : 15               : sv, a, rep                       : 

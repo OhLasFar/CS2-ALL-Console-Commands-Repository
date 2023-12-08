@@ -1,0 +1,22 @@
+debug_purchase_defidx                                                            : cmd              : cl, release, clientcmd_can_execute : Purchase an item by defindex
+demo_goto                                                                        : cmd              : release                          : Skips to location in demo.
+demo_gotomark                                                                    : cmd              : release                          : Skips the current demo playback to the marked tick
+demo_gototick                                                                    : cmd              : release                          : Skips to a tick in demo.
+demo_info                                                                        : cmd              : release                          : Print information about currently playing demo.
+demo_marktick                                                                    : cmd              : release                          : Marks the current demo playback tick for later use
+demo_pause                                                                       : cmd              : release                          : Pauses demo playback.
+demo_quitafterplayback                                                           : false            : release                          : Quits game after demo playback.
+demo_resume                                                                      : cmd              : release                          : Resumes demo playback.
+demo_timescale                                                                   : cmd              : release                          : Sets demo replay speed.
+demo_togglepause                                                                 : cmd              : release                          : Toggles demo playback.
+demolist                                                                         : cmd              : release                          : Print demo sequence list.
+demoui                                                                           : cmd              : cl, release                      : Show/hide demo playback ui
+dev_add_onground_on_spawn                                                        : false            : sv, release                      : Should we mess with the ground flag when we spawn? (I don't think we should). If we don't hit the assert in CCSPlayer_MovementServices::ProcessMovement, we should remove this by Dec 2022.
+developer                                                                        : 0                : release                          : Set developer message level.
+differences                                                                      : cmd              : release                          : Show all convars which are not at their default values (optional restricted to specific flags).
+disconnect                                                                       : cmd              : release                          : Disconnect from server
+dota_enable_spatial_audio                                                        : false            : release                          : Flag to enable spatial audio in Dota 2.
+dota_spatial_audio_mix                                                           : 1                : release                          : Mix value to blend spatial and non-spatial audio in Dota 2.
+dump_panorama_css_properties                                                     : cmd              : release                          : Prints out all valid panorama CSS properties and their documentation
+dump_panorama_events                                                             : cmd              : release                          : print panorama event types and their documentation
+dumpparticlelist                                                                 : cmd              : release                          : Print out information on existing particle systems

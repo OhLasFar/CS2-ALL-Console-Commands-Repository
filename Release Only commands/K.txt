@@ -1,0 +1,5 @@
+key_findbinding                                                                  : cmd              : release                          : Find key bound to specified command string.
+key_listboundkeys                                                                : cmd              : release                          : List bound keys with bindings.
+kick                                                                             : cmd              : norecord, release                : Kick a player by name.
+kickid                                                                           : cmd              : norecord, release                : Kick a player by userid or uniqueid, with a message.
+kickid_hltv                                                                      : cmd              : norecord, release                : Kick a player by userid or uniqueid, with a message.

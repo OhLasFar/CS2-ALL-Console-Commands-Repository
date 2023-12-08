@@ -1,0 +1,1 @@
+hud_showtargetid                                                                 : true             : cl, a, per_user                  : Enables display of target names

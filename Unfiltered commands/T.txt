@@ -1,0 +1,82 @@
+teammenu                                                                         : cmd              : cl, server_can_execute           : Show team selection window
+telemetry_message                                                                : cmd              : sv, cheat                        : Place a message in the telemetry timeline
+telemetry_toggle_timespan                                                        : cmd              : sv, cheat                        : Starts/stops a timespan with an ever increasing name.
+Test_CreateEntity                                                                : cmd              : sv, cheat                        : 
+test_dispatcheffect                                                              : cmd              : sv, cheat                        : Test a clientside dispatch effect.  Usage: test_dispatcheffect <effect name> <distance away> <flags> <magnitude> <scale>  Defaults are: <distance 1024> <flags 0> <magnitude 0> <scale 0> 
+Test_EHandle                                                                     : cmd              : sv, cheat                        : 
+test_entity_blocker                                                              : cmd              : sv, cheat                        : Test command that drops an entity blocker out in front of the player.
+Test_ExitProcess                                                                 : cmd              : cheat                            : Test_ExitProcess <exit code> - immediately kill the process.
+test_list_entities                                                               : cmd              : sv, cheat                        : test-list entities
+Test_RandomPlayerPosition                                                        : cmd              : sv, cheat                        : 
+think_limit                                                                      : 0                : sv, cl, rep, release             : Maximum think time in milliseconds, warning is printed if this is exceeded.
+thirdperson                                                                      : cmd              : cl, cheat, execute_per_tick      : Switch to thirdperson camera.
+thirdperson_lockcamera                                                           : false            : cl, rep, cheat                   : 
+thirdperson_mayamode                                                             : cmd              : cl, cheat                        : Switch to thirdperson Maya-like camera controls.
+timedemo                                                                         : cmd              : release                          : Play a demo and report performance info.
+timedemoquit                                                                     : cmd              : release                          : Play a demo, report performance info, and then exit
+timeleft                                                                         : cmd              : sv                               : prints the time remaining in the match
+timeout_ct_start                                                                 : cmd              : sv, release                      : 
+timeout_terrorist_start                                                          : cmd              : sv, release                      : 
+toggle                                                                           : cmd              : norecord, release                : Toggles specified convar value on and off.
+toggleconsole                                                                    : cmd              : norecord, release                : Show/hide the console.
+trusted_launch                                                                   : 0                : cl, a                            : Trusted launch status
+tv_advertise_watchable                                                           : false            : prot, nf, norecord, release      : GOTV advertises the match as watchable via game UI, clients watching via UI will not need to type password
+tv_allow_autorecording_index                                                     : -1               : sv, release                      : When >=0 restricts autorecording only to the specified TV index
+tv_allow_camera_man_steamid                                                      : 0                : sv, release                      : Allows tournament production cameraman to run csgo.exe -interactivecaster on SteamID 7650123456XXX and be the camera man.
+tv_allow_camera_man_steamid2                                                     : 0                : sv, release                      : Allows tournament production tv cameraman to run csgo.exe -interactivecaster on SteamID 7650123456XXX and be the tv camera man.
+tv_allow_static_shots                                                            : true             : sv, release                      : Auto director uses fixed level cameras for shots
+tv_autorecord                                                                    : false            : release                          : Automatically records all games as SourceTV demos.
+tv_autoretry                                                                     : true             : release                          : Relay proxies retry connection after network timeout
+tv_broadcast                                                                     : false            : release                          : Automatically broadcasts all games as GOTV demos through Steam.
+tv_broadcast1                                                                    : false            : release                          : Automatically broadcasts all games as GOTV[1] demos through Steam.
+tv_broadcast_keyframe_interval                                                   : 3                : release                          : The frequency, in seconds, of sending keyframes and delta fragments to the broadcast relay server
+tv_broadcast_keyframe_interval1                                                  : 3                : release                          : The frequency, in seconds, of sending keyframes and delta fragments to the broadcast1 relay server
+tv_broadcast_max_requests                                                        : 20               : release                          : Max number of broadcast http requests in flight. If there is a network issue, the requests may start piling up, degrading server performance. If more than the specified number of requests are in flight, the new requests are dropped.
+tv_broadcast_max_requests1                                                       : 20               : release                          : Max number of broadcast1 http requests in flight. If there is a network issue, the requests may start piling up, degrading server performance. If more than the specified number of requests are in flight, the new requests are dropped.
+tv_broadcast_startup_resend_interval                                             : 10               : release                          : The interval, in seconds, of re-sending startup data to the broadcast relay server (useful in case relay crashes, restarts or startup data http request fails)
+tv_broadcast_status                                                              : cmd              : release                          : Print out broadcast status
+tv_broadcast_url                                                                 : http://localhost:8080 : release                          : URL of the broadcast relay
+tv_broadcast_url1                                                                : http://localhost:8080 : release                          : URL of the broadcast relay1
+tv_chatgroupsize                                                                 : 0                : release                          : Set the default chat group size
+tv_chattimelimit                                                                 : 0.2              : release                          : Limits spectators to chat only every n seconds
+tv_clients                                                                       : cmd              : release                          : Shows list of connected SourceTV clients.
+tv_debug                                                                         : 0                : release                          : SourceTV debug info.
+tv_delay                                                                         : 105              : sv, release                      : SourceTV broadcast delay in seconds
+tv_delaymapchange                                                                : true             : sv, release                      : Delays map change until broadcast is complete
+tv_deltacache                                                                    : 2                : release                          : Enable delta entity bit stream cache
+tv_dispatchmode                                                                  : 1                : release                          : Dispatch clients to relay proxies: 0=never, 1=if appropriate, 2=always
+tv_enable                                                                        : false            : nf, release                      : Activates SourceTV on server.
+tv_enable1                                                                       : false            : nf, release                      : Activates SourceTV[1] on server.
+tv_enable_delta_frames                                                           : true             : release                          : Indicates whether or not the tv should use delta frames for storage of intermediate frames. This takes more CPU but significantly less memory.
+tv_enable_dynamic                                                                : false            : nf, release                      : When enabled, changes in tv_enable convars cause immediate startup or shutdown of hltv server
+tv_listen_voice_indices                                                          : 0                : cl, user                         : Bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_listen_voice_indices_h                                                        : 0                : cl, user                         : High 32 bits of bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_maxclients                                                                    : 128              : release                          : Maximum client number on SourceTV server.
+tv_maxclients_relayreserved                                                      : 0                : release                          : This number of relay client connections are reserved for SourceTV relays.
+tv_maxrate                                                                       : 0                : release                          : Max SourceTV spectator bandwidth rate allowed, 0 == unlimited
+tv_mem                                                                           : cmd              : release                          : hltv memory statistics. Use with 'ent 10' (dump entity 10 memory usage) or 'top 8' (dump top 8 memory users) or 'class' CWorld (dump CWorld class)
+tv_name                                                                          : SourceTV         : release                          : SourceTV host name
+tv_nochat                                                                        : false            : a, user                          : Don't receive chat messages from other SourceTV spectators
+tv_overridemaster                                                                : false            : release                          : Overrides the SourceTV master root address.
+tv_password                                                                      : 0                : prot, nf, norecord, release      : SourceTV password for all clients
+tv_playcast_delay_prediction                                                     : true             : release                          : 
+tv_playcast_delay_resync                                                         : 0                : release                          : To alleviate intermittent network connectivity problems, this is the number of seconds to wait before actually re-syncing the stream after failure
+tv_playcast_retry_timeout                                                        : 12               : release                          : In case of intermittent network problems, how long should playcast retry fragment retrieval before resorting to resync
+tv_port                                                                          : 27020            : release                          : Host SourceTV[0] port
+tv_port1                                                                         : 27021            : release                          : Host SourceTV[1] port
+tv_record                                                                        : cmd              : release                          : Starts SourceTV demo recording.
+tv_record_immediate                                                              : 1                : release                          : tv_record starting the moment tv_record was executed, not tv_delay earlier
+tv_relay                                                                         : cmd              : release                          : Connect to SourceTV server and relay broadcast.
+tv_relaypassword                                                                 : 0                : prot, nf, norecord, release      : SourceTV password for relay proxies
+tv_relayradio                                                                    : false            : sv, release                      : Relay team radio commands to TV: 0=off, 1=on
+tv_relayvoice                                                                    : true             : release                          : Relay voice data: 0=off, 1=on
+tv_retry                                                                         : cmd              : release                          : Reconnects the SourceTV relay proxy.
+tv_show_allchat                                                                  : true             : sv, release                      : 
+tv_spectator_port_offset                                                         : 0                : cl, release                      : 
+tv_status                                                                        : cmd              : release                          : Show SourceTV server status.
+tv_stop                                                                          : cmd              : release                          : Stops the SourceTV broadcast.
+tv_stoprecord                                                                    : cmd              : release                          : Stops SourceTV demo recording.
+tv_time_remaining                                                                : cmd              : sv, release                      : Print remaining tv broadcast time
+tv_timeout                                                                       : 20               : release                          : SourceTV connection timeout in seconds.
+tv_title                                                                         : SourceTV         : release                          : Set title for SourceTV spectator UI
+tv_transmitall                                                                   : false            : rep, release                     : Transmit all entities (not only director view)

@@ -1,0 +1,52 @@
+ui_deepstats_radio_heat_figurine                                                 : 0                : cl, a, release                   : 
+ui_deepstats_radio_heat_tab                                                      : 0                : cl, a, release                   : 
+ui_deepstats_radio_heat_team                                                     : 0                : cl, a, release                   : 
+ui_deepstats_toplevel_mode                                                       : 0                : cl, a, release                   : 
+ui_inventorysettings_recently_acknowledged                                       : 0                : cl, a, release                   : 
+ui_lobby_draft_enabled                                                           : false            : cl, release                      : 
+ui_mainmenu_bkgnd_movie_1016BB11                                                 : de_inferno       : cl, a, release                   : Main menu background movie
+ui_nearbylobbies_filter3                                                         : competitive      : cl, a, release                   : 
+ui_news_last_read_link                                                           : 0                : cl, a, release                   : 
+ui_party_msg_sound_enabled                                                       : true             : cl, release                      : When enabled, lobby messages will play a short sound
+ui_playsettings_custom_preset                                                    : 0                : cl, a, release                   : 
+ui_playsettings_directchallengekey                                               : 0                : cl, a, release                   : 
+ui_playsettings_flags_listen_casual                                              : 0                : cl, a, release                   : 
+ui_playsettings_flags_listen_competitive                                         : 16               : cl, a, release                   : 
+ui_playsettings_flags_listen_cooperative                                         : 0                : cl, a, release                   : 
+ui_playsettings_flags_listen_deathmatch                                          : 32               : cl, a, release                   : 
+ui_playsettings_flags_listen_scrimcomp2v2                                        : 0                : cl, a, release                   : 
+ui_playsettings_flags_listen_skirmish                                            : 0                : cl, a, release                   : 
+ui_playsettings_flags_listen_survival                                            : 0                : cl, a, release                   : 
+ui_playsettings_flags_official_casual                                            : 0                : cl, a, release                   : 
+ui_playsettings_flags_official_competitive                                       : 16               : cl, a, release                   : 
+ui_playsettings_flags_official_cooperative                                       : 0                : cl, a, release                   : 
+ui_playsettings_flags_official_deathmatch                                        : 32               : cl, a, release                   : 
+ui_playsettings_flags_official_scrimcomp2v2                                      : 0                : cl, a, release                   : 
+ui_playsettings_flags_official_skirmish                                          : 0                : cl, a, release                   : 
+ui_playsettings_flags_official_survival                                          : 0                : cl, a, release                   : 
+ui_playsettings_maps_listen_casual                                               : mg_de_nuke       : cl, a, release                   : 
+ui_playsettings_maps_listen_competitive                                          : mg_de_dust2      : cl, a, release                   : 
+ui_playsettings_maps_listen_deathmatch                                           : mg_de_dust2      : cl, a, release                   : 
+ui_playsettings_maps_listen_scrimcomp2v2                                         : mg_de_inferno    : cl, a, release                   : 
+ui_playsettings_maps_listen_skirmish                                             : mg_skirmish_armsrace : cl, a, release                   : 
+ui_playsettings_maps_official_casual                                             : mg_casualdelta   : cl, a, release                   : 
+ui_playsettings_maps_official_deathmatch                                         : mg_dust247       : cl, a, release                   : 
+ui_playsettings_maps_workshop                                                    : 0                : cl, a, release                   : 
+ui_playsettings_mode_listen                                                      : casual           : cl, a, release                   : 
+ui_playsettings_mode_official_v20                                                : casual           : cl, a, release                   : 
+ui_playsettings_survival_solo                                                    : 0                : cl, a, release                   : 
+ui_playsettings_warmup_map_name                                                  : de_mirage        : cl, a, release                   : 
+ui_popup_weaponupdate_version                                                    : 0                : cl, a, release                   : 
+ui_setting_advertiseforhire_auto                                                 : 1                : cl, a, release                   : Whether users will automatically advertise for invites (0: off; 1: last; 2: auto)
+ui_setting_advertiseforhire_auto_last                                            : /competitive     : cl, a, release                   : Which game mode users last used to advertise for invites
+ui_show_subscription_alert                                                       : 0                : cl, a, release                   : 
+ui_show_unlock_competitive_alert                                                 : 1                : cl, a, release                   : 
+ui_steam_overlay_notification_position                                           : topright         : cl, a                            : Steam overlay notification position
+ui_steam_overlay_notification_position_horz                                      : 0                : cl, a                            : Steam overlay notification position horizontal offset
+ui_steam_overlay_notification_position_vert                                      : 0                : cl, a                            : Steam overlay notification position vertical offset
+ui_vanitysetting_loadoutslot_ct                                                  : secondary0       : cl, a, release                   : 
+ui_vanitysetting_loadoutslot_t                                                   : secondary3       : cl, a, release                   : 
+ui_vanitysetting_team                                                            : ct               : cl, a, release                   : 
+unbind                                                                           : cmd              : release                          : Unbind a key.
+unbindall                                                                        : cmd              : release                          : Unbind all keys.
+unpause                                                                          : cmd              : release                          : Clear the pause state of the server.
