@@ -1,0 +1,3 @@
+hostage_debug                                                                    : 0                : sv, cl, rep, cheat               : Show hostage AI debug information
+hostage_is_silent                                                                : false            : sv, cl, rep, cheat               : When set, the hostage won't play any code driven response rules lines
+hurtme                                                                           : cmd              : sv, cheat                        : Hurts the player.  Arguments: <health to lose>

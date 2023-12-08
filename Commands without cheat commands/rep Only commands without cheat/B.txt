@@ -1,0 +1,9 @@
+bot_debug                                                                        : 0                : sv, rep, cheat                   : For internal testing purposes.
+bot_debug_target                                                                 : 0                : sv, rep, cheat                   : For internal testing purposes.
+bot_dont_shoot                                                                   : false            : sv, rep, cheat, release          : If nonzero, bots will not fire weapons (for debugging).
+bot_ignore_enemies                                                               : false            : sv, rep, cheat                   : If nonzero, bots will ignore enemies (for debugging).
+bot_mimic                                                                        : 0                : sv, cl, rep, cheat               : Bot uses usercmd of player by index.
+bot_show_nav                                                                     : false            : sv, rep, cheat                   : For internal testing purposes.
+bot_stop                                                                         : 0                : sv, rep, cheat                   : bot_stop <1|all> | <not_bomber> | <t> | <ct>
+bot_traceview                                                                    : 0                : sv, rep, cheat                   : For internal testing purposes.
+bot_zombie                                                                       : false            : sv, rep, cheat                   : If nonzero, bots will stay in idle mode and not attack.

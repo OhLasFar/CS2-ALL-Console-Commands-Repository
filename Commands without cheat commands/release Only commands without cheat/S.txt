@@ -1,0 +1,7 @@
+snd_use_baked_occlusion                                                          : 0                : rep, cheat, release              : 
+sv_debug_overlays_broadcast                                                      : false            : nf, cheat, release               : Broadcast server debug overlays
+sv_infinite_ammo                                                                 : 0                : sv, cl, rep, cheat, release      : Player's active weapon will never run out of ammo
+sv_memlimit                                                                      : 0                : cheat, release                   : If set, whenever a game ends, if the total memory used by the server is greater than this # of megabytes, the server will exit.
+sv_turning_inaccuracy_angle_min                                                  : 4                : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_decay                                                      : 0.8              : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_enabled                                                    : false            : sv, cl, rep, cheat, release      : 

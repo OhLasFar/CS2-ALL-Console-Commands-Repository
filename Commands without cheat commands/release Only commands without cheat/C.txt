@@ -1,0 +1,11 @@
+cl_avatar_convert_png                                                            : cmd              : cl, cheat, release               : Converts all rgb avatars in the avatars directory to png
+cl_avatar_convert_rgb                                                            : cmd              : cl, cheat, release               : Converts all png avatars in the avatars directory to rgb
+cl_dangerzone_approaching_sound_radius                                           : 700              : cl, cheat, release               : 
+cl_dangerzone_moving_sound_volume                                                : 0.5              : cl, cheat, release               : 
+cl_dangerzone_sound_volume                                                       : 0.2              : cl, cheat, release               : 
+cl_paintkit_override                                                             : 0                : cl, cheat, release               : 
+cl_player_ragdolls_collide                                                       : false            : cl, cheat, release               : 
+cl_showpos                                                                       : 0                : cl, cheat, release               : Draw current position at top of screen
+cl_wallbang_heavy_threshold                                                      : 22               : cl, cheat, release               : The Threshold where to switch from Light to Heavy Wallbang tracer
+cl_weapon_debug_show_accuracy                                                    : 0                : cl, cheat, release               : Draws a circle representing the effective range with every shot.
+cl_weapon_debug_show_accuracy_duration                                           : 10               : cl, cheat, release               : 

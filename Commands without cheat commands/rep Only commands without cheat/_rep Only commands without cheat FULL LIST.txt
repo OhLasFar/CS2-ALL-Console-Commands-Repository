@@ -1,0 +1,118 @@
+ai_debug_shoot_positions                                                         : 0                : sv, cl, rep, cheat               : 
+ai_disabled                                                                      : false            : sv, cl, rep, cheat               : 
+animgraph_debug                                                                  : false            : sv, cl, rep, cheat               : Debug animation graph
+animgraph_debug_entindex                                                         : 0                : sv, cl, rep, cheat               : The entity to specifically debug
+animgraph_record_all                                                             : false            : sv, cl, rep, cheat               : Automatically start recording AnimGraphs when they get created, and save them to disk when they are destroyed
+animgraph_slope_draw_raycasts                                                    : false            : sv, cl, rep, cheat               : 
+animgraph_slope_enable                                                           : true             : sv, cl, rep, cheat               : 
+animgraph_trace_static_only                                                      : false            : sv, cl, rep, cheat               : 
+bot_debug                                                                        : 0                : sv, rep, cheat                   : For internal testing purposes.
+bot_debug_target                                                                 : 0                : sv, rep, cheat                   : For internal testing purposes.
+bot_dont_shoot                                                                   : false            : sv, rep, cheat, release          : If nonzero, bots will not fire weapons (for debugging).
+bot_ignore_enemies                                                               : false            : sv, rep, cheat                   : If nonzero, bots will ignore enemies (for debugging).
+bot_mimic                                                                        : 0                : sv, cl, rep, cheat               : Bot uses usercmd of player by index.
+bot_show_nav                                                                     : false            : sv, rep, cheat                   : For internal testing purposes.
+bot_stop                                                                         : 0                : sv, rep, cheat                   : bot_stop <1|all> | <not_bomber> | <t> | <ct>
+bot_traceview                                                                    : 0                : sv, rep, cheat                   : For internal testing purposes.
+bot_zombie                                                                       : false            : sv, rep, cheat                   : If nonzero, bots will stay in idle mode and not attack.
+cl_player_proximity_debug                                                        : false            : cl, rep, cheat                   : 
+cl_ragdoll_lru_debug                                                             : false            : cl, rep, cheat                   : 
+cl_skel_constraints_enable                                                       : true             : rep, cheat                       : 
+cl_weapon_clip_thinwalls                                                         : true             : cl, rep, cheat                   : 
+cl_weapon_clip_thinwalls_debug                                                   : false            : cl, rep, cheat                   : 
+cl_weapon_clip_thinwalls_lock                                                    : false            : cl, rep, cheat                   : 
+cv_bot_ai_bt_debug_target                                                        : -1               : sv, rep, cheat                   : Draw the behavior tree of the given bot.
+cv_bot_ai_bt_hiding_spot_show                                                    : false            : sv, rep, cheat                   : Draw hiding spots.
+cv_bot_ai_bt_moveto_show_next_hiding_spot                                        : false            : sv, rep, cheat                   : Draw the hiding spot the bot will check next.
+ent_actornames_font                                                              : Consolas         : sv, cl, rep, cheat               : ent_actornames font name
+ent_actornames_fontsize                                                          : 24               : sv, cl, rep, cheat               : ent_actornames font size
+ent_messages_draw                                                                : false            : sv, cl, rep, cheat               : Visualizes all entity input/output activity.
+ent_skeleton_duration                                                            : 0                : sv, cl, rep, cheat               : Duration of ent_skeleton display
+entity_log_load_unserialize                                                      : 0                : sv, cl, rep, cheat               : Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
+fish_dormant                                                                     : false            : sv, rep, cheat                   : Turns off interactive fish behavior. Fish become immobile and unresponsive.
+glow_use_tolerance                                                               : 0.85             : cl, rep, cheat                   : 
+host_timescale                                                                   : 1                : rep, cheat                       : Prescale the clock by this amount.
+hostage_debug                                                                    : 0                : sv, cl, rep, cheat               : Show hostage AI debug information
+hostage_is_silent                                                                : false            : sv, cl, rep, cheat               : When set, the hostage won't play any code driven response rules lines
+ik_debug_chain_to_filter_by                                                      : 0                : sv, cl, rep, cheat               : 
+ik_hinge_debug_bone_index                                                        : -1               : sv, cl, rep, cheat               : 
+labelled_debug_helper_arc_segments                                               : 20               : sv, cl, rep, cheat               : 
+labelled_debug_helper_enabled                                                    : true             : sv, cl, rep, cheat               : 
+labelled_debug_helper_scale                                                      : 1                : sv, cl, rep, cheat               : 
+labelled_debug_helper_show_position                                              : false            : sv, cl, rep, cheat               : 
+labelled_debug_helper_show_text                                                  : true             : sv, cl, rep, cheat               : 
+labelled_debug_helper_skeleton_show_bone_names                                   : true             : sv, cl, rep, cheat               : 
+lightquery_debug_direct_lighting                                                 : true             : sv, cl, rep, cheat               : 
+lightquery_debug_indirect_lighting                                               : true             : sv, cl, rep, cheat               : 
+logic_npc_counter_debug                                                          : false            : sv, rep, cheat                   : 
+mesh_calculate_curvature_smooth_invert                                           : false            : sv, cl, rep, cheat               : 
+mesh_calculate_curvature_smooth_pass_count                                       : 3                : sv, cl, rep, cheat               : 
+mesh_calculate_curvature_smooth_weight                                           : 1                : sv, cl, rep, cheat               : 
+phys_dynamic_scaling                                                             : true             : sv, cl, rep, cheat               : 
+phys_visualize_traces                                                            : false            : sv, cl, rep, cheat               : 
+player_use_radius                                                                : 80               : sv, cl, rep, cheat               : 
+ r_AirboatViewDampenDamp                                                          : 1                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewDampenFreq                                                          : 7                : sv, cl, nf, rep, cheat           : 
+r_AirboatViewZHeight                                                             : 0                : sv, cl, nf, rep, cheat           : 
+r_flashlightbrightness                                                           : 1                : cl, rep, cheat                   : 
+r_flashlightconstant                                                             : 0                : cl, rep, cheat                   : 
+r_flashlightfar                                                                  : 1500             : cl, rep, cheat                   : 
+r_flashlightfov                                                                  : 53               : cl, rep, cheat                   : 
+r_flashlightlinear                                                               : 100              : cl, rep, cheat                   : 
+r_flashlightnear                                                                 : 4                : cl, rep, cheat                   : 
+r_flashlightoffsetforward                                                        : 0                : cl, rep, cheat                   : 
+r_flashlightoffsetright                                                          : 5                : cl, rep, cheat                   : 
+r_flashlightoffsetup                                                             : -5               : cl, rep, cheat                   : 
+r_flashlightquadratic                                                            : 0                : cl, rep, cheat                   : 
+r_JeepViewDampenDamp                                                             : 1                : sv, cl, nf, rep, cheat           : 
+r_JeepViewDampenFreq                                                             : 7                : sv, cl, nf, rep, cheat           : 
+r_JeepViewZHeight                                                                : 10               : sv, cl, nf, rep, cheat           : 
+r_muzzleflashbrightness                                                          : 0.4              : cl, rep, cheat                   : 
+r_muzzleflashlinear                                                              : 0.05             : cl, rep, cheat                   : 
+ragdoll_friction_scale                                                           : 0.6              : sv, cl, rep, cheat               : 
+ragdoll_gravity_scale                                                            : 1                : sv, cl, rep, cheat               : 
+ragdoll_lru_debug_removal                                                        : false            : sv, cl, rep, cheat               : 
+ragdoll_lru_min_age                                                              : 10               : sv, cl, rep, cheat               : 
+recast_mark_overhang                                                             : true             : rep, cheat                       : Enable/disable overhang detection
+recast_partitioning                                                              : 0                : rep, cheat                       : 0 = watershed, 1 = monotone, 2 = layers
+shatterglass_cleanup                                                             : true             : sv, cl, rep, cheat               : 
+shatterglass_cleanup_max                                                         : 150              : sv, cl, rep, cheat               : 
+shatterglass_debug                                                               : false            : sv, cl, rep, cheat               : 
+shatterglass_distort                                                             : true             : sv, cl, rep, cheat               : 
+shatterglass_edge_uv_scale                                                       : 0.05             : sv, cl, rep, cheat               : 
+shatterglass_hit_tolerance                                                       : 2                : sv, cl, rep, cheat               : 
+shatterglass_shard_lifetime                                                      : 15               : sv, cl, rep, cheat               : 
+shatterglass_subdiv_size                                                         : 1.5              : sv, cl, rep, cheat               : 
+shatterglass_voronoi_size                                                        : 15               : sv, cl, rep, cheat               : 
+skel_constraints_enable                                                          : true             : rep, cheat                       : 
+skeleton_instance_scaleset_enable                                                : true             : sv, cl, rep, cheat               : 
+snd_break_on_start_soundevent                                                    : 0                : sv, cl, rep, cheat               : Use to debug break on any soundevent that is started matching this name
+snd_occlusion_bounces                                                            : 1                : rep, cheat                       : 
+snd_occlusion_debug                                                              : false            : sv, cl, rep, cheat               : 
+snd_occlusion_min_wall_thickness                                                 : 4                : rep, cheat                       : 
+snd_occlusion_rays                                                               : 4                : rep, cheat                       : 
+snd_opvar_set_point_debug                                                        : false            : sv, cl, rep, cheat               : 
+snd_rear_stereo_scale                                                            : 1                : rep, cheat                       : 
+snd_sos_calc_angle_debug                                                         : false            : rep, cheat                       : 
+snd_sound_areas_debug                                                            : false            : cl, rep, cheat                   : 
+snd_sound_areas_debug_interval                                                   : 0.2              : cl, rep, cheat                   : 
+snd_use_baked_occlusion                                                          : 0                : rep, cheat, release              : 
+sv_infinite_ammo                                                                 : 0                : sv, cl, rep, cheat, release      : Player's active weapon will never run out of ammo
+sv_ladder_slack_z_mult                                                           : 0.026            : sv, cl, rep, cheat               : Difference in Z increases toward the middle of the slack ladder. 
+sv_noclipduringpause                                                             : false            : sv, cl, rep, cheat               : If cheats are enabled, then you can noclip with the game paused (for doing screenshots, etc.).
+sv_pushaway_hostage_force                                                        : 20000            : sv, rep, cheat                   : How hard the hostage is pushed away from physics objects (falls off with inverse square of distance).
+sv_pushaway_max_hostage_force                                                    : 1000             : sv, rep, cheat                   : Maximum of how hard the hostage is pushed away from physics objects.
+sv_ragdoll_lru_debug                                                             : false            : sv, rep, cheat                   : 
+sv_server_verify_blood_on_player                                                 : true             : sv, cl, rep, cheat               : 
+sv_show_move_collisions                                                          : false            : sv, cl, rep, cheat               : Enable this to visualize collisions between player and geometry.
+sv_showhitregistration                                                           : 0                : sv, cl, rep, cheat               : Display lag_compensated hitboxes. 0 = off, 1 = server only, 2 = client only, 3 = both server and client
+sv_skel_constraints_enable                                                       : false            : rep, cheat                       : 
+sv_turning_inaccuracy_angle_min                                                  : 4                : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_decay                                                      : 0.8              : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_enabled                                                    : false            : sv, cl, rep, cheat, release      : 
+sv_update_animgraph_movement_in_finish                                           : true             : sv, cl, rep, cheat               : Whether we should update animgraph movement in FinishMove.
+thirdperson_lockcamera                                                           : false            : cl, rep, cheat                   : 
+view_punch_decay                                                                 : 18               : sv, cl, rep, cheat, release      : Decay factor exponent for view punch
+weapon_accuracy_reset_on_deploy                                                  : false            : sv, cl, rep, cheat, release      : On deploy, forcibly reset weapon accuracy to zero.
+weapon_near_empty_sound                                                          : true             : sv, cl, rep, cheat               : 
+weapon_sound_falloff_multiplier                                                  : 1                : sv, cl, rep, cheat, release      : Scaling for falloff of weapon firing sounds

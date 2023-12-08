@@ -1,0 +1,5 @@
+g_debug_angularsensor                                                            : false            : sv, cheat                        : 
+g_debug_constraint_sounds                                                        : false            : sv, cheat                        : Enable debug printing about constraint sounds.
+givecurrentammo                                                                  : cmd              : sv, cheat                        : Give a supply of ammo for current weapon.. 
+global_set                                                                       : cmd              : sv, cheat                        : global_set <globalname> <state>: Sets the state of the given env_global (0 = OFF, 1 = ON, 2 = DEAD).
+god                                                                              : cmd              : sv, cheat                        : Toggle by default, or 0 to disable and 1 to enable. Player becomes invulnerable.

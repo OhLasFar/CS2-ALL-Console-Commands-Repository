@@ -1,0 +1,14 @@
+ai_debug_dyninteractions                                                         : 0                : sv, cheat                        : Debug the NPC dynamic interaction system.
+ai_debug_los                                                                     : 0                : sv, cheat                        : NPC Line-Of-Sight debug mode. If 1, solid entities that block NPC LOC will be highlighted with white bounding boxes. If 2, it'll show non-solid entities that would do it if they were solid.
+ai_debug_off_nav                                                                 : false            : sv, cheat                        : 
+ai_debug_shoot_positions                                                         : 0                : sv, cl, rep, cheat               : 
+ai_disabled                                                                      : false            : sv, cl, rep, cheat               : 
+ai_show_current_nav                                                              : false            : sv, cheat                        : 
+animevents_dump                                                                  : cmd              : sv, cheat                        : List all the currently registered anim events. 
+animgraph_debug                                                                  : false            : sv, cl, rep, cheat               : Debug animation graph
+animgraph_debug_entindex                                                         : 0                : sv, cl, rep, cheat               : The entity to specifically debug
+animgraph_record_all                                                             : false            : sv, cl, rep, cheat               : Automatically start recording AnimGraphs when they get created, and save them to disk when they are destroyed
+animgraph_slope_draw_raycasts                                                    : false            : sv, cl, rep, cheat               : 
+animgraph_slope_enable                                                           : true             : sv, cl, rep, cheat               : 
+animgraph_trace_static_only                                                      : false            : sv, cl, rep, cheat               : 
+axis                                                                             : cmd              : sv, cheat                        : Draw an axis  Arguments:  x y z pitch yaw roll <lifetime = 10.0> <r g b a> 
