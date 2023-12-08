@@ -1,1 +1,0 @@
-quit                                                                             : cmd              : release, vconsole_set_focus      : Quit the game
