@@ -1,0 +1,4 @@
+debug_entity_outline_highlight                                                   : false            : cl, cheat                        : 
+default_fov                                                                      : 90               : cl, cheat                        : 
+dlight_debug                                                                     : cmd              : cl, cheat                        : Creates a dlight in front of the player
+dump_entity_report                                                               : cmd              : cl, cheat                        : List all client-side entities in the scene

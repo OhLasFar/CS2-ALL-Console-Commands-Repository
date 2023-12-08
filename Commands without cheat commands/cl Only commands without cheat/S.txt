@@ -1,0 +1,35 @@
+shake_stop                                                                       : cmd              : cl, cheat                        : Stops all active screen shakes. 
+shake_testpunch                                                                  : cmd              : cl, cheat                        : Test a punch-style screen shake. 
+shatterglass_cleanup                                                             : true             : sv, cl, rep, cheat               : 
+shatterglass_cleanup_max                                                         : 150              : sv, cl, rep, cheat               : 
+shatterglass_debug                                                               : false            : sv, cl, rep, cheat               : 
+shatterglass_distort                                                             : true             : sv, cl, rep, cheat               : 
+shatterglass_edge_uv_scale                                                       : 0.05             : sv, cl, rep, cheat               : 
+shatterglass_hit_tolerance                                                       : 2                : sv, cl, rep, cheat               : 
+shatterglass_shard_lifetime                                                      : 15               : sv, cl, rep, cheat               : 
+shatterglass_subdiv_size                                                         : 1.5              : sv, cl, rep, cheat               : 
+shatterglass_voronoi_size                                                        : 15               : sv, cl, rep, cheat               : 
+show_visibility_boxes                                                            : false            : cl, cheat                        : Enable or Disable debug display of visibility boxes
+skeleton_instance_scaleset_enable                                                : true             : sv, cl, rep, cheat               : 
+snd_break_on_start_soundevent                                                    : 0                : sv, cl, rep, cheat               : Use to debug break on any soundevent that is started matching this name
+snd_mainmenu_music_break_time_max                                                : 0                : cl, cheat                        : Maximum amount of time to pause between playing main menu music
+snd_mainmenu_music_break_time_min                                                : 0                : cl, cheat                        : Minimum amount of time to pause between playing main menu music
+snd_occlusion_debug                                                              : false            : sv, cl, rep, cheat               : 
+snd_opvar_set_point_debug                                                        : false            : sv, cl, rep, cheat               : 
+snd_sound_areas_debug                                                            : false            : cl, rep, cheat                   : 
+snd_sound_areas_debug_interval                                                   : 0.2              : cl, rep, cheat                   : 
+soundscape_dumpclient                                                            : cmd              : cl, cheat                        : Dumps the client's soundscape data. 
+soundscape_fadetime                                                              : 3                : cl, cheat                        : Time to crossfade sound effects between soundscapes
+soundscape_radius_debug                                                          : false            : cl, cheat                        : Prints current volume of radius sounds
+spec_pos                                                                         : cmd              : cl, cheat                        : dump position and angles to the console
+stopsoundscape                                                                   : cmd              : cl, cheat                        : Stops all soundscape processing and fades current looping sounds
+sv_infinite_ammo                                                                 : 0                : sv, cl, rep, cheat, release      : Player's active weapon will never run out of ammo
+sv_ladder_slack_z_mult                                                           : 0.026            : sv, cl, rep, cheat               : Difference in Z increases toward the middle of the slack ladder. 
+sv_noclipduringpause                                                             : false            : sv, cl, rep, cheat               : If cheats are enabled, then you can noclip with the game paused (for doing screenshots, etc.).
+sv_server_verify_blood_on_player                                                 : true             : sv, cl, rep, cheat               : 
+sv_show_move_collisions                                                          : false            : sv, cl, rep, cheat               : Enable this to visualize collisions between player and geometry.
+sv_showhitregistration                                                           : 0                : sv, cl, rep, cheat               : Display lag_compensated hitboxes. 0 = off, 1 = server only, 2 = client only, 3 = both server and client
+sv_turning_inaccuracy_angle_min                                                  : 4                : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_decay                                                      : 0.8              : sv, cl, rep, cheat, release      : 
+sv_turning_inaccuracy_enabled                                                    : false            : sv, cl, rep, cheat, release      : 
+sv_update_animgraph_movement_in_finish                                           : true             : sv, cl, rep, cheat               : Whether we should update animgraph movement in FinishMove.

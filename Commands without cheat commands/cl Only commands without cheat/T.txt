@@ -1,0 +1,3 @@
+thirdperson                                                                      : cmd              : cl, cheat, execute_per_tick      : Switch to thirdperson camera.
+thirdperson_lockcamera                                                           : false            : cl, rep, cheat                   : 
+thirdperson_mayamode                                                             : cmd              : cl, cheat                        : Switch to thirdperson Maya-like camera controls.
