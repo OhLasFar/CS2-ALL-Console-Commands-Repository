@@ -1,0 +1,1 @@
+view_punch_decay                                                                 : 18               : sv, cl, rep, cheat, release      : Decay factor exponent for view punch

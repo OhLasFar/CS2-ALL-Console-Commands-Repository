@@ -1,0 +1,1 @@
+player_ping_token_cooldown                                                       : 20               : sv, cheat, release               : Cooldown for how long it takes for a player's ping token to refresh allowing them to ping again (they get 5 tokens).

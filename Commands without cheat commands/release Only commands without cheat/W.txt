@@ -1,0 +1,2 @@
+weapon_accuracy_reset_on_deploy                                                  : false            : sv, cl, rep, cheat, release      : On deploy, forcibly reset weapon accuracy to zero.
+weapon_sound_falloff_multiplier                                                  : 1                : sv, cl, rep, cheat, release      : Scaling for falloff of weapon firing sounds

@@ -1,0 +1,1 @@
+bot_dont_shoot                                                                   : false            : sv, rep, cheat, release          : If nonzero, bots will not fire weapons (for debugging).

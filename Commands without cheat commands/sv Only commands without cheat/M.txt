@@ -1,0 +1,11 @@
+map_setbombradius                                                                : cmd              : sv, cheat                        : Sets the bomb radius for the map.
+map_showbombradius                                                               : cmd              : sv, cheat                        : Shows bomb radius from the center of each bomb site and planted bomb.
+markup_group_ent_bbox                                                            : cmd              : sv, cheat                        : markup_group_ent_bbox <markup_group name> -> toggle ent_bbox for all members of the named markup group
+markup_group_ent_text                                                            : cmd              : sv, cheat                        : markup_group_ent_text <markup_group name> -> toggle ent_text for all members of the named markup group
+markup_group_spew                                                                : cmd              : sv, cheat                        : Spew all current markup groups and their members
+mesh_calculate_curvature_smooth_invert                                           : false            : sv, cl, rep, cheat               : 
+mesh_calculate_curvature_smooth_pass_count                                       : 3                : sv, cl, rep, cheat               : 
+mesh_calculate_curvature_smooth_weight                                           : 1                : sv, cl, rep, cheat               : 
+mp_weapon_melee_touch_time_after_hit                                             : 5                : sv, cheat, release               : 
+mp_weapon_next_owner_touch_time                                                  : 1.3              : sv, cheat, release               : 
+mp_weapon_prev_owner_touch_time                                                  : 1.5              : sv, cheat, release               : 

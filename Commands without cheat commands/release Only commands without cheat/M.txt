@@ -1,0 +1,3 @@
+mp_weapon_melee_touch_time_after_hit                                             : 5                : sv, cheat, release               : 
+mp_weapon_next_owner_touch_time                                                  : 1.3              : sv, cheat, release               : 
+mp_weapon_prev_owner_touch_time                                                  : 1.5              : sv, cheat, release               : 
