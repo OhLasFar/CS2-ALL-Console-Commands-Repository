@@ -1,0 +1,2 @@
+rcon_connected_clients_allow                                                     : true             : rep, release                     : Allow clients to use rcon commands on server.
+replay_debug                                                                     : 0                : rep, release                     : 

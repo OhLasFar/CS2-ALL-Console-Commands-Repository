@@ -1,0 +1,15 @@
+mp_autoteambalance                                                               : true             : sv, nf, release                  : 
+mp_buy_anywhere                                                                  : 0                : sv, cl, nf, rep, release         : When set, players can buy anywhere, not only in buyzones. 0 = default. 1 = both teams. 2 = Terrorists. 3 = Counter-Terrorists.
+mp_buy_during_immunity                                                           : 0                : sv, cl, nf, rep, release         : When set, players can buy when immune, ignoring buytime. 0 = default. 1 = both teams. 2 = Terrorists. 3 = Counter-Terrorists.
+mp_c4timer                                                                       : 40               : sv, cl, nf, rep, release         : how long from when the C4 is armed until it blows
+mp_fraglimit                                                                     : 0                : sv, nf, release                  : 
+mp_freezetime                                                                    : 15               : sv, nf, rep, release             : how many seconds to keep players frozen when the round starts
+mp_friendlyfire                                                                  : true             : sv, cl, nf, rep, release         : Allows team members to injure other members of their team
+mp_limitteams                                                                    : 2                : sv, nf, rep, release             : Max # of players 1 team can have over another (0 disables check)
+mp_maxrounds                                                                     : 24               : sv, cl, nf, rep, release         : max number of rounds to play before server changes maps
+mp_roundtime                                                                     : 1.92             : sv, nf, rep, release             : How many minutes each round takes.
+mp_roundtime_defuse                                                              : 1.92             : sv, nf, rep, release             : How many minutes each round of Bomb Defuse takes. If 0 then use mp_roundtime instead.
+mp_roundtime_hostage                                                             : 1.92             : sv, nf, rep, release             : How many minutes each round of Hostage Rescue takes. If 0 then use mp_roundtime instead.
+mp_team_intro_time                                                               : 6.5              : sv, nf, rep, release             : How many seconds for team intro
+mp_teammates_are_enemies                                                         : false            : sv, cl, nf, rep, release         : When set, your teammates act as enemies and all players are valid targets.
+mp_timelimit                                                                     : 0                : sv, cl, nf, rep, release         : game time per map in minutes

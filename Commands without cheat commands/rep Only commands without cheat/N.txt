@@ -1,0 +1,1 @@
+nextmode                                                                         : 0                : sv, nf, rep, release             : Sets the game mode to be played when the next level loads

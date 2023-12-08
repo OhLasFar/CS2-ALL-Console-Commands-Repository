@@ -1,0 +1,5 @@
+toggle                                                                           : cmd              : norecord, release                : Toggles specified convar value on and off.
+toggleconsole                                                                    : cmd              : norecord, release                : Show/hide the console.
+tv_advertise_watchable                                                           : false            : prot, nf, norecord, release      : GOTV advertises the match as watchable via game UI, clients watching via UI will not need to type password
+tv_password                                                                      : 0                : prot, nf, norecord, release      : SourceTV password for all clients
+tv_relaypassword                                                                 : 0                : prot, nf, norecord, release      : SourceTV password for relay proxies

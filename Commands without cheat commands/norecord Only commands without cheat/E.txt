@@ -1,0 +1,2 @@
+exec                                                                             : cmd              : norecord, release                : Execute a cfg file
+execifexists                                                                     : cmd              : norecord, release                : Execute a cfg file if file exists

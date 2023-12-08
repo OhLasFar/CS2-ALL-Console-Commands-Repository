@@ -1,0 +1,1 @@
+vconsole_rcon_server_details                                                     : 0                : norecord, release, server_cant_query : when non-empty allows for easy vconsole connection to the dedicated server.

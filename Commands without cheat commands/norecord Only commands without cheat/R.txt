@@ -1,0 +1,4 @@
+rcon                                                                             : cmd              : norecord, release                : Issue an rcon command.
+rcon_address                                                                     : 0                : norecord, release, server_cant_query : Address of remote server if sending unconnected rcon commands (format x.x.x.x:p) 
+rcon_password                                                                    : 0                : norecord, release, server_cant_query : remote console password.
+record                                                                           : cmd              : norecord, release                : Record a demo.

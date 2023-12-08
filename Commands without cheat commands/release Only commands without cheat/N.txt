@@ -1,0 +1,11 @@
+net_allow_multicast                                                              : true             : a, release                       : 
+net_client_steamdatagram_enable_override                                         : 0                : cl, release                      : 0: Use connect method requested by GC.  >0: Always use SDR if possible.  <0: Always use direct UDP if possible
+net_fakelag                                                                      : cmd              : release                          : Shorthand for 'net_option FakePacketLag_Recv'
+net_option                                                                       : cmd              : release                          : Get or set SteamNetworkingSockets options such as fake packet lag and loss
+net_public_adr                                                                   : 0                : release                          : For servers behind NAT/DHCP meant to be exposed to the public internet, this is the public facing ip address string: ('x.x.x.x' )
+net_showudp                                                                      : false            : release                          : Dump UDP packets summary to console
+net_showudp_remoteonly                                                           : true             : release                          : Dump non-loopback udp only
+nextdemo                                                                         : cmd              : release                          : Play next demo in sequence.
+nextlevel                                                                        : 0                : sv, nf, release                  : If set to a valid map name, will trigger a changelevel to the specified map at the end of the round
+nextmap_print_enabled                                                            : false            : sv, release                      : When enabled prints next map to clients
+nextmode                                                                         : 0                : sv, nf, rep, release             : Sets the game mode to be played when the next level loads

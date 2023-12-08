@@ -1,0 +1,2 @@
+think_limit                                                                      : 0                : sv, cl, rep, release             : Maximum think time in milliseconds, warning is printed if this is exceeded.
+tv_transmitall                                                                   : false            : rep, release                     : Transmit all entities (not only director view)

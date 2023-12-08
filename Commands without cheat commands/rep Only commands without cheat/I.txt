@@ -1,0 +1,4 @@
+inferno_child_spawn_max_depth                                                    : 4                : sv, rep, release                 : 
+inferno_flame_lifetime                                                           : 7                : sv, rep, release                 : Average lifetime of each flame in seconds
+inferno_max_flames                                                               : 16               : sv, rep, release                 : Maximum number of flames that can be created
+inferno_max_range                                                                : 150              : sv, rep, release                 : Maximum distance flames can spread from their initial ignition point

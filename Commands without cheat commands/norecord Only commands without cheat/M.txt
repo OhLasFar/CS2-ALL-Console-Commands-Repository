@@ -1,0 +1,2 @@
+mapgroup                                                                         : cmd              : sv, norecord, release            : Specify a map group
+multvar                                                                          : cmd              : norecord, release                : Multiply specified convar value.

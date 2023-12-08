@@ -1,0 +1,9 @@
+impulse                                                                          : cmd              : cl, release                      : Triggers impulse command
+incrementvar                                                                     : cmd              : norecord, release                : Increment specified convar value.
+inferno_child_spawn_max_depth                                                    : 4                : sv, rep, release                 : 
+inferno_flame_lifetime                                                           : 7                : sv, rep, release                 : Average lifetime of each flame in seconds
+inferno_max_flames                                                               : 16               : sv, rep, release                 : Maximum number of flames that can be created
+inferno_max_range                                                                : 150              : sv, rep, release                 : Maximum distance flames can spread from their initial ignition point
+install_dlc_workshoptools_cvar                                                   : -1               : cl, release                      : DLC Install Status
+ip                                                                               : 0                : release                          : Overrides IP for multihomed hosts
+iv_debugbone                                                                     : 0                : release                          : Debug bone name for interpolation spew of CAnimationState.

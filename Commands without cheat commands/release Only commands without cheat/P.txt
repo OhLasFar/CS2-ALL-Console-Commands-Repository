@@ -1,0 +1,13 @@
+pause                                                                            : cmd              : release                          : Toggle the server pause state.
+playdemo                                                                         : cmd              : release                          : Play a recorded demo file (.dem ).
+player_botdifflast_s                                                             : 2                : cl, a, release                   : 
+print_mapgroup                                                                   : cmd              : cl, release                      : Prints the current mapgroup and the contained maps
+print_mapgroup_sv                                                                : cmd              : sv, release                      : Prints the current mapgroup and the contained maps
+pvs_debugentity                                                                  : -1               : sv, release                      : Verbose spew for this entity when doing IsInPVS computation.
+pvs_flowtype                                                                     : 0                : sv, release                      : Flow through spawn groups for vis (0 == default, 1 == always visible, 2 == never visible.
++quickbuyradial                                                                  : cmd              : cl, release                      : 
+-quickbuyradial                                                                  : cmd              : cl, release                      : 
++quickgrenaderadial                                                              : cmd              : cl, release                      : 
+-quickgrenaderadial                                                              : cmd              : cl, release                      : 
++quickinv                                                                        : cmd              : cl, release                      : 
+-quickinv                                                                        : cmd              : cl, release                      : 

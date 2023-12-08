@@ -1,0 +1,34 @@
+cl_http_log_enable                                                               : false            : cl, norecord, release, clientcmd_can_execute : Allows sending HTTP log from client main menu.
+clear                                                                            : cmd              : norecord, release                : Clear console output.
+clearall                                                                         : cmd              : norecord, release                : Clear console output from all views.
+consoletool                                                                      : cmd              : norecord, release                : Open a VConsole subtool.
+csgo_download_match                                                              : cmd              : cl, norecord, clientcmd_can_execute : Downloads a match via serial code and starts playback
+cyclevar                                                                         : cmd              : norecord, release                : Cycle through specified convar values.
+exec                                                                             : cmd              : norecord, release                : Execute a cfg file
+execifexists                                                                     : cmd              : norecord, release                : Execute a cfg file if file exists
+hideconsole                                                                      : cmd              : norecord, release                : Hide the console.
+incrementvar                                                                     : cmd              : norecord, release                : Increment specified convar value.
+kick                                                                             : cmd              : norecord, release                : Kick a player by name.
+kickid                                                                           : cmd              : norecord, release                : Kick a player by userid or uniqueid, with a message.
+kickid_hltv                                                                      : cmd              : norecord, release                : Kick a player by userid or uniqueid, with a message.
+launch_warmup_map                                                                : cmd              : cl, norecord, clientcmd_can_execute : Launches warmup map
+log_color                                                                        : cmd              : norecord, release                : Set the color of a logging channel.
+log_dumpchannels                                                                 : cmd              : norecord, release                : Dumps information about all logging channels.
+log_flags                                                                        : cmd              : norecord, release                : Set the flags on a logging channel.
+log_level                                                                        : cmd              : norecord, release                : Set the spew level of a logging channel.
+log_verbosity                                                                    : cmd              : norecord, release                : Set the verbosity of a logging channel.
+mapgroup                                                                         : cmd              : sv, norecord, release            : Specify a map group
+multvar                                                                          : cmd              : norecord, release                : Multiply specified convar value.
+password                                                                         : 0                : a, norecord, server_cant_query   : Current server access password
+rcon                                                                             : cmd              : norecord, release                : Issue an rcon command.
+rcon_address                                                                     : 0                : norecord, release, server_cant_query : Address of remote server if sending unconnected rcon commands (format x.x.x.x:p) 
+rcon_password                                                                    : 0                : norecord, release, server_cant_query : remote console password.
+record                                                                           : cmd              : norecord, release                : Record a demo.
+showconsole                                                                      : cmd              : norecord, release                : Show the console.
+sv_password                                                                      : 0                : prot, nf, norecord, release      : Server password for entry into multiplayer games
+toggle                                                                           : cmd              : norecord, release                : Toggles specified convar value on and off.
+toggleconsole                                                                    : cmd              : norecord, release                : Show/hide the console.
+tv_advertise_watchable                                                           : false            : prot, nf, norecord, release      : GOTV advertises the match as watchable via game UI, clients watching via UI will not need to type password
+tv_password                                                                      : 0                : prot, nf, norecord, release      : SourceTV password for all clients
+tv_relaypassword                                                                 : 0                : prot, nf, norecord, release      : SourceTV password for relay proxies
+vconsole_rcon_server_details                                                     : 0                : norecord, release, server_cant_query : when non-empty allows for easy vconsole connection to the dedicated server.

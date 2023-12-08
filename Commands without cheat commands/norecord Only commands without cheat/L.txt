@@ -1,0 +1,6 @@
+launch_warmup_map                                                                : cmd              : cl, norecord, clientcmd_can_execute : Launches warmup map
+log_color                                                                        : cmd              : norecord, release                : Set the color of a logging channel.
+log_dumpchannels                                                                 : cmd              : norecord, release                : Dumps information about all logging channels.
+log_flags                                                                        : cmd              : norecord, release                : Set the flags on a logging channel.
+log_level                                                                        : cmd              : norecord, release                : Set the spew level of a logging channel.
+log_verbosity                                                                    : cmd              : norecord, release                : Set the verbosity of a logging channel.
