@@ -1,0 +1,4 @@
+enable_boneflex                                                                  : true             : cl, a                            : 
+engine_no_focus_sleep                                                            : 20               : a                                : 
+ent_pivot_size                                                                   : 20               : sv, a, cheat                     : 
+ent_text_flags_active                                                            : -1               : sv, a, cheat                     : 

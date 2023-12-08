@@ -1,0 +1,3 @@
+name                                                                             : мяFunreal      : a, per_user                      : 
+net_allow_multicast                                                              : true             : a, release                       : 
+net_maxroutable                                                                  : 1200             : a, user                          : Requested max packet size before packets are 'split'.

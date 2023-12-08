@@ -1,0 +1,2 @@
+input_button_code_is_scan_code                                                   : true             : a                                : Bind keys based on keyboard position instead of key name
+input_filter_relative_analog_inputs                                              : false            : cl, a                            : 

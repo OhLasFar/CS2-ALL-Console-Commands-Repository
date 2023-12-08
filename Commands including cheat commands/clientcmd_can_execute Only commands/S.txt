@@ -1,0 +1,5 @@
+setinfo                                                                          : cmd              : clientcmd_can_execute            : Adds a new user info value
+show_loadout_toggle                                                              : cmd              : cl, clientcmd_can_execute        : Toggles loadout display
+snd_headphone_eq                                                                 : 0                : cl, a, clientcmd_can_execute     : Select Headphone EQ Preset
+spec_autodirector                                                                : false            : cl, clientcmd_can_execute        : Auto-director chooses best view modes while spectating
+spec_hide_players                                                                : false            : cl, release, clientcmd_can_execute : Toggle the visibility of scoreboard players.

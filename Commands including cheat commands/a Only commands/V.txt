@@ -1,0 +1,14 @@
+viewmodel_fov                                                                    : 60               : cl, a                            : Viewmodel FOV
+viewmodel_offset_x                                                               : 1                : cl, a                            : viewmodel_offset_x
+viewmodel_offset_y                                                               : 1                : cl, a                            : viewmodel_offset_y
+viewmodel_offset_z                                                               : -1               : cl, a                            : viewmodel_offset_z
+viewmodel_presetpos                                                              : 1                : cl, a                            : 1:'Desktop', 2:'Couch', 3:'Classic' 
+violence_ablood                                                                  : true             : a                                : Draw alien blood
+violence_agibs                                                                   : true             : a                                : Show alien gib entities
+violence_hblood                                                                  : true             : a                                : Draw human blood
+violence_hgibs                                                                   : true             : a                                : Show human gib entities
+voice_always_sample_mic                                                          : false            : a                                : For systems experiencing a hang/stall when using voice chat.
+voice_modenable                                                                  : true             : cl, a, release, clientcmd_can_execute : Enable/disable voice in this mod.
+voice_threshold                                                                  : 4000             : cl, a                            : 
+voice_vox                                                                        : 0                : cl, a, per_user                  : Voice chat uses a vox-style always on
+volume                                                                           : 0.134001         : a                                : Sound volume

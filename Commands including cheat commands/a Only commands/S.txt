@@ -1,0 +1,54 @@
+safezonex                                                                        : 1                : cl, a                            : The percentage of the screen width that is considered safe from overscan. Cannot result in a width less than the height.
+safezoney                                                                        : 1                : cl, a                            : The percentage of the screen height that is considered safe from overscan
+sensitivity                                                                      : 2.5              : cl, a, per_user                  : Mouse sensitivity.
+sk_autoaim_mode                                                                  : 1                : sv, cl, a, rep                   : 
+skill                                                                            : 1                : sv, cl, a, rep, per_user         : Game skill level.
+snd_autodetect_latency                                                           : true             : a                                : 
+snd_deathcamera_volume                                                           : 0.16             : cl, a, release                   : Volume of Deathcam Timers
+snd_duckerattacktime                                                             : 0.5              : a                                : 
+snd_duckerreleasetime                                                            : 2.5              : a                                : 
+snd_duckerthreshold                                                              : 0.15             : a                                : 
+snd_ducktovolume                                                                 : 0.55             : a                                : 
+snd_gain                                                                         : 1                : a                                : 
+snd_gamevoicevolume                                                              : 1                : a                                : Game v.o. volume
+snd_gamevolume                                                                   : 1                : a                                : Game volume
+snd_headphone_eq                                                                 : 0                : cl, a, clientcmd_can_execute     : Select Headphone EQ Preset
+snd_mapobjective_volume                                                          : 0.04             : cl, a, release                   : Volume of Map Objective Music
+snd_menumusic_volume                                                             : 0.04             : cl, a, release                   : Volume of Menu / Non-gameplay music
+snd_mixahead                                                                     : 0.001            : a                                : 
+snd_musicvolume                                                                  : 1                : a                                : Music volume
+snd_mute_losefocus                                                               : true             : a                                : 
+snd_mute_mvp_music_live_players                                                  : false            : cl, a, release                   : If set, MVP music is muted if players from both teams are still alive.
+snd_mvp_volume                                                                   : 0.16             : cl, a, release                   : Volume of MVP Music
+snd_roundaction_volume                                                           : 0                : cl, a, release                   : Volume of Move Action Music
+snd_roundend_volume                                                              : 0.16             : cl, a, release                   : Volume of Won/Lost Music
+snd_roundstart_volume                                                            : 0                : cl, a, release                   : Volume of Round Start Music
+snd_spatialize_lerp                                                              : 0                : a, release                       : 
+snd_steamaudio_enable_perspective_correction                                     : true             : a, release                       : Enable perspective correction for 3D audio.
+snd_steamaudio_source_pathing_debug                                              : false            : a                                : Enable path visualization for steam_audio_source operator.
+snd_tensecondwarning_volume                                                      : 0.04             : cl, a, release                   : Volume of Ten Second Warnings
+snd_toolvolume                                                                   : 1                : a                                : Volume of sounds in tools (e.g. Hammer, SFM)
+snd_voipvolume                                                                   : 1                : a                                : Voice volume
+sound_device_override                                                            : 0                : a, release                       : ID of the sound device to use
+speaker_config                                                                   : -1               : a                                : 
+spec_centerchasecam                                                              : false            : cl, a                            : Looks at the target player's center, instead of his eye position, in chase came mode
+spec_replay_autostart                                                            : true             : cl, a                            : Auto-start Killer Replay when available
+spec_show_xray                                                                   : 1                : cl, a, release                   : If set to 1, you can see player outlines and name IDs through walls - who you can see depends on your team and mode
+spec_usenumberkeys_nobinds                                                       : true             : cl, a                            : If set to 1, map voting and spectator view use the raw number keys instead of the weapon binds (slot1, slot2, etc).
+splitscreen_mode                                                                 : 0                : a                                : 
+sv_log_onefile                                                                   : false            : a, release                       : Log server information to only one file.
+sv_logbans                                                                       : false            : a, release                       : Log server bans in the server logs.
+sv_logecho                                                                       : true             : a, release                       : Echo log information to the console.
+sv_logfile                                                                       : false            : a, release                       : Log server information in the log file.
+sv_logflush                                                                      : false            : a, release                       : Flush the log file to disk on each write (slow).
+sv_logsdir                                                                       : logs             : a, release                       : Folder in the game directory where server logs will be stored.
+sv_noclipaccelerate                                                              : 5                : sv, cl, a, nf, rep               : 
+sv_noclipfriction                                                                : 4                : sv, cl, a, nf, rep               : Friction during noclip move.
+sv_noclipspeed                                                                   : 1200             : sv, cl, a, nf, rep               : 
+sv_pause_on_console_open                                                         : false            : a                                : 1 = Pause the game when pressing ~ to open the console. CTRL+~ opens the console without pause.
+sv_skyname                                                                       : sky_urb01        : sv, cl, a, rep                   : Current name of the skybox texture
+sv_specaccelerate                                                                : 5                : sv, cl, a, nf, rep               : 
+sv_specnoclip                                                                    : true             : sv, cl, a, nf, rep               : 
+sv_specspeed                                                                     : 1200             : sv, cl, a, nf, rep               : 
+sv_unlockedchapters                                                              : 1                : a                                : Highest unlocked game chapter.
+sv_voiceenable                                                                   : true             : a, nf, release                   : 

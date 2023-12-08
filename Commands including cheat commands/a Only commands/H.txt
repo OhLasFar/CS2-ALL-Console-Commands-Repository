@@ -1,0 +1,3 @@
+hud_fastswitch                                                                   : 0                : cl, a                            : 
+hud_scaling                                                                      : 1                : cl, a                            : Scales hud elements
+hud_showtargetid                                                                 : true             : cl, a, per_user                  : Enables display of target names

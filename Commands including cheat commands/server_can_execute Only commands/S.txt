@@ -1,0 +1,14 @@
+slot0                                                                            : cmd              : cl, server_can_execute           : 
+slot1                                                                            : cmd              : cl, server_can_execute           : 
+slot10                                                                           : cmd              : cl, server_can_execute           : 
+slot11                                                                           : cmd              : cl, server_can_execute           : 
+slot12                                                                           : cmd              : cl, server_can_execute           : 
+slot13                                                                           : cmd              : cl, server_can_execute           : 
+slot2                                                                            : cmd              : cl, server_can_execute           : 
+slot3                                                                            : cmd              : cl, server_can_execute           : 
+slot4                                                                            : cmd              : cl, server_can_execute           : 
+slot5                                                                            : cmd              : cl, server_can_execute           : 
+slot6                                                                            : cmd              : cl, server_can_execute           : 
+slot7                                                                            : cmd              : cl, server_can_execute           : 
+slot8                                                                            : cmd              : cl, server_can_execute           : 
+slot9                                                                            : cmd              : cl, server_can_execute           : 

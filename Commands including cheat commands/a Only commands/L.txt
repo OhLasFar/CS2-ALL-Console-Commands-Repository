@@ -1,0 +1,2 @@
+lobby_default_privacy_bits2                                                      : 0                : cl, a, release                   : Lobby default permissions (0: private, 1: public)
+lockMoveControllerRet                                                            : false            : cl, a                            : 

@@ -1,0 +1,3 @@
+exec                                                                             : cmd              : norecord, release                : Execute a cfg file
+exec_async                                                                       : cmd              : cheat, norecord                  : Execute a cfg file over time
+execifexists                                                                     : cmd              : norecord, release                : Execute a cfg file if file exists

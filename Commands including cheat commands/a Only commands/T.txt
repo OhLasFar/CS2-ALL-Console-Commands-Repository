@@ -1,0 +1,2 @@
+trusted_launch                                                                   : 0                : cl, a                            : Trusted launch status
+tv_nochat                                                                        : false            : a, user                          : Don't receive chat messages from other SourceTV spectators

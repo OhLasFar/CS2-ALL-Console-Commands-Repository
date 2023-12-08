@@ -1,0 +1,30 @@
+cl_autohelp                                                                      : true             : cl, a, user                      : Auto-help
+cl_color                                                                         : 1                : cl, a, user                      : Preferred teammate color
+cl_cq_min_queue                                                                  : 0                : cl, user                         : Allows client to disable (=-1), defer to server (=0), or request a certain min-command queue size for games that support the command queue (IsUsingCommandQueue()) for CUserCmds.
+cl_debounce_zoom                                                                 : true             : cl, a, user, per_user            : Whether or not to disable holding secondary fire to cycle zoom levels
+cl_invites_only_mainmenu                                                         : false            : cl, a, release                   : If turned on, will ignore all invites when user is playing a match
+cl_lagcompensation                                                               : true             : cl, user                         : Perform server side lag compensation of weapon firing events.
+cl_mouselook                                                                     : true             : cl, a, user, per_user, disconnected : Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.
+cl_predict                                                                       : true             : cl, user, cheat                  : Perform client side prediction.
+cl_predictweapons                                                                : true             : cl, user                         : Perform client side prediction of weapon effects.
+cl_silencer_mode                                                                 : 0                : cl, a, user, per_user            : 0: cannot detach; 1: press secondary fire to detach
+cl_sniper_auto_rezoom                                                            : true             : cl, a, user, per_user            : Auto-rezoom snipers after a shot
+cl_use_opens_buy_menu                                                            : true             : cl, a, user, per_user            : Pressing the +use key will open the buy menu if in a buy zone (just as if you pressed the 'buy' key).
+closecaption                                                                     : false            : cl, a, user                      : Enable close captioning.
+cq_netgraph                                                                      : 0                : cl, user                         : Display command queue statistics on the hud
+english                                                                          : true             : cl, user                         : If set to 1, running the english language set of assets.
+fov_desired                                                                      : 75               : cl, a, user                      : Sets the base field-of-view.
+host_writeconfig                                                                 : cmd              : release                          : Saves out the user config values.
+input_forceuser                                                                  : -1               : cheat                            : Force user input to this split screen player.
+net_maxroutable                                                                  : 1200             : a, user                          : Requested max packet size before packets are 'split'.
+option_duck_method                                                               : false            : cl, a, user, per_user            : Input toggle control
+option_speed_method                                                              : false            : cl, a, user, per_user            : Input toggle control
+rate                                                                             : 786432           : a, user                          : Min bytes/sec the host can receive data
+setinfo                                                                          : cmd              : clientcmd_can_execute            : Adds a new user info value
+sv_invites_only_mainmenu                                                         : false            : sv, cl, rep, release             : If turned on, will ignore all invites when user is playing a match
+sv_jump_spam_penalty_time                                                        : 0.015625         : sv, cl, rep, release             : For subtick jumps, if this much time has elapsed since the last time the user has pressed the jump key, pretend they hadn't. Lowering this makes bunnyhopping easier.
+sv_pure                                                                          : cmd              : release                          : Show user data.
+tv_listen_voice_indices                                                          : 0                : cl, user                         : Bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_listen_voice_indices_h                                                        : 0                : cl, user                         : High 32 bits of bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_nochat                                                                        : false            : a, user                          : Don't receive chat messages from other SourceTV spectators
+voice_loopback                                                                   : false            : user                             : 

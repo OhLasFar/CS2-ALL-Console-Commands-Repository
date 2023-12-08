@@ -1,0 +1,1 @@
+cl_mouselook                                                                     : true             : cl, a, user, per_user, disconnected : Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.

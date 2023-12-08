@@ -1,0 +1,5 @@
+r_fullscreen_gamma                                                               : 2.2              : a                                : Screen Gamma (only in fullscreen modes)
+r_player_visibility_mode                                                         : 1                : cl, a, release                   : 
+r_show_build_info                                                                : true             : cl, a, release                   : Build information. Leave this enabled when submitting bug screenshots and videos, please!
+rate                                                                             : 786432           : a, user                          : Min bytes/sec the host can receive data
+rr_thenany_score_slop                                                            : 0                : sv, a, cheat                     : When computing respondents for a 'THEN ANY' rule, all rule-matching scores within this much of the best score will be considered.

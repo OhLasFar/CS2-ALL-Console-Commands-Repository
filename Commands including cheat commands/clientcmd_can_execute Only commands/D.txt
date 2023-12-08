@@ -1,0 +1,2 @@
+debug_purchase_defidx                                                            : cmd              : cl, release, clientcmd_can_execute : Purchase an item by defindex
+dm_togglerandomweapons                                                           : cmd              : cl, server_can_execute, clientcmd_can_execute : Turns random weapons in deathmatch on/off

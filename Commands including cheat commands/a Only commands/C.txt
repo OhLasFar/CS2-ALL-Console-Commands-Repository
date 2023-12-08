@@ -1,0 +1,152 @@
+c_maxdistance                                                                    : 200              : cl, a                            : 
+c_maxpitch                                                                       : 90               : cl, a                            : 
+c_maxyaw                                                                         : 135              : cl, a                            : 
+c_mindistance                                                                    : 30               : cl, a                            : 
+c_minpitch                                                                       : 0                : cl, a                            : 
+c_minyaw                                                                         : -135             : cl, a                            : 
+c_orthoheight                                                                    : 100              : cl, a                            : 
+c_orthowidth                                                                     : 100              : cl, a                            : 
+c_thirdpersonshoulder                                                            : false            : cl, a                            : 
+c_thirdpersonshoulderaimdist                                                     : 120              : cl, a                            : 
+c_thirdpersonshoulderdist                                                        : 40               : cl, a                            : 
+c_thirdpersonshoulderheight                                                      : 5                : cl, a                            : 
+c_thirdpersonshoulderoffset                                                      : 20               : cl, a                            : 
+cam_collision                                                                    : 1                : cl, a                            : When in thirdperson and cam_collision is set to 1, an attempt is made to keep the camera from passing though walls.
+cam_idealdelta                                                                   : 4                : cl, a                            : Controls the speed when matching offset to ideal angles in thirdperson view
+cam_idealdist                                                                    : 150              : cl, a                            : 
+cam_ideallag                                                                     : 4                : cl, a                            : Amount of lag used when matching offset to ideal angles in thirdperson view
+cam_idealpitch                                                                   : 0                : cl, a                            : 
+cam_idealyaw                                                                     : 0                : cl, a                            : 
+cam_snapto                                                                       : false            : cl, a                            : 
+cc_delay_time                                                                    : 0.25             : cl, a                            : Close caption delay before showing caption.
+cc_lang                                                                          : 0                : cl, a                            : Current close caption language (emtpy = use game UI language)
+cc_linger_time                                                                   : 1                : cl, a                            : Close caption linger time.
+cc_spectator_only                                                                : false            : cl, a                            : 
+cc_subtitles                                                                     : false            : cl, a                            : If set, don't show sound effect captions, just voice overs (i.e., won't help hearing impaired players).
+cc_vr_caption_speed                                                              : 1                : cl, a                            : 0 = slow, 1 = medium (default), 2 = fast
+cc_vr_font_size                                                                  : 1                : cl, a                            : 0 = small, 1 = med (default), 2 = large
+cc_vr_width                                                                      : 1                : cl, a                            : 0 = narrow, 1 = med (default), 2 = wide
+cl_allow_animated_avatars                                                        : true             : cl, a, release                   : Whether or not to allow animated avatars
+cl_auto_cursor_scale                                                             : true             : a                                : Automatic cursor size scaling.
+cl_autohelp                                                                      : true             : cl, a, user                      : Auto-help
+cl_buywheel_donate_key                                                           : 0                : cl, a, per_user, release         : Set the key to use for donation in the buy menu. 0: Left Control; 1: Left Alt; 2: Left Shift.
+cl_buywheel_nonumberpurchasing                                                   : false            : cl, a, per_user, release         : Set non-zero to prevent buy wheel from purchasing via number keys
+cl_chatfilters                                                                   : 63               : cl, a                            : Stores the chat filter settings 
+cl_color                                                                         : 1                : cl, a, user                      : Preferred teammate color
+cl_crosshair_drawoutline                                                         : true             : cl, a, per_user                  : Draws a black outline around the crosshair for better visibility
+cl_crosshair_dynamic_maxdist_splitratio                                          : 0.35             : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the ratio used to determine how long the inner and outer xhair pips will be. [inner = cl_crosshairsize*(1-cl_crosshair_dynamic_maxdist_splitratio), outer = cl_crosshairsize*cl_crosshair_dynamic_maxdist_splitratio]  [0 - 1]
+cl_crosshair_dynamic_splitalpha_innermod                                         : 1                : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the alpha modification that will be used for the INNER crosshair pips once they've split. [0 - 1]
+cl_crosshair_dynamic_splitalpha_outermod                                         : 0.5              : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the alpha modification that will be used for the OUTER crosshair pips once they've split. [0.3 - 1]
+cl_crosshair_dynamic_splitdist                                                   : 6                : cl, a, per_user                  : If using cl_crosshairstyle 2, this is the distance that the crosshair pips will split into 2. (default is 7)
+cl_crosshair_friendly_warning                                                    : 1                : cl, a, release                   : 0: off, 1: on
+cl_crosshair_outlinethickness                                                    : 1.35827          : cl, a, per_user                  : Set how thick you want your crosshair outline to draw (0-3)
+cl_crosshair_recoil                                                              : true             : cl, a, per_user                  : 
+cl_crosshair_sniper_show_normal_inaccuracy                                       : false            : cl, a, per_user                  : Include standing inaccuracy when determining sniper crosshair blur
+cl_crosshair_sniper_width                                                        : 1                : cl, a, per_user                  : If >1 sniper scope cross lines gain extra width (1 for single-pixel hairline)
+cl_crosshair_t                                                                   : true             : cl, a, per_user                  : T style crosshair
+cl_crosshairalpha                                                                : 255              : cl, a, per_user                  : 
+cl_crosshaircolor                                                                : 5                : cl, a, per_user                  : Set crosshair color as defined in game_options.consoles.txt
+cl_crosshaircolor_b                                                              : 255              : cl, a, per_user                  : 
+cl_crosshaircolor_g                                                              : 0                : cl, a, per_user                  : 
+cl_crosshaircolor_r                                                              : 255              : cl, a, per_user                  : 
+cl_crosshairdot                                                                  : true             : cl, a, per_user                  : 
+cl_crosshairgap                                                                  : 1                : cl, a, per_user                  : 
+cl_crosshairgap_useweaponvalue                                                   : true             : cl, a, per_user                  : If set to 1, the gap will update dynamically based on which weapon is currently equipped
+cl_crosshairsize                                                                 : 4.41819          : cl, a, per_user                  : 
+cl_crosshairstyle                                                                : 2                : cl, a, per_user                  : 0 = DEFAULT (DISABLED), 1 = DEFAULT STATIC (DISABLED), 2 = DEFAULT (accurate recoil/spread feedback with a fixed inner part), 3 = ACCURATE DYNAMIC (DISABLED) (accurate recoil/spread feedback), 4 = DEFAULT STATIC, 5 = LEGACY (fake recoil - inaccurate feedback)
+cl_crosshairthickness                                                            : 0.898255         : cl, a, per_user                  : 
+cl_crosshairusealpha                                                             : true             : cl, a, per_user                  : 
+cl_cursor_scale                                                                  : 1                : a                                : Cursor size scaling factor.
+cl_deathcampanel_position_dynamic                                                : 1                : cl, a                            : Turn on/off deathcam's kill panel dynamic Y movement
+cl_debounce_zoom                                                                 : true             : cl, a, user, per_user            : Whether or not to disable holding secondary fire to cycle zoom levels
+cl_disable_round_end_report                                                      : false            : cl, a, release                   : 
+cl_dm_buyrandomweapons                                                           : true             : cl, a, release                   : Player will automatically receive a random weapon on spawn in deathmatch if this is set to 1 (otherwise, they will receive the last weapon)
+cl_ent_pivot_size                                                                : 20               : cl, a, cheat                     : 
+cl_ent_text_flags_active                                                         : -1               : cl, a, cheat                     : 
+cl_fixedcrosshairgap                                                             : 3                : cl, a, per_user                  : For crosshair style 1: How big to make the gap between the pips in the fixed crosshair
+cl_hide_avatar_images                                                            : 0                : cl, a                            : Hide avatar images for other players.   0 - Off.  1 - Block All  2 - Block all but friends
+cl_hud_color                                                                     : 11               : cl, a, release                   : 0 = team color, 1 = white, 2 = bright white, 3 = light blue, 4 = blue, 5 = purple, 6 = red, 7 = orange, 8 = yellow, 9 = green, 10 = aqua, 11 = pink.
+cl_hud_radar_scale                                                               : 1                : cl, a, release                   : 
+cl_import_csgo_config                                                            : false            : cl, a, release                   : 
+cl_interpolate_report                                                            : false            : cl, a                            : Enable to show interpolation profile timing 
+cl_inventory_radial_immediate_select                                             : true             : cl, a, per_user                  : In inventory selection radials. Select weapons the moment the cursor highlights them. Otherwise, only select the selected item on exit.
+cl_inventory_radial_tap_to_cycle                                                 : true             : cl, a, per_user                  : In inventory selection radials. Select weapons the moment the cursor highlights them. Otherwise, only select the selected item on exit.
+cl_inventory_saved_filter2                                                       : all              : cl, a, release                   : 
+cl_inventory_saved_sort2                                                         : inv_sort_age     : cl, a, release                   : 
+cl_invites_only_friends                                                          : false            : cl, a, release                   : If turned on, will ignore in-game invites from recent teammates or other non-friends
+cl_invites_only_mainmenu                                                         : false            : cl, a, release                   : If turned on, will ignore all invites when user is playing a match
+cl_itemimages_dynamically_generated                                              : 2                : cl, a, release                   : 2: use render-targets, fallback to cache and disk; 1: no render targets, but use cache and fallback to disk; 0: disk assets only
+cl_join_advertise                                                                : 1                : cl, a                            : Advertise joinable game in progress to Steam friends, otherwise need a Steam invite (2: all servers, 1: official servers, 0: none)
+cl_latch_report                                                                  : false            : cl, a                            : Enable to output stats about latching
+cl_loadout_saved_sort                                                            : inv_sort_age     : cl, a, release                   : 
+cl_mouselook                                                                     : true             : cl, a, user, per_user, disconnected : Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.
+cl_mute_all_but_friends_and_party                                                : 0                : cl, a                            : Only allow communication from friends and matchmaking party members. Set to 1 to apply the in non-competitive game modes. Set to 2 will apply the setting in all modes. 
+cl_mute_enemy_team                                                               : false            : cl, a                            : Block all communication from players on the enemy team.
+cl_new_user_phase                                                                : -1               : cl, a, release                   : 0: Not Started, 1: Needs Training, 2: Training Complete, -1: Disabled
+cl_obs_interp_enable                                                             : true             : cl, a                            : Enables interpolation between observer targets
+cl_obs_interp_pos_rate                                                           : 0.27             : cl, a                            : 
+cl_observed_bot_crosshair                                                        : 0                : cl, a, release                   : Control the crosshair shown when observing a bot. 0: Show player crosshair. 1: Show player crosshair only when bot can be taken over, otherwise show default.. 2: Always show default crosshair for bots.
+cl_ping_fade_deadzone                                                            : 60               : cl, a, release                   : Distance from the crosshair over which the ping is completely invisible
+cl_ping_fade_distance                                                            : 300              : cl, a, release                   : Distance from the crosshair over which the ping fades
+cl_player_ping_mute                                                              : 0                : cl, a, release                   : If 1, player pinging will make a sound, if 0, pings will be silent
+cl_playerspray_auto_apply                                                        : true             : cl, a, release                   : Automatically apply graffiti when graffiti menu closes
+cl_playerspraydisable                                                            : false            : cl, a                            : Disable player sprays.
+cl_promoted_settings_acknowledged                                                : 1:1696196680965  : cl, a                            : 
+cl_quickinventory_filename                                                       : radial_quickinventory.txt : cl, a, release                   : 
+cl_quickinventory_lastinv                                                        : true             : cl, a, release                   : 
+cl_quickinventory_line_update_speed                                              : 65               : cl, a, release                   : 
+cl_radar_always_centered                                                         : true             : cl, a, release                   : If set to 0, the radar is maximally used. Otherwise the player is always centered, even at map extents.
+cl_radar_icon_scale_min                                                          : 0.6              : cl, a, release                   : Sets the minimum icon scale. Valid values are 0.4 to 1.25.
+cl_radar_rotate                                                                  : true             : cl, a, release                   : 1
+cl_radar_scale                                                                   : 0.7              : cl, a, release                   : Sets the radar scale. Valid values are 0.25 to 1.0.
+cl_radar_square_with_scoreboard                                                  : true             : cl, a, release                   : If set, the radar will toggle to square when the scoreboard is visible.
+cl_radial_radio_tab_0_text_1                                                     : #Chatwheel_requestspend : cl, a, release                   : 
+cl_radial_radio_tab_0_text_2                                                     : #Chatwheel_requestweapon : cl, a, release                   : 
+cl_radial_radio_tab_0_text_3                                                     : #Chatwheel_bplan : cl, a, release                   : 
+cl_radial_radio_tab_0_text_4                                                     : #Chatwheel_followingyou : cl, a, release                   : 
+cl_radial_radio_tab_0_text_5                                                     : #Chatwheel_midplan : cl, a, release                   : 
+cl_radial_radio_tab_0_text_6                                                     : #Chatwheel_followme : cl, a, release                   : 
+cl_radial_radio_tab_0_text_7                                                     : #Chatwheel_aplan : cl, a, release                   : 
+cl_radial_radio_tab_0_text_8                                                     : #Chatwheel_requestecoround : cl, a, release                   : 
+cl_radial_radio_tab_1_text_1                                                     : #Chatwheel_enemyspotted : cl, a, release                   : 
+cl_radial_radio_tab_1_text_2                                                     : #Chatwheel_needbackup : cl, a, release                   : 
+cl_radial_radio_tab_1_text_3                                                     : #Chatwheel_bplan : cl, a, release                   : 
+cl_radial_radio_tab_1_text_4                                                     : #Chatwheel_bombcarrierspotted : cl, a, release                   : 
+cl_radial_radio_tab_1_text_5                                                     : #Chatwheel_multipleenemieshere : cl, a, release                   : 
+cl_radial_radio_tab_1_text_6                                                     : #Chatwheel_sniperspotted : cl, a, release                   : 
+cl_radial_radio_tab_1_text_7                                                     : #Chatwheel_aplan : cl, a, release                   : 
+cl_radial_radio_tab_1_text_8                                                     : #Chatwheel_inposition : cl, a, release                   : 
+cl_radial_radio_tab_2_text_1                                                     : #Chatwheel_affirmative : cl, a, release                   : 
+cl_radial_radio_tab_2_text_2                                                     : #Chatwheel_negative : cl, a, release                   : 
+cl_radial_radio_tab_2_text_3                                                     : #Chatwheel_compliment : cl, a, release                   : 
+cl_radial_radio_tab_2_text_4                                                     : #Chatwheel_thanks : cl, a, release                   : 
+cl_radial_radio_tab_2_text_5                                                     : #Chatwheel_cheer : cl, a, release                   : 
+cl_radial_radio_tab_2_text_6                                                     : #Chatwheel_peptalk : cl, a, release                   : 
+cl_radial_radio_tab_2_text_7                                                     : #Chatwheel_sorry : cl, a, release                   : 
+cl_radial_radio_tab_2_text_8                                                     : #Chatwheel_sectorclear : cl, a, release                   : 
+cl_radial_radio_tap_to_ping                                                      : true             : cl, a, release                   : When tapping the radial radio button, leave a ping if nothing is selected within the time in seconds set in cl_radial_menu_tap_duration
+cl_radial_radio_version_reset                                                    : 12               : cl, a, release                   : 
+cl_radialmenu_deadzone_size_joystick                                             : 0.17             : cl, a, release                   : 
+cl_ragdoll_limit                                                                 : 20               : cl, a                            : Maximum number of ragdolls to show (-1 disables limit)
+cl_redemption_reset_timestamp                                                    : 1695896463       : cl, a, release                   : 
+cl_sanitize_player_names                                                         : false            : cl, a                            : Replace names of other players with something non-offensive.
+cl_scoreboard_mouse_enable_binding                                               : +attack2         : cl, a                            : Name of the binding to enable mouse selection in the scoreboard
+cl_scoreboard_survivors_always_on                                                : false            : cl, a, release                   : 
+cl_show_clan_in_death_notice                                                     : true             : cl, a, release                   : Is set, the clan name will show next to player names in the death notices.
+cl_show_equipped_character_for_player_avatars                                    : false            : cl, a                            : 
+cl_show_observer_crosshair                                                       : 1                : cl, a, release                   : Show the crosshair of the player being observed. 0: off 1: friends and party 2: everyone 
+cl_showloadout                                                                   : true             : cl, a, per_user                  : Toggles display of current loadout.
+cl_silencer_mode                                                                 : 0                : cl, a, user, per_user            : 0: cannot detach; 1: press secondary fire to detach
+cl_sniper_auto_rezoom                                                            : true             : cl, a, user, per_user            : Auto-rezoom snipers after a shot
+cl_sniper_delay_unscope                                                          : false            : cl, a, release                   : 
+cl_teamid_overhead_colors_show                                                   : false            : cl, a, release                   : Show team overhead id in teammate color
+cl_teamid_overhead_mode                                                          : 2                : cl, a, release                   : Always show team id over teammates. 1 = pips; 2 = pips, name, and equipment
+cl_teammate_colors_show                                                          : 1                : cl, a, release                   : In competitive, 1 = show teammates as separate colors in the radar, scoreboard, etc., 2 = show colors and letters
+cl_timeout                                                                       : 30               : a                                : After this many seconds without receiving a packet from the server, the client will disconnect itself
+cl_use_opens_buy_menu                                                            : true             : cl, a, user, per_user            : Pressing the +use key will open the buy menu if in a buy zone (just as if you pressed the 'buy' key).
+cl_versus_intro                                                                  : true             : cl, a, release                   : 
+closecaption                                                                     : false            : cl, a, user                      : Enable close captioning.
+commentary                                                                       : false            : sv, a                            : Desired commentary mode state.
+con_enable                                                                       : false            : a                                : Allows the console to be activated.
+crosshair                                                                        : true             : cl, a, per_user                  : 
+csgo_map_preview_scale                                                           : 2.09             : cl, a                            : 

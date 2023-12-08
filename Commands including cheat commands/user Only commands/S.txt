@@ -1,0 +1,4 @@
+setinfo                                                                          : cmd              : clientcmd_can_execute            : Adds a new user info value
+sv_invites_only_mainmenu                                                         : false            : sv, cl, rep, release             : If turned on, will ignore all invites when user is playing a match
+sv_jump_spam_penalty_time                                                        : 0.015625         : sv, cl, rep, release             : For subtick jumps, if this much time has elapsed since the last time the user has pressed the jump key, pretend they hadn't. Lowering this makes bunnyhopping easier.
+sv_pure                                                                          : cmd              : release                          : Show user data.

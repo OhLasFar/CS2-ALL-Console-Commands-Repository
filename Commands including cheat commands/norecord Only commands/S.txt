@@ -1,0 +1,2 @@
+showconsole                                                                      : cmd              : norecord, release                : Show the console.
+sv_password                                                                      : 0                : prot, nf, norecord, release      : Server password for entry into multiplayer games

@@ -1,0 +1,3 @@
+tv_listen_voice_indices                                                          : 0                : cl, user                         : Bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_listen_voice_indices_h                                                        : 0                : cl, user                         : High 32 bits of bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
+tv_nochat                                                                        : false            : a, user                          : Don't receive chat messages from other SourceTV spectators

@@ -1,0 +1,2 @@
+cancelselect                                                                     : cmd              : cl, server_can_execute           : 
+cl_soundscape_flush                                                              : cmd              : cl, cheat, server_can_execute    : Flushes the client side soundscapes
