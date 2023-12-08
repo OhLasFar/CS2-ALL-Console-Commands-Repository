@@ -23,24 +23,36 @@ For more detailed information and a complete list of commands, refer to the [Val
 
 ## Commands FULL lists
 ### Non-Cheat Commands
-- [cl Only commands without cheat FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/cl%20Only%20commands%20without%20cheat/_cl%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
-- [nf Only commands without cheat FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/nf%20Only%20commands%20without%20cheat/_nf%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
-- [per_user Only commands without cheat FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/per_user%20Only%20commands%20without%20cheat/_per_user%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
-- [release Only commands without cheat FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/release%20Only%20commands%20without%20cheat/_release%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
-- [rep Only commands without cheat FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/rep%20Only%20commands%20without%20cheat/_rep%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
-- [sv Only commands without cheat FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/sv%20Only%20commands%20without%20cheat/_sv%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [a Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/a%20Only%20commands%20without%20cheat/_a%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [cl Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/cl%20Only%20commands%20without%20cheat/_cl%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [clientcmd_can_execute Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/clientcmd_can_execute%20Only%20commands%20without%20cheat/_clientcmd_can_execute%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [disconnected Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/disconnected%20Only%20commands%20without%20cheat/_disconnected%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [nf Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/nf%20Only%20commands%20without%20cheat/_nf%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [norecord Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/norecord%20Only%20commands%20without%20cheat/_norecord%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [per_user Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/per_user%20Only%20commands%20without%20cheat/_per_user%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [release Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/release%20Only%20commands%20without%20cheat/_release%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [rep Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/rep%20Only%20commands%20without%20cheat/_rep%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [server_can_execute Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/server_can_execute%20Only%20commands%20without%20cheat/_server_can_execute%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [sv Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/sv%20Only%20commands%20without%20cheat/_sv%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
+- [user Only commands without cheat](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20without%20cheat%20commands/user%20Only%20commands%20without%20cheat/_user%20Only%20commands%20without%20cheat%20FULL%20LIST.txt)
 
 ### Cheat Commands
-- [cheat Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/cheat%20Only%20commands/_cheat%20Only%20commands%20FULL%20LIST.txt)
-- [cl Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/cl%20Only%20commands/_cl%20Only%20commands%20FULL%20LIST.txt)
-- [nf Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/nf%20Only%20commands/_nf%20Only%20commands%20FULL%20LIST.txt)
-- [per_user Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/per_user%20Only%20commands/_per_user%20Only%20commands%20FULL%20LIST.txt)
-- [release Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/release%20Only%20commands/_release%20Only%20commands%20FULL%20LIST.txt)
-- [rep Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/rep%20Only%20commands/_rep%20Only%20commands%20FULL%20LIST.txt)
-- [sv Only commands FULL LIST](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/sv%20Only%20commands/_sv%20Only%20commands%20FULL%20LIST.txt)
+- [a Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/a%20Only%20commands/_a%20Only%20commands%20FULL%20LIST.txt)
+- [cheat Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/cheat%20Only%20commands/_cheat%20Only%20commands%20FULL%20LIST.txt)
+- [cl Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/cl%20Only%20commands/_cl%20Only%20commands%20FULL%20LIST.txt)
+- [clientcmd_can_execute Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/clientcmd_can_execute%20Only%20commands/_clientcmd_can_execute%20Only%20commands%20FULL%20LIST.txt)
+- [disconnected Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/disconnected%20Only%20commands/_disconnected%20Only%20commands%20FULL%20LIST.txt)
+- [nf Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/nf%20Only%20commands/_nf%20Only%20commands%20FULL%20LIST.txt)
+- [norecord Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/norecord%20Only%20commands/_norecord%20Only%20commands%20FULL%20LIST.txt)
+- [per_user Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/per_user%20Only%20commands/_per_user%20Only%20commands%20FULL%20LIST.txt)
+- [release Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/release%20Only%20commands/_release%20Only%20commands%20FULL%20LIST.txt)
+- [rep Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/rep%20Only%20commands/_rep%20Only%20commands%20FULL%20LIST.txt)
+- [server_can_execute Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/server_can_execute%20Only%20commands/_server_can_execute%20Only%20commands%20FULL%20LIST.txt)
+- [sv Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/sv%20Only%20commands/_sv%20Only%20commands%20FULL%20LIST.txt)
+- [user Only commands](https://github.com/OhLasFar/CS2-ALL-Commands/blob/main/Commands%20including%20cheat%20commands/user%20Only%20commands/_user%20Only%20commands%20FULL%20LIST.txt)
 
 ## Contribution
-Contributions are welcome! Please follow the guidelines mentioned in the `CONTRIBUTING.md` file.
+Contributions are welcome!
 
 ## Acknowledgements
 All commands are sourced from [Valve Software's developer page](https://developer.valvesoftware.com/wiki/List_of_Counter-Strike_2_console_commands_and_variables).
