@@ -1,0 +1,11 @@
+//$ TOGGLE FPS AND NET GRAPH
+
+alias "toggleFPS" "enableFPS"
+alias "enableFPS" "cl_showfps 1; alias toggleFPS disableFPS"
+alias "disableFPS" "cl_showfps 0; alias toggleFPS enableFPS"
+
+alias "toggleNetGraph" "enableNetGraph"
+alias "enableNetGraph" "cq_netgraph 1; alias toggleNetGraph disableNetGraph"
+alias "disableNetGraph" "cq_netgraph 0; alias toggleNetGraph enableNetGraph"
+
+bind "p" "toggleFPS; toggleNetGraph"
